@@ -1,0 +1,483 @@
+/* $Id:styles.css 2016-03-18 00:00:000 SocialEngineSolutions $ */
+
+/*Review Form*/
+.sesevent_review_form .global_form,
+.sesevent_review_form .global_form > div,
+.sesevent_review_form .global_form > div > div{
+	float:none;
+}
+.sesevent_review_form .global_form div.form-label label.required:after{
+	content:" *";
+	color:#f00;
+}
+.sesevent_review_form .global_form .form-element{
+	float:none;
+	display:block;
+}
+
+/*Review Listing*/
+.sesevent_review_listing{}
+.sesevent_review_listing li{
+  padding-left:10px;
+  padding-right:10px;
+}
+.sesevent_review_listing li + li{
+	border-top-width:1px;
+	margin-top:15px;
+	padding-top:15px;
+}
+.sesevent_review_listing_left_column{
+  float:left;
+  margin-right:20px;
+  width:180px;
+}
+.sesevent_review_listing_reviewer{
+	margin-bottom:10px;
+}
+.sesevent_review_listing_reviewer_photo{
+	float:left;
+	margin-right:10px;
+}
+[dir="rtl"] .sesevent_review_listing_reviewer_photo{
+	float:right;
+	margin-left:10px;
+	margin-right:0;
+}
+.sesevent_review_listing_reviewer_info{
+	overflow:hidden;
+}
+.sesevent_review_listing_reviewer_name{
+  font-weight:bold;
+}
+.sesevent_review_listing_reviewer_info p{
+	font-size:11px;
+	margin-top:2px;
+}
+.sesevent_review_listing_reviewer_info p span,
+.sesevent_review_listing_reviewer_info p span i{
+	margin-right:5px;
+}
+[dir="rtl"] .sesevent_review_listing_reviewer_info p span,
+[dir="rtl"] .sesevent_review_listing_reviewer_info p span i{
+	margin-left:5px;
+	margin-right:0;
+}
+.sesevent_review_listing_options{
+  opacity:0;
+}
+.sesevent_review_listing li:hover .sesevent_review_listing_options{
+  opacity:1;
+}
+.sesevent_review_listing_options div{
+  clear:both;
+  margin-bottom:5px;
+}
+.sesevent_review_listing_options a:before{
+  margin-right:5px;
+}
+[dir="rtl"] .sesevent_review_listing_options a:before{
+  margin-left:0;
+  margin-right:5px;
+}
+.sesevent_review_listing_options a:hover{
+  text-decoration:none;
+}
+.sesevent_review_listing_right_column{
+  overflow:hidden;
+}
+.sesevent_review_listing_title{
+	font-size:20px;
+	overflow:hidden;
+	margin-bottom:5px;
+}
+.sesevent_review_listing_top .sesbasic_rating_star,
+.sesevent_rating_parameter_label{
+  padding-top:2px;
+}
+.sesevent_review_listing_top .sesbasic_rating_star{
+  margin-bottom:5px;
+}
+.sesevent_review_listing_body{
+	margin-bottom:10px;
+}
+/*Show Rating Parameter*/
+.sesevent_review_show_rating_parameter{
+  margin-bottom:10px;
+}
+.sesevent_review_show_rating_parameter > div{
+  float:left;
+  padding-right:20px;
+  width:50%;
+}
+[dir="rtl"] .sesevent_review_show_rating_parameter > div{
+  float:right;
+  padding-left:20px;
+  padding-right:0;
+}
+.sesevent_review_show_rating_parameter > div > div{
+  float:left;
+  margin:0 10px 0 0;
+}
+[dir="rtl"] .sesevent_review_show_rating_parameter > div > div{
+  float:right;
+  margin:0 0 0 10px;
+}
+/*Reviewer Photo Widget*/
+.seseventreview_photo_block{
+	text-align:center;
+}
+.seseventreview_photo_block img{width:100%;}
+.seseventreview_photo_block span{font-size:15px;font-weight:bold;display:block;}
+
+/*Review View Page*/
+.sesevent_review_view_top{
+	padding-bottom:10px;
+}
+.sesevent_review_view_title{
+	margin-bottom:10px;
+}
+.sesevent_review_view_item_info > a{
+	float:left;
+	margin-right:10px;
+}
+[dir="rtl"] .sesevent_review_view_item_info > a{
+	float:right;
+	margin-left:10px;
+	margin-right:0;
+}
+.sesevent_review_view_item_info > a + div{
+	overflow:hidden;
+}
+.sesevent_review_view_stats{
+	margin-top:5px;
+	font-size:11px;
+}
+.sesevent_review_view_stats span i:before{
+	font-size:12px;
+}
+.sesevent_review_view_stats span,
+.sesevent_review_view_stats span i{
+	margin-right:5px;
+}
+[dir="rtl"] .sesevent_review_view_stats span,
+[dir="rtl"] .sesevent_review_view_stats span i{
+	margin-left:5px;
+	margin-right:0;
+}
+.sesevent_review_view .sesbasic_rating_star{
+  margin-bottom:10px;
+}
+.sesevent_review_view_body,
+.sesevent_review_view_recommended{
+	margin-bottom:10px;
+}
+.sesevent_review_view_body b.label{
+	font-size:15px;
+}
+.sesevent_review_view_recommended i:before{
+	font-size:20px;
+}
+.sesevent_review_view_recommended i.fa-check:before{
+	color:#090;
+}
+.sesevent_review_view_recommended i.fa-times:before{
+	color:#f00;
+}
+@media (max-width:767px){
+	.seseventreview_rating_star_element{clear:both;}
+  .sesevent_review_listing_left_column{
+		float:none !important;
+		width:100% !important;
+	}
+  .sesevent_review_listing_options{display:none;}
+}
+/*Review Listing*/
+.sesevent_review_listing li{
+	padding-left:10px;
+	padding-right:10px;
+}
+.sesevent_review_listing li + li{
+	border-top-width:1px;
+	margin-top:15px;
+	padding-top:15px;
+}
+.sesevent_review_listing_left{
+	float:left;
+	margin-right:15px;
+	text-align:center;
+}
+[dir="rtl"] .sesevent_review_listing_left{
+	float:right;
+	margin-left:15px;
+	margin-right:0px;
+}
+.sesevent_review_listing_left_photo{
+	border-radius:50%;
+	height:150px;
+	width:150px;
+	overflow:hidden;
+}
+.sesevent_review_listing_left_photo img{
+	height:100%;
+	object-fit:cover;
+	width:100%;
+}
+.sesevent_review_listing_left p{
+	margin-top:10px;
+}
+[dir="rtl"] .sesevent_review_listing_left p{
+	text-align:center;
+}
+.sesevent_review_featured_block p{
+	background-color:#47c8e3;
+	padding:3px;
+	text-align:center;
+	color:#fff;
+	position:relative;
+	width:100%;
+}
+.sesevent_review_featured_block p:after{
+	background-position:right center;
+	left:128px;
+}
+.sesevent_review_verified_block p{
+	background-color:#93c33c;
+	padding:3px;
+	text-align:center;
+	color:#fff;
+	position:relative;
+	width:100%;
+}
+[dir="rtl"] .sesevent_review_verified_block p, [dir="rtl"] .sesevent_review_featured_block p{
+	right:0px;
+}
+.sesevent_review_verified_block p:after{
+	background-position:right center;
+	left:128px;
+}
+.sesevent_review_listing_left_title{
+	font-weight:bold;
+}
+.sesevent_review_listing_right{
+	overflow:hidden;
+}
+.sesevent_review_listing_top{
+	width:100%;
+	border-bottom-width:1px;
+	border-bottom-style:dashed;
+	padding-bottom:5px;
+	margin-bottom:10px;
+}
+.sesevent_review_listing_title{
+	font-size:17px;
+	font-weight:bold;
+	margin-bottom:10px;
+}
+.sesevent_review_view_title{
+	font-weight:bold;
+	margin-bottom:10px;
+	font-size:17px;
+}
+.sesevent_review_featured_verified_block{
+	position:absolute;
+	top:0px;
+	right:0px;
+	width:auto;
+}
+.sesevent_review_featured_verified_block p{
+	float:left;
+	margin-right:10px;
+	padding:0px 8px;
+	color:#fff;
+}
+.sesevent_review_featured_verified_block .featured{
+	background:#47C8E3;
+}
+.sesevent_review_featured_verified_block p.featured:before{
+	content:"";
+	border-left:14px solid transparent;
+	border-right:15px solid transparent;
+	border-top:6px solid #47C8E3;
+	position:absolute;
+	bottom:-6px;
+	left:0px;
+}
+.sesevent_review_featured_verified_block p.verified{
+	background:#93C33C;
+}
+.sesevent_review_featured_verified_block p.verified:before{
+	content:"";
+	border-left:14px solid transparent;
+	border-right:15px solid transparent;
+	border-top:6px solid #93C33C;
+	position:absolute;
+	bottom:-6px;
+	right:10px;
+}
+.sesevent_review_listing_top_info{
+	float:left;
+	width:50%;
+}
+[dir="rtl"] .sesevent_review_listing_top_info{
+	float:right;
+}
+.sesevent_review_listing_top_info_img{
+	float:left;
+	margin-right:15px;
+}
+[dir="rtl"] .sesevent_review_listing_top_info_img{
+	float:right;
+	margin-left:15px;
+	margin-right:0;
+}
+.sesevent_review_listing_top_info_cont{
+	display:block;
+	overflow:hidden;
+}
+.sesevent_review_listing_stats{
+	font-size:12px;
+	display:block;
+	margin-top:3px;
+}
+.sesevent_review_listing_stats span{
+	margin-right:10px;
+}
+[dir="rtl"] .sesevent_review_listing_stats span{
+	margin-left:10px;
+	margin-right:0;
+}
+.sesevent_review_listing_stats span i{
+	margin-right:5px;
+}
+[dir="rtl"] .sesevent_review_listing_stats span i{
+	margin-left:5px;
+	margin-right:0px;
+}
+.sesevent_review_listing_desc p{
+	margin-bottom:10px;
+}
+.sesevent_review_listing_desc > p > b{
+	display:block;
+}
+.sesevent_review_listing_recommended i{
+	margin-left:10px;
+	font-size:17px;
+}
+[dir="rtl"] .sesevent_review_listing_recommended i{
+	margin-right:10px;
+	margin-left:0px;
+}
+.sesevent_review_listing_recommended i.fa-check{
+	color:#93C33C;
+}
+.sesevent_review_listing_recommended i.fa-times{
+	color:#F00;
+}
+.sesevent_review_listing_more{
+	text-align:right;
+	font-weight:bold;
+	font-style:italic;
+	overflow:hidden;
+}
+[dir="rtl"] .sesevent_review_listing_more{
+	float:left;
+}
+
+/*Rating Star*/
+.sesevent_rating_star:before,
+.sesevent_rating_star_small:before,
+.sesevent_rating_star_small_half:before,
+.sesevent_rating_star_disable:before{
+	font-family:fontawesome;
+	display:inline-block;
+	color:#FFC107;
+}
+.sesevent_rating_star_small:before,
+.sesevent_rating_star:before{
+	content:"\f005";
+}
+.sesevent_rating_star_small_half:before,
+.sesevent_rating_star_half:before{
+	content:"\f123";
+}
+.sesevent_rating_star_disable:before{
+	content:"\f006";
+}
+.sesevent_rating_star{
+	font-size: 22px;
+	height: 24px;
+	width: 24px;
+	display: inline-block;
+	line-height:24px;
+	text-align: center;
+}
+
+.sesevent_review_listing_btn_right a{
+	float:left;
+}
+.sesevent_review_listing_btn_right a + a{
+	margin-left:5px;
+}
+.sesevent_review_listing_footer a.sesbasic_button_icon:before{
+	text-align:center;
+	margin:0;
+}
+.sesevent_review_listing_footer a.sesbasic_button_icon span{
+	position:absolute;
+	margin:-60px 0 0 -10px;
+	background:#000;
+	color:#fff;
+	padding:5px 10px;
+	display:none;
+}
+.sesevent_review_listing_footer a.sesbasic_button_icon span i{
+	position:absolute;
+	bottom:-9px;
+	color:#000;
+}
+.sesevent_review_listing_footer a.sesbasic_button_icon:hover span{
+	display:block;
+}
+
+/*Review Rating Box*/
+.sesevent_review_show_rating{
+	float:right;
+	position:relative;
+}
+[dir="rtl"] .sesevent_review_show_rating{
+	float:left;
+}
+.sesevent_review_show_rating_box{
+	overflow:hidden;
+	position:absolute;
+	display:none;
+	background:#fff;
+	padding:10px;
+	box-shadow:-1px 4px 19px -5px #000;
+	right:6px;
+	margin-top:10px;
+	width:200px;
+}
+.review_rattings_listing_box > div{
+	margin:5px 0;
+}
+.sesevent_review_show_rating_label{
+	float:left;
+	margin-right:5px;
+	font-size:11px;
+	width:85px;
+}
+[dir="rtl"] .sesevent_review_show_rating_label{
+	float:right;
+	text-align:right;
+}
+[dir="rtl"] .sesevent_review_show_rating_box{
+	left:0px;
+}
+.sesevent_review_show_rating_parameters{
+	overflow:hidden;
+}
+.sesevent_review_show_rating:hover .sesevent_review_show_rating_box{
+	display:block;
+}
+/*Review Rating Box end*/

@@ -1,0 +1,441 @@
+{
+  "type": "module",
+  "name": "announcement",
+  "version": "5.0.1",
+  "revision": "10150",
+  "path": "application\/modules\/Announcement",
+  "repository": null,
+  "sku": null,
+  "date": "Tue, 03 Mar 2020 10:38:58 +0000",
+  "title": "Announcements",
+  "description": "Announcements",
+  "thumb": null,
+  "developer": null,
+  "authors": [
+    "Webligo Developments"
+  ],
+  "meta": {
+    "date": "Tue, 03 Mar 2020 10:38:58 +0000",
+    "title": "Announcements",
+    "description": "Announcements",
+    "developer": null,
+    "authors": [
+      "Webligo Developments"
+    ],
+    "changeLog": null
+  },
+  "actions": [
+    "install",
+    "upgrade",
+    "refresh"
+  ],
+  "callback": {
+    "path": null,
+    "class": "Engine_Package_Installer_Module",
+    "priority": 100
+  },
+  "dependencies": {
+    "module-core": {
+      "type": "module",
+      "name": "core",
+      "guid": "module-core",
+      "minVersion": "5.0.0",
+      "maxVersion": null,
+      "excludeExcept": null
+    }
+  },
+  "tests": [
+    
+  ],
+  "permissions": [
+    
+  ],
+  "structure": {
+    "application\/modules\/Announcement": {
+      "type": "directory",
+      "path": "application\/modules\/Announcement",
+      "structure": [
+        {
+          "path": "settings",
+          "dir": true,
+          "file": false,
+          "perms": "0755",
+          "size": 288,
+          "sha1": null
+        },
+        {
+          "path": "settings\/my-upgrade-4.2.8-4.2.9.sql",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 293,
+          "sha1": "5632e4c74b9aa792510427aa5c7f658361329e42"
+        },
+        {
+          "path": "settings\/my-upgrade-4.10.5-5.0.0b1.sql",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 141,
+          "sha1": "d4d5dd6ecb1dea7772ff49048d030ba8366bcfdc"
+        },
+        {
+          "path": "settings\/my.sql",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 3297,
+          "sha1": "c4e661e158792628998dd2203bfbb66e2b0850ba"
+        },
+        {
+          "path": "settings\/content.php",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 658,
+          "sha1": "3b5737da460c35d4cdae0d39be48d5fb08eb6415"
+        },
+        {
+          "path": "settings\/manifest.php",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 1665,
+          "sha1": "383f876cbea33cdb0834db18abf0ef7f4be94165"
+        },
+        {
+          "path": "settings\/my-upgrade-4.0.1-4.0.2.sql",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 1337,
+          "sha1": "ba9c13c81a24c65182a4453d90a23ba3650484b0"
+        },
+        {
+          "path": "settings\/my-upgrade-4.10.4-4.10.5.sql",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 176,
+          "sha1": "c0a77652da66ad1bb6fb2f1a803ac01b12c703b9"
+        },
+        {
+          "path": "Form",
+          "dir": true,
+          "file": false,
+          "perms": "0755",
+          "size": 96,
+          "sha1": null
+        },
+        {
+          "path": "Form\/Admin",
+          "dir": true,
+          "file": false,
+          "perms": "0755",
+          "size": 192,
+          "sha1": null
+        },
+        {
+          "path": "Form\/Admin\/Create.php",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 4747,
+          "sha1": "7e1fb3ebe5fb75a7f3f12299b991dccdadb70b56"
+        },
+        {
+          "path": "Form\/Admin\/Filter.php",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 836,
+          "sha1": "6a494e441d96c2a6379db14fd03a4731af7e3173"
+        },
+        {
+          "path": "Form\/Admin\/Delete.php",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 983,
+          "sha1": "200dd3b37e6b66a19d43bd0aa651b02c761340c1"
+        },
+        {
+          "path": "Form\/Admin\/Edit.php",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 4632,
+          "sha1": "09a3861b17e2ab058c01d5a0bb8878f855783e32"
+        },
+        {
+          "path": "externals",
+          "dir": true,
+          "file": false,
+          "perms": "0755",
+          "size": 160,
+          "sha1": null
+        },
+        {
+          "path": "externals\/images",
+          "dir": true,
+          "file": false,
+          "perms": "0755",
+          "size": 96,
+          "sha1": null
+        },
+        {
+          "path": "externals\/images\/admin",
+          "dir": true,
+          "file": false,
+          "perms": "0755",
+          "size": 96,
+          "sha1": null
+        },
+        {
+          "path": "externals\/images\/admin\/add.png",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 444,
+          "sha1": "3bed7d7fef488eb238a052b5afe174847d109b8d"
+        },
+        {
+          "path": "externals\/styles",
+          "dir": true,
+          "file": false,
+          "perms": "0755",
+          "size": 128,
+          "sha1": null
+        },
+        {
+          "path": "externals\/styles\/main.css",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 331,
+          "sha1": "3da4102ce42c695fa41cb9ddd50a0ced743ff5a2"
+        },
+        {
+          "path": "externals\/styles\/mobile.css",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 333,
+          "sha1": "319b4e299613f1d45889e73bfda37c5c743b742e"
+        },
+        {
+          "path": "externals\/.htaccess",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 1042,
+          "sha1": "6c835f103d253edf70bfd5ba2430ebe3fa8cacdd"
+        },
+        {
+          "path": "Plugin",
+          "dir": true,
+          "file": false,
+          "perms": "0755",
+          "size": 96,
+          "sha1": null
+        },
+        {
+          "path": "Plugin\/Core.php",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 927,
+          "sha1": "ecd1c8ec18b1f6905d785231e1d2d63e724cbc93"
+        },
+        {
+          "path": "Bootstrap.php",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 552,
+          "sha1": "247c067a9736f587c0f63dfa465fb1e311459b3f"
+        },
+        {
+          "path": "Model",
+          "dir": true,
+          "file": false,
+          "perms": "0755",
+          "size": 128,
+          "sha1": null
+        },
+        {
+          "path": "Model\/DbTable",
+          "dir": true,
+          "file": false,
+          "perms": "0755",
+          "size": 96,
+          "sha1": null
+        },
+        {
+          "path": "Model\/DbTable\/Announcements.php",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 603,
+          "sha1": "2165e2dafeeae0dd966b3ff2664f734860b5f6a6"
+        },
+        {
+          "path": "Model\/Announcement.php",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 836,
+          "sha1": "5862ecd79e660d2b9f6ab964f5bc9bc4f18617e6"
+        },
+        {
+          "path": "Api",
+          "dir": true,
+          "file": false,
+          "perms": "0755",
+          "size": 96,
+          "sha1": null
+        },
+        {
+          "path": "Api\/Core.php",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 971,
+          "sha1": "fadb8f6623e9fc9121d2a652070428413a935879"
+        },
+        {
+          "path": "controllers",
+          "dir": true,
+          "file": false,
+          "perms": "0755",
+          "size": 128,
+          "sha1": null
+        },
+        {
+          "path": "controllers\/AdminManageController.php",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 5323,
+          "sha1": "8ca718b6e1c9f405c0ef407f6a1c5130f1484152"
+        },
+        {
+          "path": "controllers\/AnnouncementController.php",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 610,
+          "sha1": "ba423dfdb470c4025ebda56fdf39c7cf9c6bbfc0"
+        },
+        {
+          "path": "views",
+          "dir": true,
+          "file": false,
+          "perms": "0755",
+          "size": 96,
+          "sha1": null
+        },
+        {
+          "path": "views\/scripts",
+          "dir": true,
+          "file": false,
+          "perms": "0755",
+          "size": 96,
+          "sha1": null
+        },
+        {
+          "path": "views\/scripts\/admin-manage",
+          "dir": true,
+          "file": false,
+          "perms": "0755",
+          "size": 224,
+          "sha1": null
+        },
+        {
+          "path": "views\/scripts\/admin-manage\/index.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 4970,
+          "sha1": "30470a67f0f90069b9530f6a801dc545a0799abe"
+        },
+        {
+          "path": "views\/scripts\/admin-manage\/deleteselected.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 1555,
+          "sha1": "fba3161d52df9d7a537bd49917469ef3a360636f"
+        },
+        {
+          "path": "views\/scripts\/admin-manage\/create.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 1090,
+          "sha1": "dd1ee2395f61372891b1d9dc0fb2e3ad97b2142a"
+        },
+        {
+          "path": "views\/scripts\/admin-manage\/delete.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 1149,
+          "sha1": "19ad6453b53f5a6ce1ad6252bad10289edb8c420"
+        },
+        {
+          "path": "views\/scripts\/admin-manage\/edit.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 1082,
+          "sha1": "35c1a8d16d15f0d9f259fc9359a5a4fce76f075a"
+        },
+        {
+          "path": "widgets",
+          "dir": true,
+          "file": false,
+          "perms": "0755",
+          "size": 96,
+          "sha1": null
+        },
+        {
+          "path": "widgets\/list-announcements",
+          "dir": true,
+          "file": false,
+          "perms": "0755",
+          "size": 128,
+          "sha1": null
+        },
+        {
+          "path": "widgets\/list-announcements\/index.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 990,
+          "sha1": "2e4368af18f2549290cb021513dc076186d6f8f7"
+        },
+        {
+          "path": "widgets\/list-announcements\/Controller.php",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 6125,
+          "sha1": "9b6a7d0522ca0b87fe42403e1ea1f95dcd82e78a"
+        }
+      ]
+    },
+    "application\/languages\/en\/announcement.csv": {
+      "type": "file",
+      "path": "application\/languages\/en\/announcement.csv",
+      "structure": {
+        "path": "announcement.csv",
+        "dir": false,
+        "file": true,
+        "perms": "0755",
+        "size": 1735,
+        "sha1": "ec587a247cc68209e7e936e535db9afdf6fff280"
+      }
+    }
+  }
+}

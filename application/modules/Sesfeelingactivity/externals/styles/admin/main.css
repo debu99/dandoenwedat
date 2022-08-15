@@ -1,0 +1,111 @@
+
+.sesfeelingactivity_packs_listing *,
+.sesfeelingactivity_emojies_listing *{
+	box-sizing:border-box;
+}
+.sesfeelingactivity_packs_listing{
+	margin:0 -5px 10px;
+	overflow:hidden;
+}
+.sesfeelingactivity_packs_list{
+	padding:5px;
+	float:left;
+	width:50%;
+}
+#menu_list .sesfeelingactivity_packs_list{
+	cursor:move;
+	-webkit-transition: all 100ms ease 0s;
+	-moz-transition: all 100ms ease 0s;
+	-o-transition: all 100ms ease 0s;
+	transition: all 100ms ease 0s;
+}
+.sesfeelingactivity_manage_packs_list{
+	width:33.33%;
+}
+.sesfeelingactivity_packs_list > div{
+	background-color: #f5fdff;
+	padding: 10px;
+	border: 1px solid #9cedff;
+}
+.sesfeelingactivity_packs_list ._input,
+.sesfeelingactivity_packs_list ._icon{
+	float:left;
+	margin-right:10px;
+}
+.sesfeelingactivity_packs_list ._icon img{
+	width:16px;
+}
+.sesfeelingactivity_packs_list ._cont{
+	display:block;
+	overflow:hidden;
+}
+.sesfeelingactivity_packs_list ._title{
+	font-weight: bold;
+	margin-bottom: 5px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.sesfeelingactivity_emojies_listing{
+	overflow:hidden;
+}
+.sesfeelingactivity_emojies_list{
+	background-color: #f5fdff;
+	padding: 10px;
+	border: 1px solid #9cedff;
+	float: left;
+	margin: 0 5px 10px;
+	width: 125px;
+	box-sizing: border-box;
+	position: relative;
+}
+.sesfeelingactivity_emojies_list ._input{
+	position:absolute;
+	left: 8px;
+	top: 5px;
+}
+.sesfeelingactivity_emojies_list ._img{
+	height: 40px;
+	width: 40px;
+	margin: 10px auto;
+}
+.sesfeelingactivity_emojies_list ._img img{
+	height:100%;
+	width:100%;
+	object-fit:contain;
+}
+.sesfeelingactivity_emojies_list ._options{
+	position:absolute;
+	top:5px;
+	right:5px;
+}
+.sesfeelingactivity_emojies_list ._options a{
+	text-decoration:none !important;
+	font-size:15px;
+}
+.sesfeelingactivity_emojies_list ._title{
+	overflow:hidden;
+	display:block;
+	text-overflow:ellipsis;
+	white-space:nowrap;
+}
+.create_new_feeling,
+.back_manage_cate{
+	padding-left:0px !important;
+}
+.add_new_feeling,
+.upload_zip_feeling{
+	padding-left:0px !important;
+	margin-bottom:10px !important;
+	display:inline-block;
+}
+
+.sesfeelingactivity_icon_enabled:before{
+  content:"\\f058";
+  color:#2ecc71;
+}
+.sesfeelingactivity_icon_disabled:before{
+  content:"\\f058";
+  color:#999;
+}

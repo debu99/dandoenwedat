@@ -1,0 +1,334 @@
+
+/*Common Classes*/
+._bxs, ._bxs *{
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	box-sizing:border-box;
+}
+.ememsub_clearfix:after{
+	content:"";
+	clear:both;
+	display:block;
+}
+.ememsub_animation{
+	-webkit-transition:all 500ms ease 0s;
+	-moz-transition:all 500ms ease 0s;
+	-o-transition:all 500ms ease 0s;
+	transition:all 500ms ease 0s;
+}
+/*SUBSCRIPTIONS TABLE CSS START HERE*/
+.ememsub_pricing_table_main{
+	background-color:rgba(0, 0, 0, 0.02);
+	width:100%;
+	margin:0 auto;
+	text-align:center;
+}
+.ememsub_pricing_table_header{
+	padding:60px 30px;
+}
+.ememsub_pricing_table_heading{
+	font-size:30px;
+	margin-bottom:10px;
+	text-align:center;
+	letter-spacing:1px;
+	font-weight:bold;
+}
+.ememsub_pricing_table_des{
+	margin-bottom:20px;
+	text-align:center;
+	line-height:180%;
+}
+.ememsub_pricing_table{
+	padding:50px 0;
+	display:flex;
+	justify-content:center;
+	align-items:start;
+}
+.ememsub_pricing_table_item{
+	margin-bottom:10px;
+	width:280px;
+}
+.ememsub_pricing_table_item.heighlighted{
+	margin:-15px -1px 0;	
+	z-index:1;
+}
+.ememsub_pricing_table_item article{
+	border-width:1px;
+	position:relative;
+}
+/*Top Content*/
+.ememsub_pricing_table_title{
+	line-height:60px;
+	height:60px;
+}
+.ememsub_pricing_table_item.heighlighted .ememsub_pricing_table_title{
+	padding-bottom:15px;
+	line-height:75px;
+	height:75px;
+}
+.ememsub_pricing_table_title span{
+	background-color:rgba(0, 0, 0, .02);
+	color:#FEFEFE;
+	display:block;
+	font-size:20px;
+	padding:0 10px;
+	text-align:center;
+}
+.ememsub_pricing_table_img{
+	background-size:cover;
+	background-position:center;
+	height:150px;
+}
+.ememsub_pricing_table_content{
+	color:#fefefe;
+	height:100px;
+	padding:10px 0;
+	position:relative;
+	text-align:center;
+}
+.ememsub_pricing_table_content .price{
+	position:relative;
+	display:inline-block;
+	line-height:200%;
+}
+.ememsub_pricing_table_content .price span{    
+	font-size:40px;
+	vertical-align:middle;
+}
+.ememsub_pricing_table_content .price sup{
+	font-size:16px;    
+	vertical-align:super;
+}
+.ememsub_pricing_table_content .price sub{
+	font-size:16px;    
+	vertical-align:text-bottom;
+}
+.ememsub_pricing_table_content .duration{
+	font-weight:600;
+}
+.ememsub_pricing_table_hint{
+	border-bottom-width:1px;
+	font-style:italic;
+	font-size:90%;
+	padding:10px;
+	text-align:center;
+	height:90px;
+	line-height:150%;
+	display:flex;
+	justify-content:center;
+	flex-direction:column;
+}
+/*Features*/
+ul.ememsub_pricing_table_features{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	text-align:left;
+}
+.ememsub_pricing_table_features li{
+	border-bottom-width:1px;
+	border-bottom-style:dashed;
+	height:45px;
+	padding:10px;
+	overflow:hidden;
+	margin:0 10px;
+}
+.ememsub_pricing_table_features li img{
+	margin-right:2px;
+	max-width:16px;
+	vertical-align:middle;
+}
+.ememsub_pricing_table_features li i{
+	float:right;
+	margin-left:5px;
+}
+[dir="rtl"] .ememsub_pricing_table_features li i{
+	float:left;
+	margin-left:0;
+	margin-right:5px;
+}
+.ememsub_pricing_table_features li span{
+	overflow:hidden;
+}
+.ememsub_pricing_table_features li .mCSB_dragger{
+	min-height:10px !important;
+}
+.ememsub_pricing_table_features.iscenter li,
+.ememsub_pricing_table_features.iscenter li .mCSB_container{text-align:center;}
+/*Footer Button*/
+.ememsub_pricing_table_footer{
+	line-height:50px;
+	position:relative;
+	padding:20px 10px 10px;
+}
+.ememsub_pricing_table_footer input{
+	margin-top:10px;
+	opacity:0;
+	position:absolute;
+	visibility:hidden;
+}
+.ememsub_pricing_table_footer a{
+	border-radius:50px;
+	display:block;
+	font-size:15px;
+	font-weight:700;
+	position:relative;
+	height:50px;
+	line-height:50px;
+	max-width:200px;
+	margin:0 auto -30px;
+	text-decoration:none;
+	text-align:center;
+}
+.ememsub_pricing_table_footer:hover a{
+	opacity:.9;
+	text-decoration:none;
+}
+/*Ribbon*/
+.ememsub_pricing_table_label{
+  position:absolute;
+  top:0;
+  right:0;
+  width:110px;
+  height:110px;
+  overflow:hidden;
+}
+.ememsub_pricing_table_label div{
+  background-color:#5d80a1;
+	color:#fff;
+  font-size:15px;
+  font-weight:bold;
+  text-align:center;
+  text-transform:uppercase;
+  position:relative;
+  padding:5px 10px;
+	top:18px;
+  width:158px;
+}
+.ememsub_pricing_table_label.left{
+	left:0
+}
+.ememsub_pricing_table_label.left > div{
+  left:-45px;
+  -webkit-transform:rotate(-45deg) translate3d(0, 0, 0);
+  -moz-transform:rotate(-45deg) translate3d(0, 0, 0);
+  -ms-transform:rotate(-45deg) translate3d(0, 0, 0);
+  -o-transform:rotate(-45deg) translate3d(0, 0, 0);
+}
+.ememsub_pricing_table_label.right{
+	right:0;
+}
+.ememsub_pricing_table_label.right > div{
+  left:-8px;
+  -webkit-transform:rotate(45deg) translate3d(0, 0, 0);
+  -moz-transform:rotate(45deg) translate3d(0, 0, 0);
+  -ms-transform:rotate(45deg) translate3d(0, 0, 0);
+  -o-transform:rotate(45deg) translate3d(0, 0, 0);
+}
+/*Table Overlay*/
+.ememsub_pricing_table_overlap .ememsub_pricing_table_header{
+	padding-bottom:100px;
+}
+.ememsub_pricing_table_overlap .ememsub_pricing_table{
+	margin-top:-110px;
+}
+/*On SE Popup*/
+#TB_ajaxContent .ememsub_pricing_table_main{
+	width:800px;
+	padding:0 10px;
+}
+/*SUBSCRIPTIONS TABLE CSS END HERE*/
+/*TIP CSS START HERE*/
+.ememsub_custom_tip{
+	border-radius:3px;
+	background-color:rgba(0, 0, 0, .8);
+	max-width:200px;
+	z-index:13000;
+}
+.ememsub_custom_tip .tip-top, 
+.ememsub_custom_tip .tip-bottom{display:none;}
+.ememsub_custom_tip .tip-title {
+	font-size:11px;
+	color:#ddd;
+	padding:8px;
+}
+.ememsub_custom_tip .tip{
+	border-width:0;
+	background:none;
+	margin:0;
+	padding:0;
+}
+/*TIP CSS END HERE*/
+/*NOTE CSS START HERE*/
+.ememsub_pricing_table_note{
+	padding:30px 0;
+}
+.ememsub_rich_content{
+	overflow:hidden;
+}
+.ememsub_rich_content p,
+.ememsub_rich_content ul,
+.ememsub_rich_content ol{
+	line-height:150%;
+	margin-bottom:10px;
+}
+.ememsub_rich_content ul{
+	list-style:disc;
+}
+.ememsub_rich_content ul,
+.ememsub_rich_content ol{
+	padding-left:20px;
+}
+[dir="rtl"] .ememsub_rich_content ul,
+[dir="rtl"] .ememsub_rich_content ol{
+	padding-left:0;
+	padding-right:20px;
+}
+.ememsub_rich_content img{
+	margin:5px;
+	max-width:100%;
+	height:auto;
+}
+/*NOTE CSS END HERE*/
+@media only screen and (max-width:768px){
+	.ememsub_rich_content iframe{width:100% !important;}
+	.ememsub_pricing_table{
+		flex-wrap:wrap;
+	}
+	.ememsub_pricing_table_item{
+		width:50% !important;
+		padding:5px;
+	}
+	.ememsub_pricing_table_item.heighlighted{
+		margin:0;
+	}
+	.ememsub_pricing_table_item.heighlighted .ememsub_pricing_table_title{
+		line-height: 60px;
+		height: 60px;
+		padding-bottom:0;
+	}
+	.ememsub_pricing_table_footer a{
+		margin-bottom:0;
+	}
+}
+@media only screen and (max-width:480px){
+	.ememsub_pricing_table_header{
+		padding:15px;
+	}
+	.ememsub_pricing_table_heading{
+		font-size:20px;
+		font-weight:bold;
+	}
+	.ememsub_pricing_table_item{
+		width:100% !important;
+	}
+	
+}
+/*Admin Preview*/
+#global_page_ememsub-admin-templete-preview #global_content_simple{
+	width:1200px;
+}
+#global_page_ememsub-admin-templete-preview .ememsub_pricing_table_preview{
+	padding:15px;
+	border-width:1px;
+}

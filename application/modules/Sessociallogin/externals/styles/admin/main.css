@@ -1,0 +1,35 @@
+.sessociallogin_stats_container{
+  border-width:1px;
+  overflow:hidden;
+}
+.sessociallogin_stats_table{
+  border-bottom-width:1px;
+  overflow:hidden;
+  padding:0 10px 10px;
+}
+.sessociallogin_stats_table > div{
+  width:25%;
+  float:left;
+  padding:3px 10px;
+  border-left-width:3px;
+  box-sizing:border-box;
+  margin-bottom:5px;
+}
+.sessociallogin_stats_table > div span + span{
+  float:right;
+  font-weight:bold;
+}
+.sessociallogin_stats_table > div.sessociallogin_stats_total{
+  background-color:#fdfdfd;
+  padding:10px;
+  border-width:0 0 1px 0;
+  font-size:15px;
+  margin:0 -10px 10px;
+  float:none;
+  width:inherit;
+}
+.sessociallogin_stats_chart{
+  overflow:hidden;
+  display:block;
+  height:500px;
+}

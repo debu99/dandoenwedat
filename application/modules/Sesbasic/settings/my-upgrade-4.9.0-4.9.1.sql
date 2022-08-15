@@ -1,0 +1,2 @@
+DELETE FROM `engine4_core_menuitems` WHERE `engine4_core_menuitems`.`name` = 'sesbasic_admin_upgradeplugin';
+DELETE FROM `engine4_core_menuitems` WHERE `engine4_core_menuitems`.`name` = 'sesbasic_admin_notinstalledplugin';

@@ -1,0 +1,1 @@
+UPDATE `engine4_core_menuitems` SET `params` = '{"route":"sesadvancedactivity_onthisday"}' WHERE `engine4_core_menuitems`.`name` = "sesadvancedactivity_index_onthisday";

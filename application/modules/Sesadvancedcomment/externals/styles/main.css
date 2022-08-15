@@ -1,0 +1,88 @@
+/* $Id:main.css 2017-01-19 00:00:00 SocialEngineSolutions $*/
+
+.notification_type_sesadvancedcomment_tagged_people{content:"\\f075";font-family:'Font Awesome 5 Free';font-weight:400;}
+
+/*Reaction Notification work start here*/
+[class*="notification_type_sesadvancedactivity_reacted_"]{
+	background-repeat:no-repeat;
+	background-position: 0 center;
+	padding-left:21px;
+}
+[dir="rtl"] [class*="notification_type_sesadvancedactivity_reacted_"]{
+	padding-left:0;
+	padding-right:21px;
+}
+.notification_type_sesadvancedactivity_reacted_sad{background-image:url(~/application/modules/Sesadvancedcomment/externals/images/icon-sad.png);background-size:16px;}
+.notification_type_sesadvancedactivity_reacted_haha{background-image:url(~/application/modules/Sesadvancedcomment/externals/images/icon-haha.png);background-size:16px;}
+.notification_type_sesadvancedactivity_reacted_wow{background-image:url(~/application/modules/Sesadvancedcomment/externals/images/icon-wow.png);background-size:16px;}
+.notification_type_sesadvancedactivity_reacted_angry{background-image:url(~/application/modules/Sesadvancedcomment/externals/images/icon-angery.png);background-size:16px;}
+.notification_type_sesadvancedactivity_reacted_love{background-image:url(~/application/modules/Sesadvancedcomment/externals/images/icon-love.png);background-size:16px;}
+/*Pulldown CSS Start Here*/
+.sesadvcmt_pulldown{
+	background-color:$theme_list_background_color;
+	border:1px solid $theme_border_medium_color;
+}
+.sesadvcmt_pulldown li a{
+	color:$theme_font_color;
+}
+.sesadvcmt_pulldown li a.active ,
+.sesadvcmt_pulldown li a:hover{
+	background-color:$theme_button_background_color;
+	color:$theme_button_font_color;
+}
+/*Pulldown CSS End Here*/
+.sesadvcmt_comments div._form_container div.comment_form{
+	background-color:$theme_input_background_color;
+	border:1px solid $theme_border_medium_color;
+}
+.sesadvcmt_comments .comment_form .jqueryHashtags .highlighter{
+	color:$theme_input_font_color;
+}
+.sesadvcmt_comments form,
+.sesadvcmt_comments > ul,
+.sesadvcmt_comments > ul > li{
+	background-color:transparent !important;
+}
+.sesadvcmt_comments > ul > li{
+	border-top:1px solid $theme_border_medium_color !important;
+}
+.sesadvcmt_options li a{
+	color:$theme_font_color_light;
+}
+.sesadvcmt_options li a:hover{
+	color:$theme_link_color_hover;
+}
+div._form_container div.comment_form ._sesadvcmt_post_icons > span > a:before{
+	color:$theme_font_color_light;
+}
+div._form_container div.comment_form ._sesadvcmt_post_icons > span:hover > a:before{
+	color:$theme_font_color;
+}
+.sesadvcmt_comments_options_icon i{
+	color:$theme_font_color_light;
+}
+/*.sesadvcmt_comments_stats a{
+	color:$theme_font_color_light !important;
+}*/
+/*Add Video Popup*/
+.sescmt_add_video_popup_wrapper{
+	background-color:$theme_list_background_color;
+}
+.sescmt_add_video_popup_header{
+	background-color:$theme_list_background_color_hover;
+}
+.ses_emoji_store_header{
+	background-image:url(~/application/modules/Sesadvancedcomment/externals/images/store-header-bg.png);
+}
+/*Member Popup CSS Start Here*/
+.sesadvcmt_mlist_popup_tabs ul li a{
+	color:$theme_font_color;
+}
+.sesadvcmt_mlist_popup_tabs ul li.active a{
+	color:$theme_button_background_color;
+	border-bottom-color:$theme_button_background_color;
+}
+.sesadvcmt_mlist_popup_header{
+	background-color:$theme_list_background_color_hover;
+}
+/*Member Popup CSS End Here*/

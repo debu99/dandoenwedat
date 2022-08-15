@@ -1,0 +1,118 @@
+
+# notify_sesevent_organizer_reach_minimum_partis
+"_EMAIL_NOTIFY_SESEVENT_ORGANIZER_REACH_MINIMUM_PARTIS_TITLE";"Minimum reach number participants of your organize event"
+"_EMAIL_NOTIFY_SESEVENT_ORGANIZER_REACH_MINIMUM_PARTIS_DESCRIPTION";"Your organize event has been reach for minimum number participants."
+"_EMAIL_NOTIFY_SESEVENT_ORGANIZER_REACH_MINIMUM_PARTIS_SUBJECT";"minimum reached"
+"_EMAIL_NOTIFY_SESEVENT_ORGANIZER_REACH_MINIMUM_PARTIS_BODY";"[header]
+
+Yes! je minimaal aantal deelnemers is bereikt voor ""[object_title]"".
+
+Wat leuk! Het minimaal aantal deelnemers dat je hebt opgegeven voor je event is bereikt.
+Zodra je event vol is ontvang je weer een bericht.
+
+Veel plezier!
+
+Klik op de volgende link en ga naar je event:
+
+http://[host][object_link]
+
+[footer]"
+
+# notify_sesevent_organizer_reach_maximum_partis
+"_EMAIL_NOTIFY_SESEVENT_ORGANIZER_REACH_MAXIMUM_PARTIS_TITLE";"Maximum reach number participants of your organize event"
+"_EMAIL_NOTIFY_SESEVENT_ORGANIZER_REACH_MAXIMUM_PARTIS_DESCRIPTION";"Your organize event has been reach for maximum number participants."
+"_EMAIL_NOTIFY_SESEVENT_ORGANIZER_REACH_MAXIMUM_PARTIS_SUBJECT";"maximum reached"
+"_EMAIL_NOTIFY_SESEVENT_ORGANIZER_REACH_MAXIMUM_PARTIS_BODY";"[header]
+
+Yes! je maximaal aantal deelnemers is bereikt voor ""[object_title]"".
+
+Wat leuk! Het maximale aantal deelnemers dat je hebt opgegeven voor je event is bereikt.
+Leden komen nu op de wachtlijst!
+
+Veel plezier!
+
+Klik op de volgende link en ga naar je event:
+
+http://[host][object_link]
+
+[footer]"
+
+# notify_sesevent_joined_reach_minimum_partis
+"_EMAIL_NOTIFY_SESEVENT_JOINED_REACH_MINIMUM_PARTIS_TITLE";"Minimum reach number participants of your joined event"
+"_EMAIL_NOTIFY_SESEVENT_JOINED_REACH_MINIMUM_PARTIS_DESCRIPTION";"Your joined event has been reach for minimum number participants."
+"_EMAIL_NOTIFY_SESEVENT_JOINED_REACH_MINIMUM_PARTIS_SUBJECT";"minimum reached"
+"_EMAIL_NOTIFY_SESEVENT_JOINED_REACH_MINIMUM_PARTIS_BODY";"[header]
+
+Hoi [recipient_title],
+
+Je bent aangemeld voor [object_title] op [object_date] om [object_time]
+Yes! het minimale aantal deelnemers is bereikt! voor [object_title]
+
+Klik op de volgende link en ga naar je event:
+
+http://[host][object_link]
+
+[footer]"
+
+# notify_sesevent_joined_reach_maximum_partis
+"_EMAIL_NOTIFY_SESEVENT_JOINED_REACH_MAXIMUM_PARTIS_TITLE";"Maximum reach number participants of your joined event"
+"_EMAIL_NOTIFY_SESEVENT_JOINED_REACH_MAXIMUM_PARTIS_DESCRIPTION";"Your joined event has been reach for maximum number participants."
+"_EMAIL_NOTIFY_SESEVENT_JOINED_REACH_MAXIMUM_PARTIS_SUBJECT";"maximum reached"
+"_EMAIL_NOTIFY_SESEVENT_JOINED_REACH_MAXIMUM_PARTIS_BODY";"[header]
+
+Hoi [recipient_title],
+
+Je bent aangemeld voor [object_title]  op [object_date] om [object_time]
+Het event is vol en Leden komen nu op de wachtlijst.
+
+Weet je zeker dat je nog steeds kunt?
+
+Afmelden Ik meld me af, zodat er weer een plekje vrijkomt,
+
+Klik op de volgende link en ga naar je event:
+
+http://[host][object_link]
+
+[footer]"
+"Please select region";"Please select region"
+
+# notify_sesevent_organizer_remind
+"_EMAIL_NOTIFY_SESEVENT_ORGANIZER_REMIND_TITLE";"Reminder event for host/ admin (organizers)"
+"_EMAIL_NOTIFY_SESEVENT_ORGANIZER_REMIND_DESCRIPTION";"reminder event for host/ admin (organizers)"
+"_EMAIL_NOTIFY_SESEVENT_ORGANIZER_REMIND_SUBJECT";"reminder event for host/admin (organizers)"
+"_EMAIL_NOTIFY_SESEVENT_ORGANIZER_REMIND_BODY";"[header]
+
+Hi [recipient_title], Hello User, your event is about to start.
+Please be there on time, the participant depends on you as their Host.
+Some of them are new, please introduce members and have a good time.
+Check your event to see who is coming to your event.
+
+Click the following link and go to you event: http://[host][object_link]
+
+[footer]"
+
+# notify_sesevent_joined_remind
+"_EMAIL_NOTIFY_SESEVENT_JOINED_REMIND_TITLE";"event about to start for user participant"
+"_EMAIL_NOTIFY_SESEVENT_JOINED_REMIND_DESCRIPTION";"event about to start for user participant"
+"_EMAIL_NOTIFY_SESEVENT_JOINED_REMIND_SUBJECT";"event about to start for user participant"
+"_EMAIL_NOTIFY_SESEVENT_JOINED_REMIND_BODY";"[header]
+
+Hi [recipient_title], Hello User, the event you joined is about to start.
+Check the event to see who is coming to the event. have a good time.
+
+Click the following link and go to you event: http://[host][object_link]
+
+[footer]"
+
+# notify_sesevent_fav_almost_full
+"_EMAIL_NOTIFY_SESEVENT_FAV_ALMOST_FULL_TITLE";"favorite event is almost full"
+"_EMAIL_NOTIFY_SESEVENT_FAV_ALMOST_FULL_DESCRIPTION";"Your event favorite event is almost full."
+"_EMAIL_NOTIFY_SESEVENT_FAV_ALMOST_FULL_SUBJECT";"favorite event is almost full"
+"_EMAIL_NOTIFY_SESEVENT_FAV_ALMOST_FULL_BODY";"[header]
+
+Hi [recipient_title], Hello User, the event you favorite is almost full.
+Check the event to see who is coming and join the event.
+
+Click the following link and go to you event: http://[host][object_link]
+
+[footer]"

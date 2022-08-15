@@ -1,0 +1,9 @@
+
+"SESADVPMNT_FORM_ADMIN_GATEWAY_STRIPE_DESCRIPTION";"<b>Steps to generate Stripe API Keys:<b><br />
+1) If you haven't already created any account, you will need to establish a <a target=""_blank"" href=""%1$s"">Stripe account</a>.<br />
+2) If you have created earlier, then log in to <b>your Stripe<b> dashboard.<br />
+3) Click your account name in the top left.<br />
+4) Click API in the left menu.<br />
+5) Your secret and publishable keys should be on this page.<br />
+Note: You may be promoted to enter your password to receive the secret key.<br />
+6) Enable <a target=""_blank"" href=""%2$s"">Instant Payment Notifications</a> via: <em>Developers &gt; Webhooks &gt;.  The <em>IPN messages</em> should be <strong>enabled</strong>, and the <em>Notification URL</em> should be set to:<br /><strong>%3$s</strong>"

@@ -1,0 +1,939 @@
+{
+  "type": "module",
+  "name": "sessociallogin",
+  "version": "5.0.1",
+  "revision": null,
+  "path": "application\/modules\/Sessociallogin",
+  "repository": null,
+  "sku": null,
+  "date": "Thu, 26 Mar 2020 05:47:50 +0000",
+  "title": "SES - Social Media Login - 1 Click Social Connect Plugin",
+  "description": "SES - Social Media Login - 1 Click Social Connect Plugin",
+  "thumb": null,
+  "developer": null,
+  "authors": [
+    "<a href=\"https:\/\/socialnetworking.solutions\" style=\"text-decoration:underline;\" target=\"_blank\">SocialNetworking.Solutions<\/a>"
+  ],
+  "meta": {
+    "date": "Thu, 26 Mar 2020 05:47:50 +0000",
+    "title": "SES - Social Media Login - 1 Click Social Connect Plugin",
+    "description": "SES - Social Media Login - 1 Click Social Connect Plugin",
+    "developer": null,
+    "authors": [
+      "<a href=\"https:\/\/socialnetworking.solutions\" style=\"text-decoration:underline;\" target=\"_blank\">SocialNetworking.Solutions<\/a>"
+    ],
+    "changeLog": null
+  },
+  "actions": [
+    "install",
+    "upgrade",
+    "refresh",
+    "enable",
+    "disable"
+  ],
+  "callback": {
+    "path": "application\/modules\/Sessociallogin\/settings\/install.php",
+    "class": "Sessociallogin_Installer",
+    "priority": 100
+  },
+  "dependencies": {
+    "module-core": {
+      "type": "module",
+      "name": "core",
+      "guid": "module-core",
+      "minVersion": "5.0.0",
+      "maxVersion": null,
+      "excludeExcept": null
+    }
+  },
+  "tests": [
+    
+  ],
+  "permissions": [
+    
+  ],
+  "structure": {
+    "application\/modules\/Sessociallogin": {
+      "type": "directory",
+      "path": "application\/modules\/Sessociallogin",
+      "structure": [
+        {
+          "path": "Api",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "Api\/Core.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 2071,
+          "sha1": "4ec3a18b2ce191df7458140a6fbaa4f5d5d0424b"
+        },
+        {
+          "path": "Api\/Flickr",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "Api\/Flickr\/Flickr.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 24151,
+          "sha1": "7730e3775db0dab53861e0f1b27e9af74415feae"
+        },
+        {
+          "path": "Api\/Google.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 664,
+          "sha1": "fa0005a3dd40dab51094040d64d9647c164b7b25"
+        },
+        {
+          "path": "Api\/Instagram",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "Api\/Instagram\/Instagram.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 9933,
+          "sha1": "12146fc7e868ddb00c295739ec18a733a1938d6f"
+        },
+        {
+          "path": "Api\/Instagram.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 499,
+          "sha1": "42c7f2e00613c096a434691e40a7a417667465d7"
+        },
+        {
+          "path": "Api\/Linkedin",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "Api\/Linkedin\/LinkedIn.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 58320,
+          "sha1": "ca71ee8d343d9b4104a0fbf8fe6024380b95ca77"
+        },
+        {
+          "path": "Api\/Linkedin\/OAuth.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 40320,
+          "sha1": "dea17da90d0702ab003b065d9dd1598deb2887f3"
+        },
+        {
+          "path": "Api\/PinterestApi.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 2083,
+          "sha1": "00c6b26ee569542301e1fdf919a9f119b8f5fa80"
+        },
+        {
+          "path": "Api\/Vk",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "Api\/Vk\/Vkontakte.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 12369,
+          "sha1": "9a43a6b528234300c69be78c3eabc1120543c493"
+        },
+        {
+          "path": "Api\/Yahoo",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "Api\/Yahoo\/lib",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "Api\/Yahoo\/lib\/JSON.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 34727,
+          "sha1": "caf77bd690be224d8d27a4ebb8305c048a01cf6e"
+        },
+        {
+          "path": "Api\/Yahoo\/lib\/OAuth.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 30500,
+          "sha1": "f7ccfc2d2b372244b326d8d39c896adbe5c5145d"
+        },
+        {
+          "path": "Api\/Yahoo\/lib\/Yahoo.inc",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 69725,
+          "sha1": "f1884576b57f8c064a49090c1ca3d70b4891ca04"
+        },
+        {
+          "path": "Api\/Yahoo\/lib\/YahooSessionStore.inc",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 4318,
+          "sha1": "84499c8820e0ad6c89b90b20e58a0cbc86b7370f"
+        },
+        {
+          "path": "Bootstrap.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 649,
+          "sha1": "cabcf14db42ba57a24c15c8f6f76c66bc963fa1a"
+        },
+        {
+          "path": "controllers",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "controllers\/AdminSettingsController.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 11595,
+          "sha1": "4fe86786cbeec4c36b1f322e0d741adc158a391d"
+        },
+        {
+          "path": "controllers\/AuthController.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 45161,
+          "sha1": "1d61f0ef24d017b90909d7892a95fbd9b0dd3021"
+        },
+        {
+          "path": "controllers\/defaultsettings.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 1196,
+          "sha1": "d12813d70bae919f6c470036e61d616e806c2dbc"
+        },
+        {
+          "path": "controllers\/License.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 8202,
+          "sha1": "4279ea50508cd0400e4de4465c4be64b9ec99ae2"
+        },
+        {
+          "path": "controllers\/QuickController.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 26031,
+          "sha1": "266c39794b085d7885f3235c18bbe54daef20912"
+        },
+        {
+          "path": "externals",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "externals\/.htaccess",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 150,
+          "sha1": "04f313d2741a0fbef7f28eb2d493af002706613a"
+        },
+        {
+          "path": "externals\/images",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "externals\/images\/.htempty",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 0,
+          "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+        },
+        {
+          "path": "externals\/images\/transprant-bg.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 932,
+          "sha1": "85045c213efb0c2d324e1783e40272e0f213fdff"
+        },
+        {
+          "path": "externals\/images\/yahoo.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 1058,
+          "sha1": "9b36f6b30b2b84a0652d5716af5bce955fa1da74"
+        },
+        {
+          "path": "externals\/scripts",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "externals\/scripts\/.htempty",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 0,
+          "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+        },
+        {
+          "path": "externals\/styles",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "externals\/styles\/admin",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "externals\/styles\/admin\/main.css",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 735,
+          "sha1": "c32c1790c793873eae6df113f8476abd65ec036a"
+        },
+        {
+          "path": "externals\/styles\/main.css",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 2918,
+          "sha1": "3f96e70b2b2994b8987a38b9c1438d7f9a0a2dbf"
+        },
+        {
+          "path": "externals\/styles\/styles.css",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 9578,
+          "sha1": "afeaa1ffe7b0022d46224d3fb2c782b45aa90339"
+        },
+        {
+          "path": "Form",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "Form\/.htempty",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 0,
+          "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+        },
+        {
+          "path": "Form\/Admin",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "Form\/Admin\/Settings",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "Form\/Admin\/Settings\/Facebook.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 7000,
+          "sha1": "36afe1d340df5030e95f4bf2897119a5e2bd59ac"
+        },
+        {
+          "path": "Form\/Admin\/Settings\/Flickr.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 2658,
+          "sha1": "f0c74e3ea284bc11c832fcd79e1d291b50f55567"
+        },
+        {
+          "path": "Form\/Admin\/Settings\/General.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 3221,
+          "sha1": "e3a16ac2130a2284913d30898472e716b55439e0"
+        },
+        {
+          "path": "Form\/Admin\/Settings\/Google.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 7017,
+          "sha1": "830a41d07c59d853644e0d18a3104551c82d85da"
+        },
+        {
+          "path": "Form\/Admin\/Settings\/Hotmail.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 6925,
+          "sha1": "6343ae5282296bf38285ea2c1677ccea3877058d"
+        },
+        {
+          "path": "Form\/Admin\/Settings\/Instagram.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 2617,
+          "sha1": "090f27cdfe092c7db664feb87a49a9dda75e9576"
+        },
+        {
+          "path": "Form\/Admin\/Settings\/Linkedin.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 6962,
+          "sha1": "668b2a4b5f583cb5a1516e11848480ac16cfeb15"
+        },
+        {
+          "path": "Form\/Admin\/Settings\/Pinterest.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 2757,
+          "sha1": "ca49739e4a34c3d334806a394655d236eca415c3"
+        },
+        {
+          "path": "Form\/Admin\/Settings\/Vk.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 2627,
+          "sha1": "3fcf10e6d1510e66f782e19ae68a3df506c105bf"
+        },
+        {
+          "path": "Form\/Admin\/Settings\/Yahoo.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 2903,
+          "sha1": "e3bfe769f7f2edc3821ce070b5e9e84fe9bd1c39"
+        },
+        {
+          "path": "Model",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "Model\/DbTable",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "Model\/DbTable\/.htempty",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 0,
+          "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+        },
+        {
+          "path": "Model\/DbTable\/Facebook.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 3676,
+          "sha1": "4d61991c19fa18cd126f165336899ed5ae775753"
+        },
+        {
+          "path": "Model\/DbTable\/Flickr.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 1264,
+          "sha1": "97c4ff91765892e624226223d9996a24f83b186f"
+        },
+        {
+          "path": "Model\/DbTable\/Google.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 5659,
+          "sha1": "3a63895c5e72ea3fd2889f50b36d95ba09956f18"
+        },
+        {
+          "path": "Model\/DbTable\/Hotmail.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 1114,
+          "sha1": "34bc79ae0e9d789078d29cdac6b37d769a871d8a"
+        },
+        {
+          "path": "Model\/DbTable\/Instagram.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 4163,
+          "sha1": "7cdc0acc7a4334e6e92d10ea8b75b141b4cec5fd"
+        },
+        {
+          "path": "Model\/DbTable\/Linkedin.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 3224,
+          "sha1": "1cf2f086505e225c11f2dbc9e99cc0369295265f"
+        },
+        {
+          "path": "Model\/DbTable\/Pinterest.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 1131,
+          "sha1": "d3808b547bca26cddc76010d6e24f11df3fa0da4"
+        },
+        {
+          "path": "Model\/DbTable\/Vk.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 1204,
+          "sha1": "ab1432d13b47663d1e02474485481bcee4bb46cc"
+        },
+        {
+          "path": "Model\/DbTable\/Yahoo.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 1271,
+          "sha1": "8617b973345d86c212fe582af347e83c8e1e7e76"
+        },
+        {
+          "path": "Plugin",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "Plugin\/Core.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 7746,
+          "sha1": "44ac60dcd5959e76ccab79b6cda709776c0b1546"
+        },
+        {
+          "path": "Plugin\/Signup",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "Plugin\/Signup\/Account.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 26069,
+          "sha1": "e56788038d4dfa634c2d269962c6a6838beea672"
+        },
+        {
+          "path": "Plugin\/Signup\/Fields.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 26021,
+          "sha1": "be74bd8a9e5baaf85ae7218f27aa4c4033d6765a"
+        },
+        {
+          "path": "Plugin\/Signup\/Photo.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 17081,
+          "sha1": "ce162bd67164a0262adddcd2933c000052daa8f4"
+        },
+        {
+          "path": "settings",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "settings\/content.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 4666,
+          "sha1": "39f8ad7497933cecff5bf0235e1d332d67bbc1da"
+        },
+        {
+          "path": "settings\/install.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 3392,
+          "sha1": "5ef2625a968c11200ffa1982986ce3be67f44eab"
+        },
+        {
+          "path": "settings\/manifest.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 2473,
+          "sha1": "212347faa9644f245a7f75f638748cc4a0dbfe3f"
+        },
+        {
+          "path": "settings\/my-upgrade-4.10.3-4.10.3p1.sql",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 489,
+          "sha1": "e0ac292c5cf3ea29c22c9be905078827089a58a0"
+        },
+        {
+          "path": "settings\/my-upgrade-4.9.2p2-4.9.3.sql",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 324,
+          "sha1": "1d60e3d832c41bc13fa9120995a1630a43d9833c"
+        },
+        {
+          "path": "settings\/my.sql",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 538,
+          "sha1": "414bbe43a6fc9be1ecc9ea645225ad03f746eda0"
+        },
+        {
+          "path": "views",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "views\/scripts",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "views\/scripts\/admin-settings",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "views\/scripts\/admin-settings\/facebook.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 3324,
+          "sha1": "b49647cee1868e5def5638efe383613b864d4e17"
+        },
+        {
+          "path": "views\/scripts\/admin-settings\/faq.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 3244,
+          "sha1": "57e9e8acac7e69286032399b6eb74163bc6aef47"
+        },
+        {
+          "path": "views\/scripts\/admin-settings\/flickr.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 1093,
+          "sha1": "04cc31e924208eb977d431fc613a698fab78ff76"
+        },
+        {
+          "path": "views\/scripts\/admin-settings\/google.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 3134,
+          "sha1": "fc8b6114b38027542a6e23311b7c0c4dbb88b95e"
+        },
+        {
+          "path": "views\/scripts\/admin-settings\/hotmail.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 3162,
+          "sha1": "629332d34344be1cae4eddd6665f9b71ca2670a2"
+        },
+        {
+          "path": "views\/scripts\/admin-settings\/index.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 1326,
+          "sha1": "56e9509d2d827051e7546247a1f157bbd45872eb"
+        },
+        {
+          "path": "views\/scripts\/admin-settings\/instagram.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 1096,
+          "sha1": "2a29d85ad537c4d7f488df926998f366e52ae6ba"
+        },
+        {
+          "path": "views\/scripts\/admin-settings\/linkedin.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 3190,
+          "sha1": "03466e2b82af2f42b92caff6610c5750475c6a61"
+        },
+        {
+          "path": "views\/scripts\/admin-settings\/pinterest.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 1096,
+          "sha1": "a6531c55f3824d475da8ed4b1c8b329e4f3eb98a"
+        },
+        {
+          "path": "views\/scripts\/admin-settings\/statistic.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 7889,
+          "sha1": "e47794960dfbe32a5da508322688664094d20601"
+        },
+        {
+          "path": "views\/scripts\/admin-settings\/vk.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 1089,
+          "sha1": "f5bda0bc1d48109ba7a307ff94e31a030c1c5df5"
+        },
+        {
+          "path": "views\/scripts\/admin-settings\/yahoo.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 1092,
+          "sha1": "2e3b4ec8a6fffc9c2867eae329ebc63d58b283f2"
+        },
+        {
+          "path": "views\/scripts\/auth",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "views\/scripts\/auth\/index.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 373,
+          "sha1": "999beee415c9e02bb70713ee174786ffd75b2b4e"
+        },
+        {
+          "path": "views\/scripts\/dismiss_message.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 902,
+          "sha1": "43cd08441a8abceb6f6ca8c84f0b8a496afd9b79"
+        },
+        {
+          "path": "views\/scripts\/_socialLoginIcons.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 6661,
+          "sha1": "e489529eef7cfa76644cf704b1620d447170c8c1"
+        },
+        {
+          "path": "widgets",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "widgets\/sidebar-social-login",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "widgets\/sidebar-social-login\/Controller.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 538,
+          "sha1": "a7c8c9d9c694837dc01279c35c5a4e320a89bdd7"
+        },
+        {
+          "path": "widgets\/sidebar-social-login\/index.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 7841,
+          "sha1": "8a527526bb9a5e139192158584f29f0d8a442c2f"
+        },
+        {
+          "path": "widgets\/social-login-buttons",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "widgets\/social-login-buttons\/Controller.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 915,
+          "sha1": "c933863ea63002cb4011cd3e3a51d4a5b4c35937"
+        },
+        {
+          "path": "widgets\/social-login-buttons\/index.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 18836,
+          "sha1": "a1ed22dae91a91370c7211019babefca9c1aace2"
+        },
+        {
+          "path": "widgets\/socialbuttons",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "widgets\/socialbuttons\/Controller.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 1091,
+          "sha1": "567576a8ef5e9fe17d1cdb37887f15ecabdd02a7"
+        },
+        {
+          "path": "widgets\/socialbuttons\/index.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 12353,
+          "sha1": "efe0a0e0327320b5b4d31c9fccf163d7de17def0"
+        }
+      ]
+    },
+    "application\/languages\/en\/sessociallogin.csv": {
+      "type": "file",
+      "path": "application\/languages\/en\/sessociallogin.csv",
+      "structure": {
+        "path": "sessociallogin.csv",
+        "dir": false,
+        "file": true,
+        "perms": "0666",
+        "size": 220,
+        "sha1": "a919b566506f7b399bf749fdc11809153ee8670d"
+      }
+    }
+  }
+}

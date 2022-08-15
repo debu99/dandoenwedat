@@ -1,0 +1,61 @@
+/* $Id:main.css 2017-01-19 00:00:00 SocialEngineSolutions $*/
+
+/*Manage Stickers Category*/
+.sesadvcomment_sticker_list_title{
+	font-weight:bold;
+}
+.sesadvcomment_sticker_list_color{
+	display:inline-block;
+	padding:0 5px;
+	color:#fff;
+	border-radius:3px;
+	line-height:22px;
+}
+.sesadvcomment_sticker_list_img img{
+	max-width:60px;
+}
+
+/*Manage Stickers List*/
+.sescmt_stickers_list{
+	overflow:hidden;
+}
+.sescmt_stickers_list_item{
+	background-color:#f8f8f8;
+	border-radius:5px;
+	float:left;
+	margin:0 5px 10px;
+	padding:10px;
+	width:180px;
+	box-sizing:border-box;
+	position:relative;
+}
+.sescmt_stickers_list_item_select{
+	position:absolute;
+	left: 8px;
+	top: 5px;
+}
+.sescmt_stickers_list_item:hover{
+	background-color:#f3f1f1;
+}
+.sescmt_stickers_list_item_img{
+	height:100px;
+	width:100px;
+	margin:10px auto;
+}
+.sescmt_stickers_list_item_img img{
+	height:100%;
+	width:100%;
+	object-fit:contain;
+}
+.sescmt_stickers_list_item_options{
+	float:right;
+}
+.sescmt_stickers_list_item_options a{
+	text-decoration:none !important;
+}
+.sescmt_stickers_list_item_tags{
+	overflow:hidden;
+	display:block;
+	text-overflow:ellipsis;
+	white-space:nowrap;
+}

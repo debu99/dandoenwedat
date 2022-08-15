@@ -1,0 +1,199 @@
+
+/*Page Loader*/
+.sespwa_page_loader {
+	display:block;
+	width:64px;
+	height:64px;
+	position:fixed;
+	left:50%;
+	top:50%;
+	transform:translate(-50%, -50%);
+	z-index:110;
+}
+.sespwa_page_loader:after{
+  content:" ";
+  display:block;
+  width:46px;
+  height:46px;
+  margin:1px;
+  border-radius:50%;
+	border:4px solid #000;
+  animation:sespwa_page_loader 1.2s linear infinite;
+}
+@keyframes sespwa_page_loader {
+  0% {
+    transform:rotate(0deg);
+  }
+  100% {
+    transform:rotate(360deg);
+  }
+}
+/*Banner Widget CSS Start Here*/
+.layout_sespwa_banner_slideshow{
+	background-color:transparent !important;
+	border-width:0  !important;
+	padding:0 !important;
+	margin:0 0 15px !important;
+}
+.sespwa_banner_container{
+	position:relative;
+}
+.sespwa_banner_img_container{
+	height:100%;
+	overflow:hidden;
+	position:relative;
+	width:100%;
+}
+.sespwa_banner_img_container img{
+	height:100%;
+	position:absolute;
+	object-fit:cover;
+	width:100%;
+	z-index:1;
+}
+.sespwa_banner_content{
+	background-color:rgba(0, 0, 0, .5);
+	display:table;
+	margin:0 auto;
+	height:100%;
+	padding:0 200px;
+	width:100%;
+	top:0;
+	position:absolute;
+	z-index:1;
+}
+.sespwa_banner_content_inner{
+	display:table-cell;
+	text-align:center;
+	vertical-align:middle;
+}
+[dir="rtl"] .sespwa_banner_content_inner{
+	text-align:center;
+}
+.sespwa_banner_title, .sespwa_banner_des{
+	margin:10px 0;
+	clear:both;
+	text-shadow:0 1px 3px rgba(255, 255, 255, 0.3);
+}
+.sespwa_banner_title{
+	font-size:40px;
+}
+.sespwa_banner_des{font-size:17px;}
+.sespwa_banner_btns{margin:30px 0;text-align:center;}
+.sespwa_banner_btns a{
+	border-radius:5px;
+	font-weight:bold;
+	font-size:15px;
+	letter-spacing:1px;
+	display:inline-block;
+	margin:0 5px;
+	padding:10px 20px;
+  -webkit-transition:all 200ms ease 0s;
+	-moz-transition:all 200ms ease 0s;
+	-o-transition:all 200ms ease 0s;
+	transition:all 200ms ease 0s;
+}
+.sespwa_banner_btns a:hover{text-decoration:none;}
+@media only screen and (max-width:950px){
+	.sespwa_banner_content{padding:0 50px;}
+}
+@media only screen and (max-width:768px){
+	.sespwa_banner_content{padding:0 20px;}
+	.sespwa_banner_title{font-size:25px;}
+	.sespwa_banner_des{font-size:15px;}
+}
+/*Banner Widget CSS End Here*/
+/*Startup Screen Start*/
+.sespwa_startup_screen{
+	position:fixed;
+	top:0;
+	left:0;
+	height:100%;
+	width:100%;
+	z-index:999;
+}
+.sespwa_startup_screen_content{
+	position:absolute;
+	top:50%;
+	width:100%;
+	text-align:center;
+	transform:translateY(-50%);
+}
+.sespwa_startup_screen_content ._text{
+	color:#fff;
+	font-size:25px;
+	font-weight:bold;
+	display:block;
+	padding:0 50px;
+}
+.sespwa_startup_screen_content ._logo{
+	margin-top:10px;
+}
+.sespwa_startup_screen_content ._logo img{
+	max-height:50px;
+	max-width:90%;
+}
+.sespwa_startup_screen_content ._copyright{
+	color:#fff;
+	margin-top:10px;
+	opacity:.8;
+}
+.sespwa_startup_loading {
+	display:inline-block;
+	position:absolute;
+	width:64px;
+	height:64px;
+	bottom:0;
+	left:50%;
+	margin-left:-34px;
+}
+.sespwa_startup_loading div {
+  position:absolute;
+  top:27px;
+  width:11px;
+  height:11px;
+  border-radius:50%;
+  background:#fff;
+  animation-timing-function:cubic-bezier(0, 1, 1, 0);
+}
+.sespwa_startup_loading div:nth-child(1) {
+  left:6px;
+  animation:sespwa_startup_loading1 0.6s infinite;
+}
+.sespwa_startup_loading div:nth-child(2) {
+  left:6px;
+  animation:sespwa_startup_loading2 0.6s infinite;
+}
+.sespwa_startup_loading div:nth-child(3) {
+  left:26px;
+  animation:sespwa_startup_loading2 0.6s infinite;
+}
+.sespwa_startup_loading div:nth-child(4) {
+  left:45px;
+  animation:sespwa_startup_loading3 0.6s infinite;
+}
+@keyframes sespwa_startup_loading1 {
+  0% {
+    transform:scale(0);
+  }
+  100% {
+    transform:scale(1);
+  }
+}
+@keyframes sespwa_startup_loading3 {
+  0% {
+    transform:scale(1);
+  }
+  100% {
+    transform:scale(0);
+  }
+}
+@keyframes sespwa_startup_loading2 {
+  0% {
+    transform:translate(0, 0);
+  }
+  100% {
+    transform:translate(19px, 0);
+  }
+}
+/*Startup Screen End*/

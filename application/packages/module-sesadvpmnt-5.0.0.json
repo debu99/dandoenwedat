@@ -1,0 +1,1595 @@
+{
+  "type": "module",
+  "name": "sesadvpmnt",
+  "version": "5.0.0",
+  "revision": null,
+  "path": "application\/modules\/Sesadvpmnt",
+  "repository": null,
+  "sku": null,
+  "date": "Sat, 08 Feb 2020 12:17:40 +0000",
+  "title": "SES - Stripe Payment Gateway Plugin",
+  "description": "Socialenginesolutions",
+  "thumb": null,
+  "developer": null,
+  "authors": [
+    "<a href=\"https:\/\/socialnetworking.solutions\" style=\"text-decoration:underline;\" target=\"_blank\">SocialNetworking.Solutions<\/a>"
+  ],
+  "meta": {
+    "date": "Sat, 08 Feb 2020 12:17:40 +0000",
+    "title": "SES - Stripe Payment Gateway Plugin",
+    "description": "Socialenginesolutions",
+    "developer": null,
+    "authors": [
+      "<a href=\"https:\/\/socialnetworking.solutions\" style=\"text-decoration:underline;\" target=\"_blank\">SocialNetworking.Solutions<\/a>"
+    ],
+    "changeLog": null
+  },
+  "actions": [
+    "install",
+    "upgrade",
+    "refresh",
+    "enable",
+    "disable"
+  ],
+  "callback": {
+    "path": "application\/modules\/Sesadvpmnt\/settings\/install.php",
+    "class": "Sesadvpmnt_Installer",
+    "priority": 100
+  },
+  "dependencies": {
+    "module-core": {
+      "type": "module",
+      "name": "core",
+      "guid": "module-core",
+      "minVersion": "5.0.0",
+      "maxVersion": null,
+      "excludeExcept": null
+    }
+  },
+  "tests": [
+    
+  ],
+  "permissions": [
+    
+  ],
+  "structure": {
+    "application\/modules\/Sesadvpmnt": {
+      "type": "directory",
+      "path": "application\/modules\/Sesadvpmnt",
+      "structure": [
+        {
+          "path": "Api",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "Api\/Core.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 26481,
+          "sha1": "805dfe8a6be9984a1194f8ca710b7fab8d7ec40e"
+        },
+        {
+          "path": "Api\/Stripe",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "Api\/Stripe\/.gitignore",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 412,
+          "sha1": "3a48f169127d5ee9d28ab011ba6fde1a48b55467"
+        },
+        {
+          "path": "Api\/Stripe\/build.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 941,
+          "sha1": "77b7ee054f90eccfb98c5b33b347c81b872315b0"
+        },
+        {
+          "path": "Api\/Stripe\/CHANGELOG.md",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 26228,
+          "sha1": "2a0f780f5c7ba3a216826a3993a16d1eee9fd994"
+        },
+        {
+          "path": "Api\/Stripe\/composer.json",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 791,
+          "sha1": "25d17c2f1200011b3ac5d398c232641ebf825c23"
+        },
+        {
+          "path": "Api\/Stripe\/data",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "Api\/Stripe\/data\/ca-certificates.crt",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 239707,
+          "sha1": "c722c7e39c9f1253ce1229f2498829f8dc6b116f"
+        },
+        {
+          "path": "Api\/Stripe\/init.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 6913,
+          "sha1": "39b9e5d6ee6f3027099d0c0e95f92fe3c25518e4"
+        },
+        {
+          "path": "Api\/Stripe\/lib",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 28672,
+          "sha1": null
+        },
+        {
+          "path": "Api\/Stripe\/lib\/Account.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 10820,
+          "sha1": "00542f5ec6237833c397c34e09c64bd69a55c9c1"
+        },
+        {
+          "path": "Api\/Stripe\/lib\/AccountLink.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 323,
+          "sha1": "3b55af329d80c04f2dc6e6562c5d8789325e0bf9"
+        },
+        {
+          "path": "Api\/Stripe\/lib\/AlipayAccount.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 2347,
+          "sha1": "e81a3d07eba213c01426ccb7d452a1de2786b410"
+        },
+        {
+          "path": "Api\/Stripe\/lib\/ApiOperations",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "Api\/Stripe\/lib\/ApiOperations\/All.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 1053,
+          "sha1": "31397a9505757d90e862ae0bdcdc2aa902fc6896"
+        },
+        {
+          "path": "Api\/Stripe\/lib\/ApiOperations\/Create.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 798,
+          "sha1": "da41eb0693332bd9cf3ad8447ee4edb7f97918aa"
+        },
+        {
+          "path": "Api\/Stripe\/lib\/ApiOperations\/Delete.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 695,
+          "sha1": "df1fe94d7f441c0da4b83588c5bfa4aa1ec18102"
+        },
+        {
+          "path": "Api\/Stripe\/lib\/ApiOperations\/NestedResource.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 3708,
+          "sha1": "7d7ab742279e83e38fb71e896fbd70511d90056e"
+        },
+        {
+          "path": "Api\/Stripe\/lib\/ApiOperations\/Request.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 2316,
+          "sha1": "fe62be682a91da51794e9a1860abce50e1f3ee90"
+        },
+        {
+          "path": "Api\/Stripe\/lib\/ApiOperations\/Retrieve.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 712,
+          "sha1": "f8d93713e9fab09c3b9a974be4d6ccf7fede76ea"
+        },
+        {
+          "path": "Api\/Stripe\/lib\/ApiOperations\/Update.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 1360,
+          "sha1": "e1ac8724410b66a10ed70fc95d9c9101a58a40d5"
+        },
+        {
+          "path": "Api\/Stripe\/lib\/ApiRequestor.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 16774,
+          "sha1": "e97ed36e49e0fa5f1fd14243184067a8295202eb"
+        },
+        {
+          "path": "Api\/Stripe\/lib\/ApiResource.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 3406,
+          "sha1": "2810ce382d09f9eb59021a4ed59d796b6847a222"
+        },
+        {
+          "path": "Api\/Stripe\/lib\/ApiResponse.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 581,
+          "sha1": "f40a2ea22b181f1a407bac34989f6f9715780616"
+        },
+        {
+          "path": "Api\/Stripe\/lib\/ApplePayDomain.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 578,
+          "sha1": "ffc80c4194abf841afb1fee746e9c7299224db2e"
+        },
+        {
+          "path": "Api\/Stripe\/lib\/ApplicationFee.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 2932,
+          "sha1": "0a311434b4f48e3ede835c86623de0d6b6c89883"
+        },
+        {
+          "path": "Api\/Stripe\/lib\/ApplicationFeeRefund.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 1386,
+          "sha1": "9b9ecead99a12c2632aaba83ea09e16a64f812ac"
+        },
+        {
+          "path": "Api\/Stripe\/lib\/Balance.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 535,
+          "sha1": "785077433116a2a1a55f78a6d304c90e07418c64"
+        },
+        {
+          "path": "Api\/Stripe\/lib\/BalanceTransaction.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 932,
+          "sha1": "b7848e3afd975a06f6969635ea98b700926243ce"
+        },
+        {
+          "path": "Api\/Stripe\/lib\/BankAccount.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 3202,
+          "sha1": "e9eff5b39286cd79722e40cf301d96cbd431cd6f"
+        },
+        {
+          "path": "Api\/Stripe\/lib\/BitcoinReceiver.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 1391,
+          "sha1": "774def6974d25706812e1a6263f132b17f598d8a"
+        },
+        {
+          "path": "Api\/Stripe\/lib\/BitcoinTransaction.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 195,
+          "sha1": "729cb3142544943895c9c4453ed028f18b698661"
+        },
+        {
+          "path": "Api\/Stripe\/lib\/Card.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 4469,
+          "sha1": "bff261b7c17cf38a2e007de31b0e8109e2d95382"
+        },
+        {
+          "path": "Api\/Stripe\/lib\/Charge.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 8028,
+          "sha1": "660fedef050f938e976a4b8f56ee565b46ce76f2"
+        },
+        {
+          "path": "Api\/Stripe\/lib\/Checkout",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "Api\/Stripe\/lib\/Checkout\/Session.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 685,
+          "sha1": "b7d2b022b56d4633f0ef86fab35657ed8864534a"
+        },
+        {
+          "path": "Api\/Stripe\/lib\/Collection.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 3067,
+          "sha1": "715b3edddb66c31af36fa3b8da9d6a72c84d82d6"
+        },
+        {
+          "path": "Api\/Stripe\/lib\/CountrySpec.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 586,
+          "sha1": "0da2c32765dbbfe88a58bc7c471682e5266dd12e"
+        },
+        {
+          "path": "Api\/Stripe\/lib\/Coupon.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 777,
+          "sha1": "280653c8c4995b0a60319a8784584284909b4cdd"
+        },
+        {
+          "path": "Api\/Stripe\/lib\/Customer.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 6118,
+          "sha1": "ef59de05210e387a0a4ba14bd8954cc112d7af03"
+        },
+        {
+          "path": "Api\/Stripe\/lib\/Discount.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 341,
+          "sha1": "09daa9ebf870bad499ac66ff72646070473581c6"
+        },
+        {
+          "path": "Api\/Stripe\/lib\/Dispute.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 2776,
+          "sha1": "534a40491eb2bdd5ed7a28de0215f29eaf20a4b0"
+        },
+        {
+          "path": "Api\/Stripe\/lib\/EphemeralKey.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 935,
+          "sha1": "b29dcef032aec9320dd7b2083db91d755a4500af"
+        },
+        {
+          "path": "Api\/Stripe\/lib\/Error",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "Api\/Stripe\/lib\/Error\/Api.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 66,
+          "sha1": "ec6c67cdf87a611c635c7cc2708e2f6c1cee413a"
+        },
+        {
+          "path": "Api\/Stripe\/lib\/Error\/ApiConnection.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 76,
+          "sha1": "ab272d92e8c5325f0c7374c8f9a3a6922d6acd40"
+        },
+        {
+          "path": "Api\/Stripe\/lib\/Error\/Authentication.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 77,
+          "sha1": "c94964b414ae860477d82287cd0965cf871d2471"
+        },
+        {
+          "path": "Api\/Stripe\/lib\/Error\/Base.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 1637,
+          "sha1": "2d6392d1aed08634b4e69a4880792026c7470ec8"
+        },
+        {
+          "path": "Api\/Stripe\/lib\/Error\/Card.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 1203,
+          "sha1": "a6f85f8bab734cf61d84c4b8d11e7aa96f784e09"
+        },
+        {
+          "path": "Api\/Stripe\/lib\/Error\/Idempotency.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 74,
+          "sha1": "a707010ba9f83b67508582f1c8632e6dc63f831e"
+        },
+        {
+          "path": "Api\/Stripe\/lib\/Error\/InvalidRequest.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 504,
+          "sha1": "39a551cb4f6b77d85ad0db4dfa3bab9a085294ad"
+        },
+        {
+          "path": "Api\/Stripe\/lib\/Error\/OAuth",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "Api\/Stripe\/lib\/Error\/OAuth\/InvalidClient.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 152,
+          "sha1": "d74e082b140728d949795768c5bafa9a523fb7ac"
+        },
+        {
+          "path": "Api\/Stripe\/lib\/Error\/OAuth\/InvalidGrant.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 372,
+          "sha1": "02b945083a83d37b4118b063ffa3fb35f8388a9d"
+        },
+        {
+          "path": "Api\/Stripe\/lib\/Error\/OAuth\/InvalidRequest.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 218,
+          "sha1": "44891671346c81258819dfb0c31dcf3c27bef044"
+        },
+        {
+          "path": "Api\/Stripe\/lib\/Error\/OAuth\/InvalidScope.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 168,
+          "sha1": "55201d12f9cdda883d0e97845bdc594d366f745d"
+        },
+        {
+          "path": "Api\/Stripe\/lib\/Error\/OAuth\/OAuthBase.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 507,
+          "sha1": "6ac47392eface45c050baaaa11c3623ae57806e7"
+        },
+        {
+          "path": "Api\/Stripe\/lib\/Error\/OAuth\/UnsupportedGrantType.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 198,
+          "sha1": "b46b5981c41ec8dc6bb73cde64003d5a1e00ff98"
+        },
+        {
+          "path": "Api\/Stripe\/lib\/Error\/OAuth\/UnsupportedResponseType.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 207,
+          "sha1": "f3850585d254fd4d7bfc38779dfc76de07ce74fa"
+        },
+        {
+          "path": "Api\/Stripe\/lib\/Error\/Permission.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 73,
+          "sha1": "d74e64348adcba45b85836c7343fa3650a7396a8"
+        },
+        {
+          "path": "Api\/Stripe\/lib\/Error\/RateLimit.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 82,
+          "sha1": "3f1644971fdc1618cd628138a116278e82133491"
+        },
+        {
+          "path": "Api\/Stripe\/lib\/Error\/SignatureVerification.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 395,
+          "sha1": "7d591da1abed974ea055ecd1ad97950c20e115c3"
+        },
+        {
+          "path": "Api\/Stripe\/lib\/Event.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 9932,
+          "sha1": "ebd4e5c12bbe97e123e1f26c0266689b704e6b34"
+        },
+        {
+          "path": "Api\/Stripe\/lib\/ExchangeRate.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 240,
+          "sha1": "35e5843927175ba564879ba106f8a19c89f26bd0"
+        },
+        {
+          "path": "Api\/Stripe\/lib\/File.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 1423,
+          "sha1": "c41c0c837bdd876bcacdb86553d09fc0198fc9c9"
+        },
+        {
+          "path": "Api\/Stripe\/lib\/FileLink.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 552,
+          "sha1": "1edde36141652e043ffcf09c6bd0d7e47b1ae94b"
+        },
+        {
+          "path": "Api\/Stripe\/lib\/FileUpload.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 160,
+          "sha1": "70332b10b88753e9537d8315b2e5d4d60d5a28f6"
+        },
+        {
+          "path": "Api\/Stripe\/lib\/HttpClient",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "Api\/Stripe\/lib\/HttpClient\/ClientInterface.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 866,
+          "sha1": "006b958bbe3c9b7fe0206c44e11663227467659b"
+        },
+        {
+          "path": "Api\/Stripe\/lib\/HttpClient\/CurlClient.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 14648,
+          "sha1": "a52cef260fd39324e03e1bbcaa5d7d303948be20"
+        },
+        {
+          "path": "Api\/Stripe\/lib\/Invoice.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 5767,
+          "sha1": "960713e33d6ce950edaa46f3debee890030a9ac2"
+        },
+        {
+          "path": "Api\/Stripe\/lib\/InvoiceItem.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 879,
+          "sha1": "b01bf7c2a99a25a0715852a213c2cf950c88b77e"
+        },
+        {
+          "path": "Api\/Stripe\/lib\/InvoiceLineItem.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 673,
+          "sha1": "2a6cae6c32c7cd91b2930186b567d56e8a7437ee"
+        },
+        {
+          "path": "Api\/Stripe\/lib\/IssuerFraudRecord.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 461,
+          "sha1": "6aab52a6406700590bcd23aff5c78fe1ebe55179"
+        },
+        {
+          "path": "Api\/Stripe\/lib\/Issuing",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "Api\/Stripe\/lib\/Issuing\/Authorization.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 2026,
+          "sha1": "6dc8d254ac78f540148a1e282803d2ba0ac572d0"
+        },
+        {
+          "path": "Api\/Stripe\/lib\/Issuing\/Card.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 1400,
+          "sha1": "85e55e34010f5400ef53ea508089cd9b38de211c"
+        },
+        {
+          "path": "Api\/Stripe\/lib\/Issuing\/CardDetails.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 399,
+          "sha1": "8f94911b1ff7fcb59b176b4247a039de85d33239"
+        },
+        {
+          "path": "Api\/Stripe\/lib\/Issuing\/Cardholder.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 691,
+          "sha1": "6a38ef07fb088cbc2943b970abd718d74d7be933"
+        },
+        {
+          "path": "Api\/Stripe\/lib\/Issuing\/Dispute.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 691,
+          "sha1": "80b0921bc58a083e1b8f20d5c11edd13beb2b551"
+        },
+        {
+          "path": "Api\/Stripe\/lib\/Issuing\/Transaction.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 806,
+          "sha1": "48e739fc66b941e98f45aa89f1222f889820a092"
+        },
+        {
+          "path": "Api\/Stripe\/lib\/LoginLink.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 254,
+          "sha1": "37ec12931c39bbdbda9969b8f09faae614cd6f5c"
+        },
+        {
+          "path": "Api\/Stripe\/lib\/OAuth.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 3293,
+          "sha1": "738d74e7473b7f1b209a9edfc89320af9aeb71e6"
+        },
+        {
+          "path": "Api\/Stripe\/lib\/Order.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 1711,
+          "sha1": "662c67a914ff7ced9f8cb9a0789d93c66c888b02"
+        },
+        {
+          "path": "Api\/Stripe\/lib\/OrderItem.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 377,
+          "sha1": "04c5a99fdded013b89a1a7d4779a10ec514bbab6"
+        },
+        {
+          "path": "Api\/Stripe\/lib\/OrderReturn.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 498,
+          "sha1": "da74c06bec293059161685e1e815a5e3c36c55b5"
+        },
+        {
+          "path": "Api\/Stripe\/lib\/PaymentIntent.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 2737,
+          "sha1": "0f4a31722be32ce6fe9b59437cefe54b4f2840b9"
+        },
+        {
+          "path": "Api\/Stripe\/lib\/PaymentMethod.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 1536,
+          "sha1": "3d2b068b8c87f51ebc01aaf59b2454f0c50671cb"
+        },
+        {
+          "path": "Api\/Stripe\/lib\/Payout.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 3166,
+          "sha1": "07da627ff8af8533579ac5f6f7f25c3aa4d4a4dd"
+        },
+        {
+          "path": "Api\/Stripe\/lib\/Person.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 2650,
+          "sha1": "f30ad34dd466ae38d6f7881fe27bd3f1d498d975"
+        },
+        {
+          "path": "Api\/Stripe\/lib\/Plan.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 911,
+          "sha1": "311d2b14d85bbefeca581bcec7ad0fa0b6ebabf2"
+        },
+        {
+          "path": "Api\/Stripe\/lib\/Product.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 1165,
+          "sha1": "c1053e95fca6d9f8689c998196df9f809d45fe7f"
+        },
+        {
+          "path": "Api\/Stripe\/lib\/Radar",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "Api\/Stripe\/lib\/Radar\/ValueList.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 755,
+          "sha1": "97fa585ce597d4eef5baa3e3569383367b5561a9"
+        },
+        {
+          "path": "Api\/Stripe\/lib\/Radar\/ValueListItem.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 564,
+          "sha1": "53242f0dcaa56e4f43e2c99995fcf8e43cea24e1"
+        },
+        {
+          "path": "Api\/Stripe\/lib\/Recipient.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 1110,
+          "sha1": "dce8dadad6fbca5d878460f34fe4bc541ff2141f"
+        },
+        {
+          "path": "Api\/Stripe\/lib\/RecipientTransfer.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 958,
+          "sha1": "a08b56a9735f438d0c1119d05e766052cc6b6cbf"
+        },
+        {
+          "path": "Api\/Stripe\/lib\/Refund.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 1875,
+          "sha1": "38fd1624b1690326c4550f98121c012ff1aae235"
+        },
+        {
+          "path": "Api\/Stripe\/lib\/Reporting",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "Api\/Stripe\/lib\/Reporting\/ReportRun.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 619,
+          "sha1": "59a94524fc6018dccc04d50e68637c389f0e8f93"
+        },
+        {
+          "path": "Api\/Stripe\/lib\/Reporting\/ReportType.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 506,
+          "sha1": "a0ad2c6ccc0db02f8f556faaa834c736f8834ed9"
+        },
+        {
+          "path": "Api\/Stripe\/lib\/RequestTelemetry.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 586,
+          "sha1": "78d4e619e798a756ae8473a3f562924883b732c7"
+        },
+        {
+          "path": "Api\/Stripe\/lib\/Review.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 1701,
+          "sha1": "8190e412e4dd4f4b035c34c2b844e7ab8d81357f"
+        },
+        {
+          "path": "Api\/Stripe\/lib\/Sigma",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "Api\/Stripe\/lib\/Sigma\/ScheduledQueryRun.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 731,
+          "sha1": "d7cfe94923321fe1f868859286ded1edcd337bdc"
+        },
+        {
+          "path": "Api\/Stripe\/lib\/SingletonApiResource.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 975,
+          "sha1": "8e43abda880b75e16625abfff6846fa190b02dff"
+        },
+        {
+          "path": "Api\/Stripe\/lib\/SKU.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 727,
+          "sha1": "9dac2921e4c4cfea5f3a812684dd9fc1377f868f"
+        },
+        {
+          "path": "Api\/Stripe\/lib\/Source.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 4610,
+          "sha1": "da960e87b4f097e775afc1ec5aa3e5ba467b0780"
+        },
+        {
+          "path": "Api\/Stripe\/lib\/SourceTransaction.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 438,
+          "sha1": "322144f791ea3da5481a00e18b7e468511d1460e"
+        },
+        {
+          "path": "Api\/Stripe\/lib\/Stripe.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 7018,
+          "sha1": "ee9385312ff7b4977094663f32abfe14263b818d"
+        },
+        {
+          "path": "Api\/Stripe\/lib\/StripeObject.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 18280,
+          "sha1": "e77587321be4aeb8ae23851dce57adc7cb67d6ae"
+        },
+        {
+          "path": "Api\/Stripe\/lib\/Subscription.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 2706,
+          "sha1": "3380ca049c20cb24680fb0facfc32e4383dec3ca"
+        },
+        {
+          "path": "Api\/Stripe\/lib\/SubscriptionItem.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 1130,
+          "sha1": "5a6f8132360df95a44416260cf7bba0a948951b6"
+        },
+        {
+          "path": "Api\/Stripe\/lib\/SubscriptionSchedule.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 3422,
+          "sha1": "e5aaca31b64d4e51070b3c56596e3521fe661fc1"
+        },
+        {
+          "path": "Api\/Stripe\/lib\/SubscriptionScheduleRevision.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 2277,
+          "sha1": "e78535e6b4d4835ff5f5900f2c13e71fc127db29"
+        },
+        {
+          "path": "Api\/Stripe\/lib\/Terminal",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "Api\/Stripe\/lib\/Terminal\/ConnectionToken.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 293,
+          "sha1": "db20f7d7042c692dc7ded39c94203de27b38c388"
+        },
+        {
+          "path": "Api\/Stripe\/lib\/Terminal\/Location.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 543,
+          "sha1": "7652c62a991d9dacd923a702d3bb2cff2cd1cf5e"
+        },
+        {
+          "path": "Api\/Stripe\/lib\/Terminal\/Reader.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 704,
+          "sha1": "98d5c55664fb4b2a5ef1a4dd771407150c973f7a"
+        },
+        {
+          "path": "Api\/Stripe\/lib\/ThreeDSecure.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 354,
+          "sha1": "aaf00fff6a30805f96cebfb2351dab4f917b379c"
+        },
+        {
+          "path": "Api\/Stripe\/lib\/Token.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 803,
+          "sha1": "3ab9f42603d737c834758b6ff5ad4d47313a58dd"
+        },
+        {
+          "path": "Api\/Stripe\/lib\/Topup.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 1618,
+          "sha1": "b1ecda7b6ffc2b20d69494e495e2e014289df781"
+        },
+        {
+          "path": "Api\/Stripe\/lib\/Transfer.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 3826,
+          "sha1": "8b6ddd30acc578f35e049dd1e872ce0bb326a8bb"
+        },
+        {
+          "path": "Api\/Stripe\/lib\/TransferReversal.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 1515,
+          "sha1": "1653307daeba49c07c29146045060a0b83b70e76"
+        },
+        {
+          "path": "Api\/Stripe\/lib\/UsageRecord.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 1288,
+          "sha1": "282c2ba5d827baebfaf191481171e2415f156249"
+        },
+        {
+          "path": "Api\/Stripe\/lib\/UsageRecordSummary.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 405,
+          "sha1": "5c363f1f0bd5a783595167d15f321a9216eb6ecc"
+        },
+        {
+          "path": "Api\/Stripe\/lib\/Util",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "Api\/Stripe\/lib\/Util\/AutoPagingIterator.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 1599,
+          "sha1": "6ec6945b8dd14d2bbaee30504c0deafb6e5d0cc5"
+        },
+        {
+          "path": "Api\/Stripe\/lib\/Util\/CaseInsensitiveArray.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 1735,
+          "sha1": "c9aba38e9e1237a4cda57bb3c657a006cb664e7f"
+        },
+        {
+          "path": "Api\/Stripe\/lib\/Util\/DefaultLogger.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 506,
+          "sha1": "4848ee4b7e33fae14d942898121ce1bda7cfcff7"
+        },
+        {
+          "path": "Api\/Stripe\/lib\/Util\/LoggerInterface.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 1209,
+          "sha1": "16748de2ff52e0601f7bda5d3a574864cccaba28"
+        },
+        {
+          "path": "Api\/Stripe\/lib\/Util\/RandomGenerator.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 834,
+          "sha1": "7494811628f024b7f156999719692cf3b9358583"
+        },
+        {
+          "path": "Api\/Stripe\/lib\/Util\/RequestOptions.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 3322,
+          "sha1": "73f999c2e3ccae46635a0dda8ef3f8b3eebd8386"
+        },
+        {
+          "path": "Api\/Stripe\/lib\/Util\/Set.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 789,
+          "sha1": "07861c73bb9fc426723bf798cd75ce6f82ebbc58"
+        },
+        {
+          "path": "Api\/Stripe\/lib\/Util\/Util.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 13992,
+          "sha1": "be6a44671ea839bdc096a485f5240d6481253210"
+        },
+        {
+          "path": "Api\/Stripe\/lib\/Webhook.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 1534,
+          "sha1": "8d448a1e21ac8a3f8a80a930a1c7f901a9048c8d"
+        },
+        {
+          "path": "Api\/Stripe\/lib\/WebhookEndpoint.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 579,
+          "sha1": "c8b4ed393e096214e06ad776b13b6038edcea50a"
+        },
+        {
+          "path": "Api\/Stripe\/lib\/WebhookSignature.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 4369,
+          "sha1": "0f8b3b541c3cb6a7f9307868b4f808880f5a88c7"
+        },
+        {
+          "path": "Api\/Stripe\/LICENSE",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 1120,
+          "sha1": "9fdb4facefa362f2ea6129633cdeffb2b3385440"
+        },
+        {
+          "path": "Api\/Stripe\/README.md",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 10010,
+          "sha1": "6c30f0e9ec3a65218458db0faa3090aa7438a871"
+        },
+        {
+          "path": "Api\/Stripe\/update_certs.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 426,
+          "sha1": "e34eeadc73fb60c47007bede22a4f20b471451cb"
+        },
+        {
+          "path": "Api\/Stripe\/VERSION",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 8,
+          "sha1": "378044dacc79fb383c43e21e6cc76c3f254ad158"
+        },
+        {
+          "path": "Bootstrap.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 786,
+          "sha1": "1cce39113aad61414f4b8117a4f0b55fdda7cd3a"
+        },
+        {
+          "path": "controllers",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "controllers\/AdminSettingsController.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 1400,
+          "sha1": "c375823497f151293dc84a4552880f8e762fffdd"
+        },
+        {
+          "path": "controllers\/Checklicense.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 3066,
+          "sha1": "494fd4538acdd76533377fdf00a8ac18e00fd77e"
+        },
+        {
+          "path": "controllers\/IndexController.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 509,
+          "sha1": "57b95b33d0c8bbe7733f6197d8fa09be51ef9872"
+        },
+        {
+          "path": "controllers\/IpnController.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 4156,
+          "sha1": "9e9d351828af3de435c29bfc521712fddd3ecce9"
+        },
+        {
+          "path": "controllers\/License.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 5843,
+          "sha1": "af906c6a2d54346d4d9f2e7db10f2adaa2437fb6"
+        },
+        {
+          "path": "controllers\/PaymentController.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 38739,
+          "sha1": "be2ecd2fd7aeb804650fe028b708c3e03149eb98"
+        },
+        {
+          "path": "externals",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "externals\/.htaccess",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 147,
+          "sha1": "9f1638a8edbe1c5d28789e017fb35b2f2465f01e"
+        },
+        {
+          "path": "externals\/images",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "externals\/images\/.htempty",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 0,
+          "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+        },
+        {
+          "path": "externals\/scripts",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "externals\/scripts\/.htempty",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 0,
+          "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+        },
+        {
+          "path": "externals\/styles",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "externals\/styles\/main.css",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 380,
+          "sha1": "3e10bb479b720bab45a7fe4006f66e844ed3114f"
+        },
+        {
+          "path": "Form",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "Form\/.htempty",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 0,
+          "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+        },
+        {
+          "path": "Form\/Admin",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "Form\/Admin\/Settings",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "Form\/Admin\/Settings\/Global.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 2143,
+          "sha1": "8b0e4dec4ca4607be36c4f36d7745687785a7285"
+        },
+        {
+          "path": "Form\/Admin\/Settings\/Stripe.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 3075,
+          "sha1": "df5d0a266040c14114c57a2db058ae31760044f7"
+        },
+        {
+          "path": "Gateways",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "Gateways\/Stripe.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 10032,
+          "sha1": "3d749cc25fb4ef57cc0c8c87d47ab7013b4818dc"
+        },
+        {
+          "path": "Plugin",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "Plugin\/Core.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 2955,
+          "sha1": "d183f6ba47943da4a127d56a058e6d6cce7d34e6"
+        },
+        {
+          "path": "Plugin\/Gateway",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "Plugin\/Gateway\/Stripe.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 51774,
+          "sha1": "e4cebb2ffaa005ff7ecd85b4afdbc8806b9de739"
+        },
+        {
+          "path": "Plugin\/Gateway\/User",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "Plugin\/Gateway\/User\/Stripe.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 19470,
+          "sha1": "3ab7745f708155ea118ee6bf8c8bd49bfb80861e"
+        },
+        {
+          "path": "settings",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "settings\/content.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 559,
+          "sha1": "67b168b521f0757656b984ebb7917153fbde8bc6"
+        },
+        {
+          "path": "settings\/install.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 527,
+          "sha1": "3a73ee13f6b71ec85caaa08f1771eb3eb753a6ce"
+        },
+        {
+          "path": "settings\/manifest.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 1766,
+          "sha1": "0e9e2265c7f9e0cc4dcf201770be50013e9ef6b0"
+        },
+        {
+          "path": "settings\/my.sql",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 857,
+          "sha1": "0e0b000920e084b00f2df90849591b2dcd29f348"
+        },
+        {
+          "path": "views",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "views\/scripts",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "views\/scripts\/admin-settings",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "views\/scripts\/admin-settings\/index.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 1231,
+          "sha1": "c0020e9bad28e81a291e743f273c716c0239604b"
+        },
+        {
+          "path": "views\/scripts\/admin-settings\/stripe.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 621,
+          "sha1": "894ed8acede8a8f1193e2d78a84009b6de663e8c"
+        },
+        {
+          "path": "views\/scripts\/dismiss_message.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 841,
+          "sha1": "cc78c8d43943ad702b0ac1205af8861f4698589d"
+        },
+        {
+          "path": "views\/scripts\/index",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "views\/scripts\/index\/index.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 438,
+          "sha1": "78e0f1e14e8bc78f838cea693c70ae11a41759db"
+        },
+        {
+          "path": "views\/scripts\/payment",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "views\/scripts\/payment\/choose.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 402,
+          "sha1": "b28d1da9d8267845f13f89d7780d115b5658953a"
+        },
+        {
+          "path": "views\/scripts\/payment\/finish.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 2909,
+          "sha1": "3edb077be06c26ae6873594872d1917148df2eda"
+        },
+        {
+          "path": "views\/scripts\/payment\/index.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 1516,
+          "sha1": "5855d18f88476491918014191aa9175da0365157"
+        }
+      ]
+    },
+    "application\/languages\/en\/sesadvpmnt.csv": {
+      "type": "file",
+      "path": "application\/languages\/en\/sesadvpmnt.csv",
+      "structure": {
+        "path": "sesadvpmnt.csv",
+        "dir": false,
+        "file": true,
+        "perms": "0666",
+        "size": 825,
+        "sha1": "80627dc2d07461a13a4ad30cf7087d83952343a3"
+      }
+    }
+  }
+}

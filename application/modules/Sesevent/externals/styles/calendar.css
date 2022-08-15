@@ -1,0 +1,169 @@
+/* $Id:calendar.css 2016-07-26 00:00:00 SocialEngineSolutions $*/
+
+.layout_sesevent_calender{
+	position:relative;
+}
+.sesevent_calendar_container {
+	border-style:solid;
+	border-width:1px;
+	padding:5px;
+	margin-bottom:20px;
+}
+.sesevent_calendar_header {
+	margin-bottom:10px;
+	padding:10px;
+}
+.sesevent_calendar_header_left_btns {
+	margin-right:10px;
+}
+.sesevent_calendar_header_left_btns a i {
+	margin-top:2px;
+	text-align:center;
+	width:30px;
+}
+.sesevent_calendar_header_left_btns a + a {
+	border-left-width:1px;
+}
+.sesevent_calendar_header_left_btns a i::before {
+	font-size:17px;
+}
+.sesevent_calendar_header_name {
+	font-size:20px;
+	font-weight:bold;
+	line-height:22px;
+}
+.sesevent_calendar_header_right_btns .sesbasic_button:first-child{
+	border-radius:3px 0 0 3px;
+}
+[dir="rtl"] .sesevent_calendar_header_right_btns .sesbasic_button:first-child{
+	border-radius:0 3px 3px 0;
+}
+.sesevent_calendar_header_right_btns .sesbasic_button:last-child{
+	border-radius:0 3px 3px 0;
+	border-width:1px 1px 1px 0;
+}
+[dir="rtl"] .sesevent_calendar_header_right_btns .sesbasic_button:last-child{
+	border-radius:3px 0 0 3px;
+	border-width:1px 0 1px 1px;
+}
+[dir="rtl"] .sesevent_calendar_header_right_btns .sesbasic_button i{
+	margin-top: 20px;
+	height: 0;
+  -webkit-transform: rotate(180deg);/* Chrome and other webkit browsers */
+  -moz-transform: rotate(180deg);/* FF */
+  -o-transform: rotate(180deg);/* Opera */
+  -ms-transform: rotate(180deg);/* IE9 */
+  transform: rotate(180deg);/* W3C compliant browsers */
+}
+
+.sesevent_calendar_main {
+	width:100%;
+}
+.sesevent_calendar_main table {
+	width:100%;
+}
+.sesevent_calendar_main table th, 
+.sesevent_calendar_main table td{
+	width:14.286%;
+}
+.sesevent_calendar_main th div, 
+.sesevent_calendar_main td div {
+	font-size:12px;
+	font-weight:bold;
+}
+.sesevent_calendar_main thead th div {
+	font-size:11px;
+	padding:5px 0;
+	text-align:center;
+	text-transform:uppercase;
+}
+.sesevent_calendar_main tbody td > div {
+	border-top-width:1px;
+	display:block;
+	height:100px;
+	margin:0 5px;
+	padding:10px;
+	position:relative;
+}
+.sesevent_calendar_main tbody td > div.day:hover, 
+.sesevent_calendar_main tbody td > div.active{
+	background-image:url(../images/transprant-bg.png);
+}
+.sesevent_calendar_main tbody td > div .date{
+	position:relative;
+}
+.sesevent_calendar_date_link{
+	cursor:default;
+	position:absolute;
+	bottom:0;
+	left:0;
+	right:0;
+	top:0;	
+}
+.sesevent_calendar_main tbody td > div .sesevent_calendar_create_link {
+	display:none;
+	position:absolute;
+	right:10px;
+	top:10px;
+}
+.sesevent_calendar_main tbody td > div:hover .sesevent_calendar_create_link {
+	display:block;
+}
+.sesevent_calendar_main tbody td > div .sesevent_calendar_create_link::before {
+	font-size:12px;
+}
+.sesevent_calendar_main tbody td > div .sesevent_calendar_create_link:hover {
+	text-decoration:none;
+}
+.sesevent_calendar_event_list {
+	bottom:5px;
+	left:5px;
+	position:absolute;
+	right:5px;
+}
+.sesevent_calendar_event_list li {
+	float:left;
+	margin:1px;
+}
+[dir="rtl"] .sesevent_calendar_event_list li {
+	float:right;
+}
+.sesevent_calendar_event_list li img {
+	border-width:0;
+	float:left;
+	height:30px;
+	width:30px;
+}
+.sesevent_calendar_event_list li.more a {
+	background-image:url(../images/transprant-bg.png);
+	display:block;
+	font-size:12px;
+	font-weight:bold;
+	height:30px;
+	line-height:30px;
+	text-align:center;
+	width:30px;
+}
+
+@media (max-width:767px){
+	.sesevent_calendar_main thead th > div{
+		width: 3ch;
+		overflow: hidden;
+		white-space: nowrap;
+		margin: 0 auto;
+		font-family: monospace;
+		font-size: 13px;
+	}
+	.sesevent_calendar_main th div span{display:none;}
+	.sesevent_calendar_main tbody td > div{padding:10px 0;}
+	.sesevent_calendar_main tbody td > div{
+		height:50px;
+	}
+	.sesevent_calendar_main tbody td > div .sesevent_calendar_event_list li img{
+		height:6px;
+		width:6px;
+	}	
+	.sesevent_calendar_main tbody td > div:hover .sesevent_calendar_create_link{
+		display:none;
+	}
+}

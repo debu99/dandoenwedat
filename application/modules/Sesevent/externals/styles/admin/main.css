@@ -1,0 +1,120 @@
+/* $Id:main.css 2016-07-26 00:00:00 SocialEngineSolutions $*/
+
+.sesevent_popup_form{
+	margin:15px 5px 5px 15px;
+	width:500px;
+}
+.sesevent_popup_form div.form-label{
+	width:100px;
+}
+.sesevent_approve_payment_popup{
+	margin:15px 5px 5px 15px;
+}
+.sesevent_approve_payment_popup form{
+  width: 650px;
+}
+.sesevent_approve_payment_popup form textarea{
+  min-height: 50px;
+  min-width: inherit;
+  width: 350px;
+}
+.sesevent_icon_user{
+	background-image:url(~/application/modules/Sesevent/externals/images/user.png);
+}
+.sesevent_desination_popup .form-label{
+	margin-bottom:5px;
+}
+/*Manage Desinations*/
+.sesevent_manage_speakers{
+	width:100%;
+}
+.sesevent_manage_speakers *{
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+}
+.sesevent_manage_speakers_head > div{
+	background-color: #f5f5f5;
+	padding: 10px;
+	border-bottom: 1px solid #aaa;
+	float:left;
+	font-weight: bold;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	white-space: nowrap;
+}
+.sesevent_manage_speakers_list{
+	margin-bottom:10px;
+	width:100% !important;
+}
+.sesevent_manage_speakers_list li{
+	border-bottom: 1px solid #eee;
+	cursor:move;
+	clear:both;
+	overflow:hidden;
+}
+.sesevent_manage_speakers_list li:nth-child(odd){
+	background-color:#fff;
+}
+.sesevent_manage_speakers_list li:nth-child(even) {
+	background-color: #f8f8f8;
+}
+.sesevent_manage_speakers_list li > div{
+	padding: 10px;
+	font-size: .9em;
+	float:left;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	vertical-align: top;
+	white-space: normal;
+}
+
+/*Manage Hosts*/
+.sesevent_manage_hosts{
+	width:100%;
+}
+.sesevent_manage_hosts *{
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+}
+.sesevent_manage_hosts_head > div{
+	background-color: #f5f5f5;
+	padding: 10px;
+	border-bottom: 1px solid #aaa;
+	float:left;
+	font-weight: bold;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	white-space: nowrap;
+}
+.sesevent_manage_hosts_list{
+	margin-bottom:10px;
+	width:100% !important;
+}
+.sesevent_manage_hosts_list li{
+	border-bottom: 1px solid #eee;
+	cursor:move;
+	clear:both;
+	overflow:hidden;
+}
+.sesevent_manage_hosts_list li:nth-child(odd){
+	background-color:#fff;
+}
+.sesevent_manage_hosts_list li:nth-child(even) {
+	background-color: #f8f8f8;
+}
+.sesevent_manage_hosts_list li > div{
+	padding: 10px;
+	font-size: .9em;
+	float:left;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	vertical-align: top;
+	white-space: normal;
+}
+
+#sesevent_ppayment_request input[readonly="readonly"],
+#sesevent_ppayment_request textarea[readonly="readonly"]{
+  background-color:#ddd;
+}

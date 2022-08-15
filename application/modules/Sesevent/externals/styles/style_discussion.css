@@ -1,0 +1,300 @@
+/* $Id:style_discussion.css 2016-07-26 00:00:00 SocialEngineSolutions $*/
+
+.icon_sesevent_post_new,
+.icon_sesevent_post_unstick,
+.icon_sesevent_topic_unwatch{
+   position:relative;
+}
+.icon_sesevent_post_new:before{
+	content:"\f075";
+}
+.icon_sesevent_post_new:after{
+	content:"\f055";
+	font-weight:900 !important;
+}
+.icon_sesevent_post_edit:before{
+	content:"\f303";
+	font-weight:900 !important;
+}
+.icon_sesevent_post_reply:before{
+	content: "\f3e5";
+	font-weight: 900 !important;
+}
+.icon_sesevent_post_stick:before,
+.icon_sesevent_post_unstick:before{
+	content: "\f249"
+}
+.icon_sesevent_post_unstick:after{
+	content:"\f056";
+	font-weight:900 !important;
+}
+.icon_sesevent_post_close:before{
+   content:"\f023";
+	 font-weight: 900 !important;
+}
+.icon_sesevent_post_open:before{
+   content:"\f13e";
+	 font-weight:900 !important;
+}
+.icon_sesevent_post_rename:before{
+   content: "\f303";
+	 font-weight: 900 !important;
+}
+.icon_sesevent_post_delete:before{
+	content:"\f00d";
+}
+.icon_sesevent_post_quote:before{
+	content:"\f10d";
+}
+.icon_sesevent_topic_watch:before,
+.icon_sesevent_topic_unwatch:before{
+   content:"\f09e";
+	 font-weight:900 !important;
+}
+.icon_sesevent_topic_unwatch:after{
+	content:"\f056";
+	font-weight:900 !important;
+}
+
+/*Discussions Tab and View Page */
+.sesevent_discussions_options{
+  padding:10px;
+  margin-bottom:5px;
+}
+.sesevent_discussions_options a{
+  margin-right:15px;
+}
+html[dir="rtl"] .sesevent_discussion_options a{
+  margin-right:0px;
+  margin-left:15px;
+}
+div.sesevent_discussions_list{
+  border-top-width:1px;
+}
+ul.sesevent_discussions > li{
+  padding:10px 10px 10px 0px;
+  overflow:hidden;
+}
+ul.sesevent_discussions > li + li{
+  border-top-width:1px;
+}
+ul.sesevent_discussions .sesevent_discussions_replies{
+	background-image:url(../images/t-img-light.png);
+	border-style:solid;
+	border-width:1px;
+	float:left;
+	font-size:0.8em;
+	margin-right:10px;
+	overflow:hidden;
+	padding:7px 10px;
+	text-align:center;
+	width:60px;
+}
+html[dir="rtl"] ul.sesevent_discussions .sesevent_discussions_replies{
+  float:right;
+  margin-right:0px;
+  margin-left:10px;
+}
+ul.sesevent_discussions .sesevent_discussions_replies span{
+  font-size:2em;
+  display:block;
+}
+ul.sesevent_discussions .sesevent_discussions_info{
+  overflow:hidden;
+}
+ul.sesevent_discussions h3{
+	letter-spacing:normal;
+  margin-bottom:0px;
+}
+ul.sesevent_discussions .sesevent_discussions_sticky a:before{
+  content:"\f249";
+	font-family:"Font Awesome 5 Free";
+	font-weight:400;
+	margin-right:5px;
+}
+[dir="rtl"] ul.sesevent_discussions .sesevent_discussions_sticky a:before{
+	margin-left:5px;
+	margin-right:0;
+}
+ul.sesevent_discussions .sesevent_discussions_lastreply{
+  float:right;
+  overflow:hidden;
+  width:250px;
+  margin-left:10px;
+}
+html[dir="rtl"] ul.sesevent_discussions .sesevent_discussions_lastreply{
+  float:left;
+  margin-left:0px;
+  margin-right:10px;
+}
+ul.sesevent_discussions .sesevent_discussions_lastreply > a{
+  float:left;
+  display:block;
+}
+html[dir="rtl"] ul.sesevent_discussions .sesevent_discussions_lastreply > a{
+  float:right;
+}
+ul.sesevent_discussions .sesevent_discussions_lastreply > a > img{
+  display:block;
+}
+ul.sesevent_discussions .sesevent_discussions_lastreply_info{
+  overflow:hidden;
+  padding-left:5px;
+}
+html[dir="rtl"] ul.sesevent_discussions .sesevent_discussions_lastreply_info{
+  padding-left:0px;
+  padding-right:5px;
+}
+ul.sesevent_discussions .sesevent_discussions_lastreply_info_date{
+  font-size:.8em;
+}
+/* view sesevent discussion thread */
+div.sesevent_discussions_thread_options{
+	margin-top:10px;
+}
+div.sesevent_discussions_thread_options .buttonlink{
+  font-size:.8em;
+  height:16px;
+  margin-right:15px;
+}
+html[dir="rtl"] div.sesevent_discussions_thread_options .buttonlink{
+  margin-right:0px;
+  margin-left:15px;
+}
+div.sesevent_discussions_thread_options_closed{
+	display:inline-block;
+}
+div.sesevent_discussions_thread_options_closed:before{
+  content:"\f023";
+	font-family:"Font Awesome 5 Free";
+	font-weight:900;
+	margin-right:5px;
+}
+[dir="rtl"] div.sesevent_discussions_thread_options_closed:before{
+	margin-left:5px;
+	margin-right:0;
+}
+ul.sesevent_discussions_thread{
+  margin:10px 0px 10px 0px;
+  overflow:hidden;
+}
+ul.sesevent_discussions_thread > li + li{
+	border-top-style:solid;
+	border-top-width:1px;
+	margin-top:5px;
+	padding-top:10px;
+}
+ul.sesevent_discussions_thread .sesevent_discussions_thread_author{
+  float:left;
+  overflow:hidden;
+  width:120px;
+  font-weight:bold;
+  padding:5px 10px 7px 10px;
+}
+ul.sesevent_discussions_thread .sesevent_discussions_thread_author_name{
+  margin-bottom:5px;
+}
+html[dir="rtl"] ul.sesevent_discussions_thread .sesevent_discussions_thread_author{
+  float:right;
+}
+ul.sesevent_discussions_thread .sesevent_discussions_thread_photo{
+  display:block;
+  margin-bottom:3px;
+  clear:both;
+}
+ul.sesevent_discussions_thread .sesevent_discussions_thread_info{
+  padding:0px 10px 5px 5px;
+  overflow:hidden;
+}
+html[dir="rtl"] ul.sesevent_discussions_thread .sesevent_discussions_thread_info{
+  padding:0px 5px 5px 10px;
+}
+ul.sesevent_discussions_thread .sesevent_discussions_thread_details{
+  padding:6px 0px 10px;
+	border-bottom-style:solid;
+  border-bottom-width:1px;
+}
+ul.sesevent_discussions_thread .sesevent_discussions_thread_details_anchor{
+  float:left;
+}
+ul.sesevent_discussions_thread .sesevent_discussions_thread_details_anchor:before{
+  float:left;
+  overflow:hidden;
+  content:"\f075";
+  font-family:"Font Awesome 5 Free";
+	font-weight:400;
+	margin-right:5px;
+}
+ul.sesevent_discussions_thread .sesevent_discussions_thread_details_anchor > a{
+  display:block;
+  text-decoration:none;
+}
+ul.sesevent_discussions_thread .sesevent_discussions_thread_details_date{
+  font-size:.8em;
+  overflow:hidden;
+}
+ul.sesevent_discussions_thread .sesevent_discussions_thread_details_options{
+  margin-top:-2px;
+  float:right;
+  overflow:hidden;
+  text-align:right;
+}
+html[dir="rtl"] ul.sesevent_discussions_thread .sesevent_discussions_thread_details_options{
+  float:left;
+  text-align:left;
+}
+ul.sesevent_discussions_thread .sesevent_discussions_thread_details_options .buttonlink{
+  font-size:.8em;
+  height:16px;
+	margin-left:5px;
+}
+[dir="rtl"] ul.sesevent_discussions_thread .sesevent_discussions_thread_details_options .buttonlink{
+	margin-left:0;
+	margin-right:5px;
+}
+ul.sesevent_discussions_thread .sesevent_discussions_thread_body{
+  padding:5px 0px 5px 0px;
+}
+ul.sesevent_discussions_thread .sesevent_discussions_thread_body blockquote{
+	font-style:italic;
+  padding:10px;
+}
+/*REPLY TO EVENT TOPIC FORM*/
+#sesevent_topic_reply h3,
+#sesevent_topic_reply #body-label,
+#sesevent_topic_reply #submit-label{
+  display:none;
+}
+#sesevent_topic_reply .form-elements{
+  margin-top:0px;
+}
+#sesevent_topic_reply #watch-label{
+  display:none;
+}
+/*POST EVENT TOPIC FORM*/
+#sesevent_topic_create .form-elements{
+  margin-top:10px;
+}
+#sesevent_topic_create .form-label{
+  clear:both;
+  float:none;
+  text-align:left;
+  margin-bottom:3px;
+}
+html[dir="rtl"] #sesevent_topic_create .form-label{
+  text-align:right;
+}
+#sesevent_topic_create #watch-label{
+  display:none;
+}
+@media (min-width: 980px) and (max-width:1050px){}
+@media (min-width: 768px) and (max-width:979px){}
+@media (max-width:767px){}
+@media (max-width:599px){}
+@media (max-width:479px){
+	ul.sesevent_discussions .sesevent_discussions_lastreply{
+		float:left;
+		margin-top:10px;
+		margin-left:0px;
+	}
+}

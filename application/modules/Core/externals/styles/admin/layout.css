@@ -1,0 +1,62 @@
+#admin-featured-products > ul > li {
+  display: inline-block;
+  width: 48%;
+	margin-bottom: 10px;
+  margin-right: 5px;
+}
+#admin-featured-products > ul > li a{
+  display:flex;
+  text-decoration: none;
+  border: 1px #dfdfdf solid;
+  height: 100px;
+  position: relative;
+  font-size: 14px;
+}
+#admin-featured-products > ul > li a > span,
+#admin-featured-products > ul > li a:hover > span {
+  display: block;
+  padding: 10px 10px 0 10px;
+}
+#admin-featured-products > ul > li a > span > span,
+#admin-featured-products > ul > li a:hover > span > span {
+  color: #808080;
+  display: block;
+  padding-top: 5px;
+  font-size: 12px;
+}
+#admin-featured-products > ul > li a img,
+#admin-featured-products > ul > li a:hover img {
+  width: 100px;
+	object-fit: contain;
+	object-position: center center;
+}
+.admin-featured-view-more {
+  padding: 20px 0 0 0;
+	font-style:italic;
+}
+.delete-theme,
+.delete-theme:hover {
+  display: block;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  background: #e74c3c;
+  color: #fff;
+  position: absolute;
+  top: 45px;
+  left: 45px;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 15px;
+  opacity: 0.4;
+  visibility: hidden;
+}
+.delete-theme:hover {
+  opacity: 1;
+}
+.admin_themes li {
+  position: relative;
+}
+.admin_themes li .theme_wrapper:hover .delete-theme {
+  visibility: visible;
+}

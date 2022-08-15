@@ -1,0 +1,551 @@
+/* $Id:main.css 2017-01-12 00:00:00 SocialEngineSolutions $*/
+
+.activity_icon_like_activity_action:before{content:"\\f164";}
+.notification_type_sesadvancedactivity_tagged_peopl:before{content:"\\f02b";}
+.notification_type_sesadvancedactivity_scheduled_li:before{content:"\\f0ac";}
+.notification_type_shared:before, .activity_icon_share:before{content:"\\f064";}
+.sesadvancedactivity_index_onthisday:before{content:"\\f017";}
+.item_icon_sesadvancedactivity_file:before{content:"\\f016";}
+.activity_icon_post_self_buysell:before{
+	content:"\\f290";
+	font-weight:900;
+}
+
+#messages_compose #compose-album-activator,
+#messages_form_reply #compose-album-activator,
+#messages_compose #compose-fileupload-activator,
+#messages_form_reply #compose-fileupload-activator,
+#messages_compose #compose-buysell-activator,
+#messages_form_reply #compose-buysell-activator,
+#messages_compose #compose-sesevent-activator,
+#messages_form_reply #compose-sesevent-activator,
+#messages_compose #compose-sesadvancedactivityfacebookpostembed-activator,
+#messages_form_reply #compose-sesadvancedactivityfacebookpostembed-activator,
+#messages_compose #compose-link-activator,
+#messages_form_reply #compose-link-activator,
+#messages_compose .sesadv_tooltip,
+#messages_form_reply .sesadv_tooltip{
+	display:none !important;
+}
+#messages_compose #compose-link-activator + #compose-link-activator,
+#messages_form_reply #compose-link-activator + #compose-link-activator{
+	display:inline-block !important;
+}
+/*Post Status Box CSS Start Here*/
+.sesact_post_container{
+	background-color:$theme_list_background_color;
+}
+.sesact_post_box #compose-container textarea{
+	color:$theme_font_color;
+}
+.sesact_post_container .compose-menu-close,
+.sesact_post_box_close a:before,
+.sesquote_quote_composer .sesquote_quote_composer_des:before,
+.seswishe_wishe_composer .seswishe_wishe_composer_des:before,
+.sesprayer_prayer_composer .sesprayer_prayer_composer_des:before,
+.sesthought_thought_composer .sesthought_thought_composer_des:before,
+.sesact_feed_header_btm_icon:before{
+	color:$theme_font_color_light;
+}
+.sesact_privacy_btn{
+	background-color:$theme_list_background_color;
+	border:1px solid $theme_border_medium_color;
+	color:$theme_font_color !important;
+}
+.sesact_post_head{
+	background-color:$theme_list_background_color_hover;
+}
+.sesact_post_head > span + span a{
+	border-left:1px solid $theme_border_medium_color;
+}
+[dir="rtl"] .sesact_post_head > span + span a{
+	border-left-width:0;
+	border-right:1px solid $theme_border_medium_color;
+}
+.sesact_post_head_option:hover > a,
+.sesact_post_head_option.active > a,
+.sesact_post_option a > span{
+	color:$theme_font_color !important;
+}
+.sesact_post_head_fixed a:before{
+	color:$theme_font_color !important;
+}
+.sesact_post_head_fixed a span{
+	color:$theme_link_color !important;
+}
+.sesact_post_head_fixed .option_selected a span{
+	color:$theme_font_color !important;
+}
+.sesact_post_head_fixed .option_selected:before{
+	border-bottom:9px solid $theme_border_color;
+}
+.sesact_post_head_fixed .option_selected:after{
+	border-bottom:8px solid $theme_list_background_color;
+}
+.sesact_feedlink_popup_wrapper,
+._privacyselectpopup_wrapper,
+.sesact_img_preview_popup_wrapper,
+.sesact_target_post_popup_wrapper,
+.sessct_sell_item_attachment,
+.sesact_feed_usercover ._mainphoto{
+	background-color:$theme_list_background_color;
+}
+.advact_compose_photo_uploader{
+	border-color:$theme_border_color;
+}
+.advact_compose_photo_uploader i{
+	color:$theme_button_background_color;
+}
+.advact_compose_photo_uploader:hover{
+	border-color:$theme_button_background_color;
+}
+.advact_compose_photo_item{
+	background-color:$theme_border_color;
+}
+.sesact_post_media_options_icon.active > a,
+.sesact_post_media_options_icon > a.active,
+.sesact_post_media_options .sesact_post_media_options_icon > .activity_emoji_content_a.complete.active{
+  background-color:#fef2d1 !important;
+}
+.sesact_post_media_options .sesact_post_media_options_icon > a{
+	background-color:$theme_list_background_color_hover;
+	color:$theme_font_color;
+}
+.sesact_post_media_options_icon.tool_i_more a i,
+.sesact_post_media_options_icon.tool_i_more a i:before,
+.sesact_post_media_options_icon.tool_i_more a i:after{
+	background-color:$theme_font_color_light;
+}
+.sesadv_hide_close{
+	color:$theme_font_color_light;
+}
+.sesact_composer_sticker a,
+.sesact_composer_gif a,
+.sesadv_hide_close:hover,
+.sesact_profile_link_delete,
+.sesadv_pin_post{
+	color:$theme_button_font_color !important;
+	background-color:$theme_button_background_color !important;
+}
+.sesact_post_head_option_more_dropbox{
+	border:1px solid $theme_border_color;
+	background-color:$theme_list_background_color;
+}
+.sesact_post_head_option_more_dropbox:before{
+	border-bottom:8px solid $theme_border_color;
+}
+.sesact_post_head_option_more_dropbox:after{
+	border-bottom:8px solid $theme_list_background_color;
+}
+.sesact_welcome_photo_right_sep:before,
+.sesact_welcome_photo_right_sep:after{
+	border-color:$theme_border_color;
+}
+.sesact_compose_menu .composer_crosspost_toggle{
+	border-color:$theme_button_background_color !important;
+	color:$theme_button_background_color !important;
+}
+.sesact_compose_menu .composer_crosspost_toggle_active{
+	background-color:$theme_button_background_color !important;
+	color:$theme_button_font_color !important;
+}
+/*Autosuggest*/
+.sesact_post_feelings_autosuggest,
+.sesadvactivity_autosuggest{
+	background-color:$theme_list_background_color;
+}
+.sesact_post_feelings_autosuggest ul li:hover,
+.sesadvactivity_autosuggest li:hover{
+	background-color:$theme_button_background_color;
+}
+.sesact_post_feelings_autosuggest ul li:hover a,
+.sesadvactivity_autosuggest li:hover div{
+	color:$theme_button_font_color !important;
+}
+/*Post Status Box CSS End Here*/
+/*Filter Tabs CSS Start Here*/
+.sesact_feed_filters > ul > li.active > a{
+	border-bottom:2px solid $theme_button_background_color;
+	color:$theme_button_background_color;
+}
+/*Filter Tabs CSS End Here*/
+/*Pulldown CSS Start Here*/
+.sesact_pulldown,
+.sesact_content_pulldown{
+	background-color:$theme_list_background_color;
+	border:1px solid $theme_border_medium_color;
+}
+.sesact_pulldown li a{
+	color:$theme_font_color;
+}
+.sesact_pulldown li.active a,
+.sesact_pulldown li a:hover,
+.sesact_content_pulldown li input[type="checkbox"]:checked + div,
+.sesact_content_pulldown li:hover > div{
+	background-color:$theme_button_background_color;
+	color:$theme_button_font_color;
+}
+.sesact_content_pulldown li input[type="checkbox"]:checked + div p,
+.sesact_content_pulldown li:hover p{
+	color:$theme_button_font_color;
+}
+/*Pulldown CSS End Here*/
+/*Schedule Post*/
+.sesact_popup,
+.bootstrap-datetimepicker-widget{
+	background-color:$theme_list_background_color;
+	border:1px solid $theme_border_medium_color;
+}
+.bootstrap-datetimepicker-widget:before{
+	border-bottom:8px solid $theme_border_medium_color;
+}
+.bootstrap-datetimepicker-widget:after{
+	border-bottom:8px solid $theme_list_background_color;
+	margin-top:1px;
+}
+.bootstrap-datetimepicker-widget .table-condensed td.new,
+.bootstrap-datetimepicker-widget .table-condensed td.old,
+.bootstrap-datetimepicker-widget .table-condensed td.disabled,
+.bootstrap-datetimepicker-widget .table-condensed td span.month.disabled,
+.bootstrap-datetimepicker-widget .table-condensed td span.year.disabled{
+	color:$theme_font_color_light;
+}
+.bootstrap-datetimepicker-widget .table-condensed td.day:hover,
+.bootstrap-datetimepicker-widget .table-condensed td span.month:hover,
+.bootstrap-datetimepicker-widget .table-condensed td span.year:hover{
+	background-color:$theme_list_background_color_hover;
+}
+.bootstrap-datetimepicker-widget .picker-switch a,
+.bootstrap-datetimepicker-widget .table-condensed td.day.active,
+.bootstrap-datetimepicker-widget .table-condensed td span.month.active,
+.bootstrap-datetimepicker-widget .table-condensed td span.year.active{
+	background-color:$theme_button_background_color;
+	color:$theme_button_font_color;
+}
+/*Feed CSS Start Here*/
+.sesadv_addbday_title{color:$theme_link_color;}
+.sesact_feed_header .timestamp{color:$theme_font_color_light;font-size:12px;}
+.sesact_feed_options > a i{
+	color:$theme_font_color_light;
+}
+.sesact_feed_options > a:hover,
+.sesact_feed_options.sesact_pulldown_active > a{
+	background-color:$theme_button_background_color;
+}
+.sesact_feed_options > a:hover i,
+.sesact_feed_options.sesact_pulldown_active > a i{
+	color:$theme_button_font_color;
+}
+.sesact_feed ul.feed .feed_item_icon li a{
+	color:$theme_font_color_light;
+}
+.sesact_feed ul.feed .feed_item_icon li.feed_item_option_unlike a,
+.sesact_feed ul.feed .feed_item_icon li a:hover{
+	color:$theme_link_color_hover;
+}
+.sesact_feed ul.feed .comments .sesact_comments_delete a{
+	color:$theme_font_color_light;
+}
+.sesact_feed ul.feed .comments .sesact_comments_delete a:hover{
+	background-color:$theme_button_background_color;
+	color:$theme_button_font_color;
+}
+.sesact_feed ul.feed .comments > form{
+	border-top:1px solid $theme_border_color;
+}
+/*Feed CSS End Here*/
+/*Member Popup CSS Start Here*/
+.sesact_mlist_popup_tabs ul li a{
+	color:$theme_font_color;
+}
+.sesact_mlist_popup_tabs ul li.active a{
+	color:$theme_button_background_color;
+	border-bottom-color:$theme_button_background_color;
+}
+.sesact_delete_popup_head,
+.advact_mlist_popup_header,
+.sesact_feedlink_popup_head,
+.sesact_target_post_popup_header{
+	background-color:$theme_list_background_color_hover;
+}
+/*Member Popup CSS End Here*/
+/*Sell Item Details Popup CSS Start Here*/
+.sesact_popup_header,
+.sesact_sellitem_popup_header,
+.sesact_img_preview_popup_btm{
+	background-color:$theme_list_background_color_hover;
+}
+.sesact_sellitem_popup_photos_strip img.selected{
+	border:2px solid $theme_button_background_color;
+}
+.sesact_feed_item_buysell_btn button,
+.sesact_feed_item_buysell_btn a,
+.sesact_sellitem_popup_item_button div a,
+.sesact_sellitem_popup_item_button div button,
+.sesact_boost_post .sesact_boost_btn a{
+	background-color:$theme_button_background_color !important;
+	border:1px solid $theme_button_border_color !important;
+	color:$theme_button_font_color !important;
+}
+.sesact_feed_item_buysell_btn button:hover,
+.sesact_feed_item_buysell_btn a:hover,
+.sesact_sellitem_popup_item_button div a:hover,
+.sesact_sellitem_popup_item_button div button:hover,
+.sesact_boost_post .sesact_boost_btn a:hover{
+	opacity:.8;
+	text-decoration:none;
+}
+/*Sell Item Details Popup CSS End Here*/
+
+/*Feed Tabs CSS Start Here*/
+.sesact_tabs_wrapper{
+	border-bottom:1px solid $theme_border_medium_color;
+	margin-bottom:15px;
+}
+.sesact_tabs li{
+	float:left;
+	height:40px;
+	line-height:40px;
+	background-color:$theme_list_background_color;
+}
+[dir="rtl"] .sesact_tabs li{
+	float:right;
+}
+.sesact_tabs li a{
+	color:$theme_font_color;
+	font-weight:bold;
+	padding:0 15px;
+	text-decoration:none !important;
+}
+.sesact_tabs li a i{
+	font-size:17px;
+	display:inline-block;
+	vertical-align:middle;
+	margin-right:5px;
+}
+[dir="rtl"] .sesact_tabs li a i{
+	margin-left:5px;
+	margin-right:0;
+}
+.sesact_tabs li a i img{
+	display:block;
+}
+.sesact_tabs li a span#count_new_feed span{
+	background-color:#f00;
+	font-weight:bold;
+	padding:3px;
+	border-radius:50%;
+	display:block;
+	color:#fff;
+	font-size:10px;
+	position:relative;
+	line-height:normal;
+	top:-8px;
+	min-width:18px;
+}
+.sesact_tabs li.sesadv_welcome_tab a i{color:#f6c425;}
+.sesact_tabs li.sesadv_update_tab a i{color:#88c044;}
+.sesact_tabs li.sesadv_facebook_tab a i{color:#3b5998;}
+.sesact_tabs li.sesadv_twitter_tab a i{color:#1da1f2;}
+.sesact_tabs li.sesadv_instragram_tab a i{color:#c84c77;}
+.sesact_tabs li a span{
+	display:inline-block;
+	vertical-align:middle;
+}
+.sesact_tabs li + li a{
+	border-left:1px solid $theme_border_medium_color;
+}
+.sesact_tabs li.active{
+	border:1px solid $theme_border_medium_color;
+	border-width:1px 1px 0;
+	position:relative;
+	bottom:-1px;
+}
+.sesact_tabs li.active a{
+	border-width:0;
+}
+.sesact_tabs li.active + li a{
+	border-left-width:0;
+}
+.sesact_tabs li._righttabs{
+	float:right;
+}
+.sesact_tabs li._righttabs a{
+	border-width:0;
+}
+/*Feed Tabs CSS End Here*/
+/*Notification Pulldown CSS Start Here*/
+.pulldown_content_list_highlighted{
+	background-color:rgba(0, 0, 0, .1);
+}
+.pulldown_content_list_highlighted .sesact_pulldown_item_content_title{
+	font-weight:bold;
+}
+.sesact_pulldown_item_photo{
+	float:left;
+	margin-right:10px;
+}
+[dir="rtl"] .sesact_pulldown_item_photo{
+	float:right;
+	margin-left:10px;
+	margin-right:0;
+}
+.sesact_pulldown_item_content{
+	overflow:hidden;
+	display:block;
+	white-space:normal;
+}
+.sesact_pulldown_item_content_title{
+	margin-bottom:3px;
+}
+.sesact_pulldown_item_content_title a{
+	font-weight:bold;
+}
+.sesact_pulldown_item_content_date{
+	color:$theme_font_color_light;
+	background-position:left center;
+	background-repeat:no-repeat;
+	padding-left:17px;
+	position:relative;
+}
+[dir="rtl"] .sesact_pulldown_item_content_date{
+	padding-right:17px;
+}
+.sesact_pulldown_item_content_date:before{
+	position:absolute;
+	left:0;
+	font-family:'Font Awesome 5 Free';
+	margin-top:3px;
+}
+[dir="rtl"] .sesact_pulldown_item_content_date:before{
+	right:0;
+	left:inherit;
+}
+/*Notification Pulldown CSS End Here*/
+.sesadv_animation_cl_cls{
+  position:absolute;
+}
+/*PinFeed*/
+.sesact_feed ul.feed > li section,
+.sesact_feed ul.pinfeed li.sesact_ads_camp > div,
+.sesact_feed ul.pinfeed li.sesact_ads_pymk > div{
+	background-color:$theme_list_background_color;
+}
+/*POST SELECTOR CSS START HERE*/
+.sesact_owner_selector_s{
+	position:absolute;
+	right:10px;
+	top:5px;
+	z-index:9;
+}
+.sesact_owner_selector_c{
+	float:right;
+	position:relative;
+	margin:0 !important;
+}
+._sesadv_composer_active .sesact_owner_selector_s{display:none;}
+.sesact_owner_selector ._st{
+	border:1px solid transparent;
+	display:block;
+	padding:3px 5px;
+	height:24px;
+}
+.sesact_owner_selector:hover ._st{
+	background-color:rgba(0, 0, 0, .05);
+	border-color:$theme_border_color;
+}
+.sesact_owner_selector ._st img{
+	height:16px;
+	width:16px;
+	border-radius:50%;
+	float:left;
+}
+html .sesact_owner_selector ._st i{
+	float:right;
+	height:16px !important;
+	width:20px !important;
+	position:relative;
+}
+html .sesact_owner_selector ._st i:before{
+	position:absolute;
+	left:50%;
+	top:50%;
+	transform:translate(-50%,-50%);
+	font-size:12px !important;
+	color:$theme_font_color_light;
+	margin:0 !important;
+}
+.sesact_owner_selector ._lin{
+	position:absolute;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+}
+.sesact_owner_selector_pulldown{
+	background-color:$theme_list_background_color;
+	box-shadow:0 0 20px rgba(0, 0, 0, .1);
+	position:absolute;
+	min-width:200px;
+	right:0;
+	width:250px;
+	margin-left:-200px;
+	z-index:111;
+}
+.sesact_owner_selector_pulldown ._list{
+	max-height:400px;
+	overflow:auto;
+}
+.sesact_owner_selector_pulldown ._sep{
+	background-color: rgba(0, 0, 0, .05);
+	padding: 4px 15px;
+	font-size: 11px;
+	border-bottom-width: 1px;
+}
+.sesact_owner_selector_pulldown ._sep i{
+	margin-right:5px;
+}
+.sesact_owner_selector_pulldown ._listitem{
+	display:table;
+	cursor:pointer;
+	position:relative;
+	width:100%;
+}
+.sesact_owner_selector_pulldown ._self{
+	border-bottom-width:1px;
+}
+.sesact_owner_selector_pulldown ._selected{
+	background-color:$theme_list_background_color_hover;
+}
+.sesact_owner_selector_pulldown ._selected ._cont:before{
+	content:"\\f00c";
+	font-family:'Font Awesome 5 Free';
+	float:right;
+	margin-top:5px;
+}
+.sesact_owner_selector_pulldown ._listitem:hover{
+	background-color:$theme_button_background_color;
+}
+.sesact_owner_selector_pulldown ._listitem:hover *{
+	color:$theme_button_font_color;
+}
+.sesact_owner_selector_pulldown ._listitem > div{
+	display:table-cell;
+	vertical-align:middle;
+	padding:10px 0;
+}
+.sesact_owner_selector_pulldown ._listitem ._thumb{
+	padding:6px 10px 5px 15px;
+	display:table-cell;
+	width:40px;
+}
+.sesact_owner_selector_pulldown ._listitem ._thumb img{
+	border-radius:50%;
+	height:30px;
+	width:30px;
+	vertical-align:middle;
+}
+.sesact_owner_selector_pulldown ._listitem ._cont{
+	padding-right:10px;
+}
+/*POST SELECTOR CSS END HERE*/

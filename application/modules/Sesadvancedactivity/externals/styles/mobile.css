@@ -1,0 +1,297 @@
+/* $Id:mobile.css  2017-01-12 00:00:00 SocialEngineSolutions $*/
+
+.activity_icon_like_activity_action:before{content:"\\f164";}
+.notification_type_sesadvancedactivity_tagged_peopl:before{content:"\\f02b";}
+.notification_type_sesadvancedactivity_scheduled_live:before{content:"\\f0ac";}
+.notification_type_shared:before, .activity_icon_share:before{content:"\\f0e5";}
+.sesadvancedactivity_index_onthisday:before{content:"\\f017";}
+.item_icon_sesadvancedactivity_file:before{content:"\\f016";}
+.activity_icon_post_self_buysell:before{content:"\\f290";}
+#messages_compose #compose-album-activator,
+#messages_form_reply #compose-album-activator,
+#messages_compose #compose-fileupload-activator,
+#messages_form_reply #compose-fileupload-activator,
+#messages_compose #compose-buysell-activator,
+#messages_form_reply #compose-buysell-activator,
+#messages_compose #compose-sesevent-activator,
+#messages_form_reply #compose-sesevent-activator,
+#messages_compose #compose-sesadvancedactivityfacebookpostembed-activator,
+#messages_form_reply #compose-sesadvancedactivityfacebookpostembed-activator,
+#messages_compose #compose-link-activator,
+#messages_form_reply #compose-link-activator,
+#messages_compose .sesadv_tooltip,
+#messages_form_reply .sesadv_tooltip{
+	display:none !important;
+}
+#messages_compose #compose-link-activator + #compose-link-activator,
+#messages_form_reply #compose-link-activator + #compose-link-activator{
+	display:inline-block !important;
+}
+/*Post Status Box CSS Start Here*/
+.sesact_post_container{
+	+rounded;
+	background-color:$theme_list_background_color_hover;
+}
+.sesact_post_box{
+	background-color:$theme_list_background_color;
+	border:1px solid $theme_border_medium_color;
+}
+.sesact_post_container .compose-menu-close,
+.sesact_post_box_close a:before,
+.sesquote_quote_composer .sesquote_quote_composer_des:before,
+.seswishe_wishe_composer .seswishe_wishe_composer_des:before,
+.sesprayer_prayer_composer .sesprayer_prayer_composer_des:before,
+.sesthought_thought_composer .sesthought_thought_composer_des:before,
+.sesact_feed_header_btm_icon:before{
+	color:$theme_font_color_light;
+}
+.sesact_post_tool_i:hover > a:before{
+	color:$theme_font_color;
+}
+.sesact_post_tag_container,
+.sesact_post_container .compose-tray,
+.sesact_post_media_options,
+.sesact_post_head{
+	background-color:$theme_list_background_color;
+	border:1px solid $theme_border_medium_color;
+	border-top-width:0;
+}
+.sesact_privacy_btn{
+	background-color:$theme_list_background_color;
+	border:1px solid $theme_border_medium_color;
+	color:$theme_font_color !important;
+}
+.sesact_post_head > span + span a{
+	border-left:1px solid $theme_border_medium_color;
+}
+.sesact_post_head_option:hover > a,
+.sesact_post_head_option.active > a{
+	color:$theme_font_color !important;
+}
+/*.sesact_pulldown_active .sesact_privacy_btn{
+	background-color:$theme_button_background_color;
+	color:$theme_button_font_color !important;
+}*/
+.sesact_feedlink_popup_wrapper,
+._privacyselectpopup_wrapper,
+.sesact_img_preview_popup_wrapper,
+.sesact_target_post_popup_wrapper,
+.sessct_sell_item_attachment{
+	background-color:$theme_list_background_color;
+}
+.advact_compose_photo_uploader{
+	border-color:$theme_border_color;
+}
+.advact_compose_photo_uploader i{
+	color:$theme_border_color;
+}
+.advact_compose_photo_item{
+	background-color:$theme_border_color;
+}
+.sesact_post_media_options .sesact_post_media_options_icon > a{
+	background-color:$theme_list_background_color_hover;
+	color:$theme_font_color;
+}
+.sesact_post_media_options_icon.tool_i_more a i,
+.sesact_post_media_options_icon.tool_i_more a i:before,
+.sesact_post_media_options_icon.tool_i_more a i:after{
+	background-color:$theme_font_color_light;
+}
+.sesadv_hide_close{
+	color:$theme_font_color_light;
+}
+.sesact_composer_sticker a,
+.sesadv_hide_close:hover,
+.sesact_profile_link_delete{
+	color:$theme_button_font_color !important;
+	background-color:$theme_button_background_color !important;
+}
+.sesact_post_head_option_more_dropbox{
+	border:1px solid $theme_border_color;
+	background-color:$theme_list_background_color;
+}
+.sesact_post_head_option_more_dropbox:before{
+	border-bottom:8px solid $theme_border_color;
+}
+.sesact_post_head_option_more_dropbox:after{
+	border-bottom:8px solid $theme_list_background_color;
+}
+.sesact_welcome_photo_right_sep:before,
+.sesact_welcome_photo_right_sep:after{
+	border-color:$theme_border_color;
+}
+/*Post Status Box CSS End Here*/
+/*Filter Tabs CSS Start Here*/
+.sesact_feed_filters > ul > li.active > a{
+	border-bottom:2px solid $theme_link_color_hover;
+	font-weight:bold;
+}
+/*Filter Tabs CSS End Here*/
+/*Pulldown CSS Start Here*/
+.sesact_pulldown{
+	background-color:$theme_list_background_color;
+	border:1px solid $theme_border_medium_color;
+}
+.sesact_pulldown li a{
+	color:$theme_font_color;
+}
+.sesact_pulldown li.active a,
+.sesact_pulldown li a:hover{
+	background-color:$theme_list_background_color_hover;
+}
+/*Pulldown CSS End Here*/
+/*Schedule Post*/
+.bootstrap-datetimepicker-widget{
+	background-color:$theme_list_background_color;
+	border:1px solid $theme_border_medium_color;
+}
+.bootstrap-datetimepicker-widget:before{
+	border-bottom:8px solid $theme_border_medium_color;
+}
+.bootstrap-datetimepicker-widget:after{
+	border-bottom:8px solid $theme_list_background_color;
+	margin-top:1px;
+}
+.bootstrap-datetimepicker-widget .table-condensed td.new,
+.bootstrap-datetimepicker-widget .table-condensed td.old,
+.bootstrap-datetimepicker-widget .table-condensed td.disabled,
+.bootstrap-datetimepicker-widget .table-condensed td span.month.disabled,
+.bootstrap-datetimepicker-widget .table-condensed td span.year.disabled{
+	color:$theme_font_color_light;
+}
+.bootstrap-datetimepicker-widget .table-condensed td.day:hover,
+.bootstrap-datetimepicker-widget .table-condensed td span.month:hover,
+.bootstrap-datetimepicker-widget .table-condensed td span.year:hover{
+	background-color:$theme_list_background_color_hover;
+}
+.bootstrap-datetimepicker-widget .picker-switch a,
+.bootstrap-datetimepicker-widget .table-condensed td.day.active,
+.bootstrap-datetimepicker-widget .table-condensed td span.month.active,
+.bootstrap-datetimepicker-widget .table-condensed td span.year.active{
+	background-color:$theme_button_background_color;
+	color:$theme_button_font_color;
+}
+/*Feed CSS Start Here*/
+.sesadv_addbday_title{color:$theme_link_color;}
+.sesact_feed_header .timestamp{color:$theme_font_color_light;font-size:12px;}
+.sesact_feed_options > a i{
+	color:$theme_font_color_light;
+}
+.sesact_feed_options > a:hover,
+.sesact_feed_options.sesact_pulldown_active > a{
+	background-color:$theme_button_background_color;
+}
+.sesact_feed_options > a:hover i,
+.sesact_feed_options.sesact_pulldown_active > a i{
+	color:$theme_button_font_color;
+}
+.sesact_feed ul.feed .feed_item_icon li a{
+	color:$theme_font_color_light;
+}
+.sesact_feed ul.feed .feed_item_icon li.feed_item_option_unlike a,
+.sesact_feed ul.feed .feed_item_icon li a:hover{
+	color:$theme_link_color_hover;
+}
+.sesact_feed ul.feed .comments .sesact_comments_delete a{
+	color:$theme_font_color_light;
+}
+.sesact_feed ul.feed .comments .sesact_comments_delete a:hover{
+	background-color:$theme_button_background_color;
+	color:$theme_button_font_color;
+}
+/*Feed CSS End Here*/
+/*Member Popup CSS Start Here*/
+.sesact_mlist_popup_tabs ul li a{
+	color:$theme_font_color;
+}
+.sesact_mlist_popup_tabs ul li.active a{
+	color:$theme_button_background_color;
+	border-bottom-color:$theme_button_background_color;
+}
+.sesact_delete_popup_head,
+.advact_mlist_popup_header,
+.sesact_feedlink_popup_head,
+.sesact_target_post_popup_header{
+	background-color:$theme_list_background_color_hover;
+}
+/*Member Popup CSS End Here*/
+/*Sell Item Details Popup CSS Start Here*/
+.sesact_popup_header,
+.sesact_sellitem_popup_header,
+.sesact_img_preview_popup_btm{
+	background-color:$theme_list_background_color_hover;
+}
+.sesact_sellitem_popup_photos_strip img.selected{
+	border:2px solid $theme_button_background_color;
+}
+/*Sell Item Details Popup CSS End Here*/
+
+/*Feed Tabs CSS Start Here*/
+.sesact_tabs_wrapper{
+	border-bottom:1px solid $theme_border_medium_color;
+	margin-bottom:15px;
+}
+.sesact_tabs li{
+	float:left;
+	height:40px;
+	line-height:40px;
+	background-color:$theme_list_background_color;
+}
+.sesact_tabs li a{
+	color:$theme_font_color;
+	font-weight:bold;
+	padding:0 15px;
+	text-decoration:none !important;
+}
+.sesact_tabs li a i{
+	font-size:17px;
+	display:inline-block;
+	vertical-align:middle;
+	margin-right:5px;
+}
+.sesact_tabs li a i img{
+	display:block;
+}
+.sesact_tabs li a span#count_new_feed span{
+	background-color:#f00;
+	font-weight:bold;
+	padding:3px;
+	border-radius:50%;
+	display:block;
+	color:#fff;
+	font-size:10px;
+	position:relative;
+	line-height:normal;
+	top:-8px;
+	min-width:18px;
+}
+.sesact_tabs li.sesadv_welcome_tab a i{color:#f6c425;}
+.sesact_tabs li.sesadv_update_tab a i{color:#88c044;}
+.sesact_tabs li.sesadv_facebook_tab a i{color:#3b5998;}
+.sesact_tabs li.sesadv_twitter_tab a i{color:#1da1f2;}
+.sesact_tabs li a span{
+	display:inline-block;
+	vertical-align:middle;
+}
+.sesact_tabs li + li a{
+	border-left:1px solid $theme_border_medium_color;
+}
+.sesact_tabs li.active{
+	border:1px solid $theme_border_medium_color;
+	border-width:1px 1px 0;
+	position:relative;
+	bottom:-1px;
+}
+.sesact_tabs li.active a{
+	border-width:0;
+}
+.sesact_tabs li.active + li a{
+	border-left-width:0;
+}
+/*Feed Tabs CSS End Here*/
+.sesact_post_tools{
+	margin:0;
+}
+
+
+

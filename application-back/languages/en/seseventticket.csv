@@ -1,0 +1,16 @@
+# sesevent_payment_ticket_pending
+"_EMAIL_SESEVENT_PAYMENT_TICKET_PENDING_TITLE";"Event Ticket Payment Pending"
+"_EMAIL_SESEVENT_PAYMENT_TICKET_PENDING_DESCRIPTION";"This is the email that gets sent to a member when they purchased ticket from event and payment is pending."
+"_EMAIL_SESEVENT_PAYMENT_TICKET_PENDING_SUBJECT";"Your ticket payment is pending."
+"_EMAIL_SESEVENT_PAYMENT_TICKET_PENDING_BODY";"[header]
+
+Your ticket payment is pending, awaiting completion of the transaction.
+Thank you for your patience.
+
+[event_title]
+[event_description]
+[object_link]
+
+[footer]"
+
+"_ACTIVITY_ACTIONTYPE_SESEVENT_EVENT_CREATETICKET";"Creating an event ticket."

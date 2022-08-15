@@ -1,0 +1,15 @@
+/* $Id:main.css 2016-03-18 00:00:000 SocialEngineSolutions $ */
+
+[class*='layout_seseventreview_']:after,
+[id^='global_page_seseventreview-'] .layout_core_content:after{
+  clear:both;
+  content:'';
+  display:block;
+}
+[class*='layout_seseventreview_']{
+	margin-bottom:15px;
+}
+[class*='tab_layout_seseventreview_']{
+  margin:0;
+  clear:none;
+}

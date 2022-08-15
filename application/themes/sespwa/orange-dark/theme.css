@@ -1,0 +1,8 @@
+@import url('//fonts.googleapis.com/css?family=Open+Sans:400,600,700');
+@include "constants.css";
+@include "~/application/modules/Core/externals/styles/main.css";
+@scan "application/modules" "externals/styles/main.css" "Core";
+@include "~/application/themes/sespwa/main.css";
+*{
+	font-family:'Open Sans', sans-serif;
+}

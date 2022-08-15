@@ -1,0 +1,1 @@
+UPDATE engine4_authorization_permissions SET name = "sesbasic_video" WHERE  name = "sesbasic_member_level"

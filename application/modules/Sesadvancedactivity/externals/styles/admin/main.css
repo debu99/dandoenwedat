@@ -1,0 +1,128 @@
+/* $Id:main.css  2017-01-12 00:00:00 SocialEngineSolutions $*/
+
+#fieldset-sesact_grp1 .form-wrapper,
+#sesact_grp2 .form-wrapper,
+#sesact_grp3 .form-wrapper,
+#sesact_grp4 .form-wrapper,
+#sesact_grp5 .form-wrapper,
+#sesact_grp6 .form-wrapper,
+#sesact_grp7 .form-wrapper,
+#sesact_grp8 .form-wrapper,
+#sesact_grp9 .form-wrapper{
+	float:left;
+	width:50%;
+}
+#sesact_image1-wrapper,
+#sesact_image2-wrapper,
+#sesact_image3-wrapper,
+#sesact_image4-wrapper,
+#sesact_image5-wrapper,
+#sesact_image6-wrapper,
+#sesact_image7-wrapper,
+#sesact_image8-wrapper,
+#sesact_image9-wrapper{
+	width:100% !important;
+}
+#sesact_image1-label label,
+#sesact_image2-label label,
+#sesact_image3-label label,
+#sesact_image4-label label,
+#sesact_image5-label label,
+#sesact_image6-label label,
+#sesact_image7-label label,
+#sesact_image8-label label,
+#sesact_image9-label label{
+	font-weight:bold;
+}
+.sesact_global_setting #sesadvancedactivity_statusboxsettings-wrapper .form-label,
+.sesact_global_setting #sesadvancedactivity_privacysettings-wrapper .form-label{
+	width:auto;
+	font-size:15px;
+}
+.sesact_global_setting #sesadvancedactivity_composeroptions-wrapper .form-options-wrapper > li{
+	margin:0 0 5px;
+	cursor:move;
+}
+.sesact_global_setting #sesadvancedactivity_composeroptions-wrapper .form-options-wrapper label{
+	display:block;
+	overflow:hidden;
+	padding-left:5px;
+	cursor:move;
+}
+.back_emoji_cat{
+	padding: 0px !important;
+	margin-bottom: 6px;
+	display: block;
+}
+.add_feeling_icons,
+.upload_feeling_zip,
+.create_new_felling_cat{
+	padding: 0px !important;
+}
+
+/*Feed Backgrounds List*/
+.sesfeedbg_packs_list{
+	clear:both;
+	overflow:hidden;
+}
+.sesfeedbg_packs_list > li{
+	box-sizing:border-box;
+	width:25%;
+	float:left;
+	padding:0 5px 10px;
+}
+.sesfeedbg_packs_list .sesfeedbg_packs_item{
+	box-sizing:border-box;
+	background-color: #f8f8f8;
+	border-radius: 5px;
+	padding: 10px;
+	position: relative;
+	overflow:hidden;
+}
+.sesfeedbg_packs_list_input{
+	float:left;
+} 
+.sesfeedbg_packs_list_options{
+	float:right;
+}
+.sesfeedbg_packs_list_options a{
+	text-decoration:none !important;
+	display:inline-block;
+	vertical-align:middle;
+	margin-left:5px;
+	font-size:17px;
+}
+.sesfeedbg_packs_list_img{
+	margin-top:10px;
+	float:left;
+	width:100%;
+}
+.sesfeedbg_packs_list_img img{
+	height:150px;
+	width:100%;
+	object-fit:cover;
+}
+.sesfeedbg_icon_delete:before{
+  content:"\\f1f8";
+	color:#f00;
+}
+.sesfeedbg_icon_featured:before{
+  content:"\\f005";
+	color:#f36a33;
+}
+.sesfeedbg_icon_unfeatured:before{
+  content:"\\f005";
+	color:#999;
+}
+.sesfeedbg_icon_enabled:before{
+  content:"\\f058";
+	color:#2ecc71;
+}
+.sesfeedbg_icon_disabled:before{
+  content:"\\f058";
+	color:#999;
+}
+#global_page_sesfeedbg-admin-manage-create label.required:after {
+	content: "*";
+	color: #f00;
+}

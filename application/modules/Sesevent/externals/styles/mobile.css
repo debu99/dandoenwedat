@@ -1,0 +1,373 @@
+/* $Id:mobile.css 2016-07-26 00:00:00 SocialEngineSolutions $*/
+
+/* ICONS */
+#compose-sesevent-activator:before,	
+.icon_sesevent_new:before, 
+.icon_sesevent_create:before{
+	font-family:'Font Awesome 5 Free';
+	content:"\\f073";
+	font-weight:600;
+}
+#compose-sesevent-activator:before{
+	color:#090;
+}
+.activity_icon_sesevent_join:before{
+	font-family:'Font Awesome 5 Free';
+  content:"\\f064";
+	font-weight:600;
+}
+.activity_icon_sesevent_like_event:before{
+	font-family:'Font Awesome 5 Free';
+	content:"\\f087";
+	font-weight:600;
+}
+
+/* ITEM TYPE ICONS */
+.item_icon_sesevent_event:before,
+.activity_icon_sesevent_list_create:before{
+ font-family:'Font Awesome 5 Free';
+ content:"\\f073";
+ font-weight:600;
+}
+.item_icon_sesevent_topic:before,
+.item_icon_sesevent_post:before{
+	font-family:'Font Awesome 5 Free';
+	content:"\\f0e5";
+	font-weight:600;
+}
+.item_icon_sesevent_album:before,
+.item_icon_sesevent_photo:before,
+.notification_type_sesevent_discussion_response:before,
+.notification_type_sesevent_discussion_reply:before{
+	font-family:'Font Awesome 5 Free';
+  content:"\\f03e";
+	font-weight:600;
+}
+.notification_type_sesevent_invite:before,
+.notification_type_sesevent_accepted:before,
+.notification_type_sesevent_eventsave:before{
+	font-family:'Font Awesome 5 Free';
+	content:"\\f073";
+	font-weight:600;
+}
+.notification_type_sesevent_approve:before{
+	font-family:'Font Awesome 5 Free';
+	content:"\\f234";
+	font-weight:600;
+}
+
+.activity_icon_sesevent_event_follow:before,
+.notification_type_sesevent_eventfollow:before{
+	font-family:'Font Awesome 5 Free';
+	content:"\\f00c";
+	font-weight:600;
+}
+.notification_type_sesevent_favourite_eventhost,
+.notification_type_sesevent_favourite_event,
+.activity_icon_sesevent_favourite_list{
+	font-family:'Font Awesome 5 Free';
+	content:"\\f004";
+	font-weight:600;
+}
+.notification_type_sesevent_event_adminpaymentapprove{
+	font-family:'Font Awesome 5 Free';
+	content:"\\f058";
+	font-weight:600;
+}
+
+/*Generic Layout Container*/
+[class*='layout_sesevent_'], [id^='global_page_sesevent-'] .layout_core_content{clear:both;margin-bottom:15px;}
+[class*='layout_sesevent_']:after, [id^='global_page_sesevent-'] .layout_core_content:after{clear:both;content:'';display:block;}
+[class*='tab_layout_sesevent_']{margin:0;clear:none;}
+
+.sesevent_profile_info_head{
+  color:$theme_link_color;
+}
+.sesevent_cover_full .sesevent_cover_footer_inner {
+  margin:0 auto;
+  width:$theme_content_width;
+}
+@media only screen and (max-width:$theme_content_width){
+	.sesevent_cover_full .sesevent_cover_footer_inner{
+		width:100%;
+	}
+}
+.sesevent_cover_tabs > div > ul > li:hover a,
+.sesevent_cover_tabs > div > ul > li.active a,
+.sesevent_cover_tabs > div > ul > li.tab_open > a,
+.sesevent_album_cover_tabs li a:hover,
+.sesevent_album_cover_tabs li.sesevent_album_cover_tabactive a{
+  border-bottom:2px solid $theme_button_background_color !important;
+}
+/*FEED ITEMS*/
+.feed_attachment_sesevent_event > div,
+.feed_attachment_sesevent_sponsorship > div{
+  border-width:1px;
+  margin-bottom:5px;
+  overflow:hidden;
+}
+.feed_attachment_sesevent_event > div > a,
+.feed_attachment_sesevent_sponsorship > div > a{
+  display:block;
+}
+.feed_attachment_sesevent_event > div > a > img,
+.feed_attachment_sesevent_sponsorship > div > a > img{
+	height:300px;
+	margin:0;
+	width:100%;
+	max-height:inherit !important;
+	max-width:inherit !important;
+	object-fit:cover;
+	object-position:top;
+}
+.feed_attachment_sesevent_event > div > div,
+.feed_attachment_sesevent_sponsorship > div > div{
+  clear:both;
+  padding:10px 15px;
+}
+.feed_attachment_sesevent_event .feed_item_link_title{
+  font-size:14px !important;
+}
+.feed_attachment_sesevent_event .feed_item_link_desc{
+  font-size:13px !important;
+}
+/*STATICS:Common Statics CSS Code for All listings start here*/
+.sesevent_list_stats{
+	clear:both;
+	float:left;
+	margin-top:5px;
+	width:100%;
+}
+.sesevent_list_stats > span{
+  float:left;
+  font-size:13px;
+}
+[dir="rtl"] .sesevent_list_stats > span{
+  float:right;
+}
+.sesevent_list_stats > span + span{
+  margin:0 0 0 5px;
+  padding:0 0 0 5px;
+}
+[dir="rtl"] .sesevent_list_stats > span + span{
+  margin:0 5px 0 0;
+  padding:0 5px 0 0;
+}
+.sesevent_list_stats > span > i{
+  color:$theme_font_color_light;
+	float:left;
+  margin-right:3px;
+	width:15px;
+	text-align:center;
+}
+[dir="rtl"] .sesevent_list_stats > span i{
+  margin-left:3px;
+  margin-right:0;
+}
+.sesevent_list_stats > span i:before{
+  font-size:13px;
+}
+.sesevent_list_stats > span > span{
+	display:block;
+	overflow:hidden;
+}
+.sesevent_list_time > span > span > span{
+  display:block;
+  overflow:hidden;
+  white-space:nowrap;
+  text-overflow:ellipsis;
+}
+.sesevent_list_time > span > span > span i{
+	margin:0 5px;
+}
+/*STATICS:Common Statics CSS Code for All listings end here*/
+.sesevent_cat_iconlist a{
+  color:$theme_font_color !important;
+}
+.sesevent_cat_iconlist a:hover{
+  color:$theme_link_color_hover !important;
+}
+/*Discussion*/
+ul.sesevent_discussions_thread .sesevent_discussions_thread_body blockquote{
+  border:1px solid $theme_border_color;
+  background:$theme_body_background_color;
+}
+/*CSS For Listing*/
+/*COMMOM THUMB CSS:Used in Categoty Pages Listings*/
+.sesevent_thumb{
+	border:1px solid $theme_border_color;
+	position:relative;
+	padding:2px;
+}
+.sesevent_thumb:hover{
+	border:1px solid $theme_border_medium_color;
+}
+.sesevent_thumb .sesevent_thumb_img > span{
+  background-position:center center;
+  background-repeat:no-repeat;
+  background-size:cover;
+  display:block;
+  height:100%;
+  width:100%;
+}
+.sesevent_list_info{
+	background-color:$theme_list_background_color;
+}
+/*Add to Calendar dropdown*/
+.sesevent_addtocalendar_options{
+	background-color:$theme_list_background_color;
+}
+.sesevent_addtocalendar_options:before{
+	border-bottom:10px solid $theme_border_dark_color;
+}
+/*Big Calendar*/
+.sesevent_calendar_container{
+  background-color:$theme_list_background_color;
+}
+.sesevent_calendar_header_left_btns a{
+	color:$theme_font_color_light !important;
+}
+.sesevent_calendar_header_left_btns a:hover{
+	color:$theme_link_color_hover !important;
+}
+.sesevent_calendar_container,
+.sesevent_calendar_main table td div{
+	border-color:$theme_border_medium_color;
+}
+.sesevent_calendar_main tbody td > div.day:hover,
+.sesevent_calendar_main tbody td > div.active{
+	border-color:$theme_border_dark_color;
+}
+.sesevent_calendar_main tbody td > div.day a.date,
+.sesevent_calendar_main tbody td > div a.date{
+	color:$theme_font_color !important;
+}
+.sesevent_calendar_main tbody td > div.day:hover a.date,
+.sesevent_calendar_main tbody td > div.active a.date{
+	color:$theme_link_color_hover !important;
+	text-decoration:none;
+}
+.sesevent_calendar_main th div,
+.sesevent_calendar_main tbody td > div.date_inactive{
+	color:$theme_font_color_light;
+}
+/*Album Pages*/
+#dragandrophandler, .sesevent_upload_url_content, .sesevent_upload_photos_container.iscontent{
+  background-color:$theme_body_background_color;
+}
+/*Update Photo Popup*/
+.sesevent_photo_update_popup_container,
+.sesevent_album_photo_update_popup_container{
+	background-color:$theme_body_background_color;
+	border:5px solid #ccc;
+	border-radius:5px;
+}
+.sesevent_photo_update_popup_header,
+.sesevent_album_photo_update_popup_header{
+  background-image:url(~/application/modules/Sesbasic/externals/images/t-img-light.png);
+  border-bottom:1px solid $theme_border_color;
+  font-size:15px;
+  font-weight:bold;
+  line-height:40px;
+  padding:0 10px;
+}
+.sesevent_album_photo_update_popup_header .fa{
+  float:right;
+	text-decoration:none !important;
+}
+/*Event Create Page*/
+.sesevent_timezone_popup_content{
+	background-color:$theme_body_background_color;
+}
+.sesevent_upload_dragdrop_content,
+.sesevent_upload_dragdrop_content_inner{
+	border-color:$theme_border_medium_color;
+}
+.sesevent_upload_dragdrop_content:hover{
+	border-color:$theme_button_background_color;
+}
+.sesevent_upload_dragdrop_content_inner i:before{
+	color:$theme_button_background_color;
+}
+/*Main Slideshow*/
+.sesevent_hero_carousel_btm_bar{
+	background-color:$theme_button_background_color;
+}
+.sesevent_hero_carousel_btm_bar a,
+.sesevent_hero_carousel_btm_bar a i:before{
+  color:$theme_button_font_color !important;
+}
+/*Collection List*/
+.sesevent_clist_item,
+.sesevent_clist_item_events{
+  background-color:$theme_list_background_color;
+}
+.sesevent_profile_members_list_options{
+	background-color:$theme_list_background_color;
+	border:1px solid $theme_border_medium_color;
+}
+.sesevent_profile_members_list_options a{
+  color:$theme_font_color !important;
+}
+.sesevent_profile_members_list_options a:hover{
+	background-color:$theme_list_background_color_hover;
+}
+/*PROFILE RSVP*/
+.sesevent_sidebar_rsvp_options{
+	background-color:$theme_list_background_color;
+}
+.sesevent_sidebar_rsvp_options a:hover,
+.sesevent_sidebar_rsvp_options a.selected{
+	background-color:$theme_list_background_color_hover;
+}
+.layout_sesevent_event_cover + .layout_sesevent_buy_ticket{
+  background-color:$theme_list_background_color;
+}
+/*Welcome Page*/
+#global_page_sesevent-index-welcome{background-color:$theme_list_background_color;}
+#global_page_sesevent-index-welcome .layout_sesbasic_simple_html_block h2:after,
+#global_page_core-index-index .layout_sesbasic_simple_html_block h2:after{
+  border-bottom-color:$theme_button_background_color;
+}
+/*Composer*/
+#compose-seseventphoto-activator:before, 
+#compose-seseventphoto-menu span:before{
+  content:"\\f03e";
+	font-family:'Font Awesome 5 Free';
+  margin-right:6px;
+  color:#4CAF50;
+}
+#compose-seseventphoto-form-fancy-file{
+	width:140px;
+	height:106px;
+	float:left;
+	display:inline-flex;
+	text-align:center;
+	border:1px dashed;
+	box-sizing:border-box;
+	vertical-align:middle;
+	margin:5px;
+	flex-direction:column;
+	justify-content:center;
+}
+#compose-seseventphoto-form-fancy-file:before{
+  font-family:'Font Awesome\ 5 Free';
+  content:"\\f067";
+	font-weight:900;
+  display:list-item;
+  list-style-type:none;
+  font-size:20px;
+  font-style:normal;
+  margin-right:0;
+}
+#compose-seseventphoto-preview-image{
+  max-width:160px;
+}
+/*Host Social Buttons*/
+.sesevent_host_social_links a{background-color:$theme_button_background_color;}
+.sesevent_host_social_links a:hover{background-color:$theme_button_background_color_hover;}
+.sesevent_host_social_links a i:before{color:$theme_button_font_color;}
+
+@media (max-width:767px){
+  .sesevent_quick_create_button{display:none;}
+}

@@ -1,0 +1,45 @@
+
+.sesgdpr_icon_add{
+	background-image:url(~/application/modules/Sesgdpr/externals/images/icons/add.png);
+}
+/*Details Popup*/
+.sesgdpr_details_popup{
+	width:600px;
+	margin:15px 0 0 15px;
+}
+.sesgdpr_details_popup ._row{
+	overflow:hidden;
+	padding:10px 0;
+}
+.sesgdpr_details_popup ._row + ._row{
+	border-top-width:1px;
+}
+.sesgdpr_details_popup ._row ._l{
+	float:left;
+	font-weight:bold;
+	margin-right:15px;
+	width:150px;
+}
+.sesgdpr_details_popup ._row ._v{
+	overflow:hidden;
+}
+/*Popup Form*/
+.sesgdpr_form_popup{
+	width:700px;	
+}
+.sesgdpr_form_popup div.form-label{
+	width:110px;
+}
+#global_page_sesgdpr-admin-settings-add-service input[type=text], #global_page_sesgdpr-admin-settings-add-service textarea, #global_page_sesgdpr-admin-settings-add-service select{
+	width: 100% !important;
+	max-width: 100%;
+	box-sizing: border-box;
+	min-width: inherit !important;
+}
+#global_page_sesgdpr-admin-settings-add-service .settings .form-label {
+  width: 120px;
+}
+#global_page_sesgdpr-admin-settings-audit-log #global_content textarea {
+	width: calc(100% - 20px);
+	height: 70px;
+}

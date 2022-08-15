@@ -1,0 +1,142 @@
+
+.sesact_feed ul.pinfeed .sesact_pinfeed_hidden{
+	display:none !important;
+}
+.sesact_feed ul.pinfeed{
+	margin:0 -5px;
+}
+/*Block*/
+.sesact_feed ul.pinfeed li.sesact_ads_camp > div{
+	margin:0 5px;
+}
+.sesact_feed ul.pinfeed li.sesact_pinfeed{
+	display:block;
+	float:left;
+}
+.sesact_feed ul.pinfeed li.sesact_pinfeed,
+.sesact_feed ul.pinfeed li.sesact_ads_camp,
+.sesact_feed ul.pinfeed li.sesact_ads_pymk{
+	padding:0;
+	border-width:0 !important;
+	background:none !important;
+}
+.sesact_feed ul.pinfeed li.sesact_pinfeed > section{
+	border-width:1px;
+	position:relative;
+	margin:5px;
+}
+html .sesact_feed ul.pinfeed > li._photocenter{
+	margin:0 !important;
+	padding:40px 5px 5px !important;
+}
+.sesact_feed ul.pinfeed > li._photocenter > section{
+	padding-top:20px;
+}
+/*Header*/
+.sesact_feed ul.pinfeed .sesact_feed_header{
+	padding:15px;
+}
+.sesact_feed ul.pinfeed .sesact_feed_item_photo{
+	border-radius:50%;
+	overflow:hidden;
+}
+.sesact_feed ul.pinfeed .sesact_feed_item_photo img{
+	border-width:0;
+}
+/*Feed Body*/
+.sesact_feed ul.pinfeed .feed_item_body{
+	padding:0 15px;
+}
+/*Attachments*/
+.sesact_feed ul.pinfeed .feed_item_attachments{
+	overflow:visible;
+}
+.sesact_feed ul.pinfeed .feed_item_attachments,
+.sesact_feed ul.pinfeed .feed_item_map,
+.sesact_feed ul.pinfeed .feed_item_sticker {
+	padding: 0 0 15px;
+}
+.sesact_feed ul.pinfeed .feed_item_body.feed_background_image{
+	min-height:250px;
+}
+.sesact_feed ul.pinfeed .feed_attachment_sescontest_contest > div > a,
+.sesact_feed ul.pinfeed .feed_attachment_sescontest_participant > div > a{
+	float:none;
+}
+.sesact_feed ul.pinfeed .feed_attachment_sescontest_contest > div > a img,
+.sesact_feed ul.pinfeed .feed_attachment_sescontest_participant > div > a img{
+	width: 100% !important;
+	max-width: 100% !important;
+}
+.sesact_feed ul.pinfeed .sescontest_feed_item_audio_bg{
+	height:250px;
+}
+.sesact_feed ul.pinfeed .sescontest_feed_item_audio_img{
+	width:90%;
+}
+.sesact_feed ul.pinfeed .sescontest_feed_item_audio_img img,
+.sesact_feed ul.pinfeed .sescontest_feed_item_audio_img video{
+	background-color:#000;
+	height:180px;
+	width:100%;
+}
+/*Photo Attachment*/
+.sesact_feed ul.pinfeed .feed_item_attachments.feed_images,
+.sesact_feed ul.pinfeed .sescontest_feed_item_audio_container{
+	padding: 0;
+	margin: 0 -10px;
+}
+.sesact_feed ul.pinfeed [class*='feed_images_'] [class*='feed_attachment_'] .feed_attachment_photo{
+	border-width:0 !important;
+	margin:0;
+}
+.sesact_feed ul.pinfeed [class*='feed_images_'] > [class*='feed_attachment_'] .feed_attachment_photo a{
+	text-align:center;
+}
+.sesact_feed ul.pinfeed .feed_item_attachments > span > div > a{
+	margin:0;
+}
+.sesact_feed ul.pinfeed .feed_item_attachments > span > div > a img{
+	vertical-align:middle;
+	max-height:inherit !important;
+	max-width:100%;
+}
+.sesact_feed ul.pinfeed .feed_item_attachments > span > div > a + div{
+	margin-top:10px;
+}
+.sesact_feed ul.pinfeed .feed_item_attachments > span > div > div{
+	clear: both;
+	float: left;
+	width: 100%;
+}
+.sesact_feed ul.pinfeed .feed_item_attachments > span > div > div
+.sesact_feed ul.pinfeed .sesact_feed_item_buysell_btn{
+	padding:10px 0;
+}
+/*Comments*/
+.sesact_feed ul.pinfeed .feed_item_icon{
+	margin:0;
+	padding:15px;
+}
+.sesact_feed ul.pinfeed .feed_item_icon li a{
+	font-weight:normal;
+}
+.sesact_feed ul.pinfeed .feed_item_icon li a i{
+	background-size:17px;
+	width:17px;
+	height:17px;
+	line-height:17px;
+	margin-right:5px;
+}
+.sesact_feed ul.pinfeed .feed_item_icon li a i:before{
+	font-size:17px;
+}
+.sesact_feed ul.pinfeed .sesact_comments .comments{
+	margin-top:0;
+}
+.sesact_feed ul.pinfeed .feed_item_option_share .sesadvcmt_hoverbox{
+	margin-left:-130px;
+}
+@media only screen and (max-width: 480px){
+	.sesact_feed ul.pinfeed li.sesact_pinfeed{width:100% !important;}
+}

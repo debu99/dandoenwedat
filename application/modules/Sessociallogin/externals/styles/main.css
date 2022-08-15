@@ -1,0 +1,136 @@
+
+
+
+.sessl_facebook a{
+	background-color:#4867AA;
+}
+.sessl_twitter a{
+	background-color:#1DA1F2;
+}
+.sessl_linkedin a{
+	background-color:#0077B5;
+}
+.sessl_google a{
+	background-color:#DC4A38;
+}
+.sessl_pinterest a{
+	background-color:#BD081B;
+}
+.sessl_yahoo a{
+	background-color:#A107D7;
+}
+.sessl_hotmail a{
+	background-color:#F89839;
+}
+.sessl_instagram a{
+	background-color:#2E5E86;
+}
+.sessl_flickr a{
+	background-color:#0063dc;
+}
+.sessl_vk a{
+	background-color:#4C75A3;
+}
+.sessl_yahoo i{
+	background-image:url(~/application/modules/Sessociallogin/externals/images/yahoo.png);
+}
+/*Popup Buttons*/
+.sessl_popup_buttons{
+	margin-bottom:10px;
+}
+.sessocial_login_btns ul{
+	text-align:center;
+}
+.sessocial_login_btns ul li{
+	display:inline-block;
+	margin:0 0 3px;
+	vertical-align:top;
+}
+.sessocial_login_btns ul li a{
+	color:#fff;
+	display:block;
+	overflow:hidden;
+	text-decoration:none !important;
+	text-align:center;
+	-webkit-transition:all 500ms ease 0s;
+	-moz-transition:all 500ms ease 0s;
+	-o-transition:all 500ms ease 0s;
+	transition:all 500ms ease 0s;
+}
+.sessocial_login_btns ul li a i{
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:20px;
+	color:#fff;
+	float:left;
+	height:40px;
+	width:40px;
+	line-height:40px;
+	font-size:15px;
+}
+.sessocial_login_btns ul li a span{
+	color:#fff;
+	overflow:hidden;
+	display:none;
+	font-size:12px;
+	line-height:40px;
+	border-left:1px solid rgba(255, 255, 255, .1);
+	padding:0 20px;
+}
+.social_login_btns_label ul li{
+	width:48%;
+}
+.social_login_btns_label ul li a span{
+	display:block !important;
+}
+.sessocial_login_btns ul li a span{
+	margin-left:10px;
+	display:none;
+}
+.sessocial_login_btns ul li a:hover{
+	opacity:0.8;
+}
+.social_login_btns_label .sessocial_login_btns ul li.yahoo i{
+	width:24px;
+	height:15px;
+}
+/*sidebar social login css*/
+.sidebar_social_login_icons ul li{
+	margin:3px;
+}
+
+/*Blocks Layout Start Here*/
+.sessl_buttons_box, .sessl_buttons_box_wrapper .global_form{
+	background-color:$theme_list_background_color;
+}
+.sessl_buttons_box_sep:before{
+	content:"";
+	height:100%;
+	position:absolute;
+	border-left:1px solid $theme_border_color;
+	left:50%;
+	margin-left:-1px;
+}
+.sessl_buttons_box_sep span{
+	box-shadow: 0 0 5px rgba(0, 0, 0, .1);
+	background-color:$theme_list_background_color;
+	margin:140px 0;
+	display:inline-block;
+	font-size:20px;
+	position:relative;
+	border-width:1px;
+	border-radius:50%;
+	height:60px;
+	width:60px;
+	line-height:60px;
+	text-align:center;
+}
+.sessl_buttons_box_wrapper.frombottom .sessl_buttons_box_sep span {
+	margin:120px 0;
+	display:inline-block;
+	font-size:20px;
+	height:60px;
+	width:60px;
+	line-height:60px;
+}
+/*Blocks Layout End Here*/

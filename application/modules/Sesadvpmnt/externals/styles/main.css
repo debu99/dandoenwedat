@@ -1,0 +1,20 @@
+
+
+.sesadvpmnt_stripe_payment_step{
+	border-width:1px;
+	padding:25px 0;
+}
+.sesadvpmnt_stripe_pay_hint_txt{
+	text-align:center;
+	margin-bottom:15px;
+}
+.sesadvpmnt_stripe_pay_button{
+	text-align:center;
+}
+.sesadvpmnt_stripe_pay_button button.stripe-button-el span{
+	line-height:40px;
+	height:40px;
+	padding:0 60px;
+	text-transform:uppercase;
+	letter-spacing:2px;
+}

@@ -1,0 +1,2 @@
+UPDATE `engine4_activity_notificationtypes` SET `body` = 'Your scheduled {var:$postLink} has been made live.' WHERE `engine4_activity_notificationtypes`.`type` = 'sesadvancedactivity_scheduled_live';
+ALTER TABLE `engine4_sesadvancedactivity_filterlists` ADD `file_id` INT(11) NOT NULL DEFAULT '0';

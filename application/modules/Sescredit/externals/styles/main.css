@@ -1,0 +1,111 @@
+
+/*Generic Container*/
+[class*='layout_sescredit_'],
+[id^='global_page_sescredit-'] .layout_core_content{
+  clear:both;
+  margin-bottom:15px;
+}
+[class*='layout_sescredit_']:after,
+[id^='global_page_sescredit-'] .layout_core_content:after{
+  clear:both;
+  content:'';
+  display:block;
+}
+[class*='tab_layout_sescredit_']{
+  margin:0;
+  clear:none;
+}
+.sescredit_mybadge:before{
+  background-color:$theme_button_background_color;
+}
+.sescredit_mybadge ._badgename span{
+  border:1px solid $theme_button_border_color;
+  background-color:$theme_button_background_color;
+  color:$theme_button_font_color;
+}
+.sescredit_mybadge ._badgedes{
+  background-color:$theme_button_background_color;
+  color:$theme_button_font_color;
+}
+.sescredit_mypointsinfo ._pointsbar ._bar span{
+	background-color:$theme_button_background_color;
+	color:$theme_button_font_color;
+}
+.sescredit_activitypoints_info_search > div,
+.sescredit_activitypoints_info ._pointstable_content_heading{
+	background-color:$theme_list_background_color_hover;
+}
+.sescredit_my_points_cont > div article{
+  border:1px solid $theme_button_background_color;
+}
+.sescredit_purchase_points_form #sescredit_site_offers-element li input + label{
+  background-color:$theme_list_background_color;
+  border-color:$theme_button_background_color;
+}
+.sescredit_purchase_points_form #sescredit_site_offers-element li input:checked + label{
+  background-color:$theme_button_background_color;
+  color:$theme_button_font_color;
+}
+.sescredit_purchase_total{
+  background-color:$theme_list_background_color;  
+}
+.sescredit_member_level ._currentlavel{
+  border:1px solid $theme_button_background_color;
+  background-color:$theme_list_background_color_hover;
+}
+.sescredit_invite_btn a,
+.sescredit_mypointsinfo ._single_badge ._topoints span{
+  border:1px solid $theme_button_border_color;
+  background-color:$theme_button_background_color;
+  color:$theme_button_font_color !important;
+}
+.sescredit_invite_btn a:hover{
+  background-color:$theme_button_background_color_hover;
+}
+.sescredit_referral_field{
+  border:1px dashed $theme_button_background_color_hover;
+  background-color:$theme_list_background_color;
+}
+.sescredit_lds_ring div{
+  border-color: $theme_button_background_color_hover transparent transparent transparent !important;
+}
+.sescredit_badges_item._current article{
+  border-color:$theme_button_border_color;
+  background-color: $theme_button_background_color;
+}
+.sescredit_badges_item._current article *{
+  color: $theme_button_font_color;
+}
+.sescredit_browse_members_item ._buttons a{
+	border-color:$theme_border_color !important;
+}
+/*Help Centre*/
+#global_page_sescredit-index-help .layout_sescredit_browse_menu{
+  max-width:$theme_content_width;
+}
+.sescredit_help_center ._container{
+  max-width:$theme_content_width;
+}
+.sescredit_help_center .earn_free ul li:before{
+  color: $theme_button_background_color;
+}
+.sescredit_help_center .earn_free{
+  background: $theme_list_background_color;
+}
+.sescredit_help_center .banner_left h2,
+.sescredit_help_center .banner_left p,
+.earn_free a.gift_card,
+.join_us h4{
+  color:$theme_button_font_color;
+}
+.sescredit_help_center .login_signup, 
+.waysto_earn_head > div,
+.waysto_earn_bottom > div{
+  background-color: $theme_list_background_color;
+}
+.earn_free a.gift_card{
+  background-color: $theme_button_background_color;
+}
+.waysto_earn ._title{
+  color:$theme_font_color;
+}

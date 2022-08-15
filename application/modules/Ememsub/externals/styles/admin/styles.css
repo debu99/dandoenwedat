@@ -1,0 +1,281 @@
+
+
+/*Icons*/
+.ememsub_icon_add{
+	background-image:url(../../images/add.png);
+}
+.ememsub_icon_back{
+	background-image:url(../../images/back.png);
+}
+.ememsub_search_reasult{
+	margin-bottom:15px;
+}
+/*Plans Style Form*/
+.ememsub_plan_style_form #coulmn_header-wrapper,
+.ememsub_plan_style_form #column_footer-wrapper{
+	border-bottom-width:1px;
+	margin-bottom:10px;
+}
+.ememsub_plan_style_form #coulmn_header-wrapper .form-label,
+.ememsub_plan_style_form #column_footer-wrapper .form-label{
+	font-size:17px;
+	width:100%;
+}
+/*Popop Form*/
+.ememsub_popup_form{
+	width:600px;
+	margin:15px 0 0 15px;
+}
+.ememsub_popup_form .form-wrapper{
+	display:flex;
+}
+.ememsub_popup_form .form-element{
+	flex:1;
+}
+.ememsub_popup_form .form-element input[type="text"],
+.ememsub_popup_form .form-element select,
+.ememsub_popup_form .form-element textarea{
+	max-width:100%;
+	width:100% !important;
+	min-width:inherit !important;
+	box-sizing:border-box;
+}
+/*Add Features Form*/
+.ememsub_plan_features_form #expand_all-wrapper .form-label,
+.ememsub_plan_features_form #icon_upload-wrapper .form-label,
+.ememsub_plan_features_form .showhide_element .form-label{
+	display:none;
+}
+.ememsub_plan_features_form #expand_all-wrapper .form-element a,
+.ememsub_plan_features_form #icon_upload-wrapper .form-element a,
+.ememsub_plan_features_form .showhide_element .form-element a{
+	font-weight:bold;
+}
+/*Manage Packages Table*/
+.admin_packages_table .ememsub_manage_img_preview_wrap{
+	position:relative;
+	display:inline-block;
+}
+.admin_packages_table .ememsub_manage_img_preview_wrap > img{
+	cursor:pointer;
+}
+.admin_packages_table .ememsub_manage_img_preview_wrap > div{
+	background-color:#ffffff;
+	display:none;
+	position:absolute;
+	padding:5px;
+	border-radius:5px;
+	box-shadow:0 0 5px rgba(0, 0, 0, .5);
+	z-index:1;
+}
+.admin_packages_table .ememsub_manage_img_preview_wrap > div img{
+	max-width:200px;
+	vertical-align:middle;
+}
+.admin_packages_table .ememsub_manage_img_preview_wrap:hover > div{
+	display:block;
+}
+/*Navigation Button*/
+.ememsub_nav_btns a:before{
+	font-family:"FontAwesome";
+	left:10px;
+	position:absolute;
+	font-size:17px;
+	font-weight:400;
+	top:5px;
+}
+.ememsub_nav_btns a.help-btn:before{
+	content:"\f059";
+}
+/*Activation Loading Message*/
+.ememsub_waiting_msg_box{
+	background-color:rgba(255, 255, 255, 0.8);
+	height:100%;
+	left:0;
+	position:fixed;
+	top:0;
+	width:100%;
+}
+.ememsub_waiting_msg_box_cont{
+	background-color:rgba(255, 255, 255, 0.8);
+	border:5px solid #43bbef;
+	box-shadow:0 0 5px rgba(0, 0, 0, 0.5);
+	font-size:20px;
+	font-weight:bold;
+	height:100px;
+	left:50%;
+	margin:-50px 0 0 -300px;
+	padding:20px;
+	position:fixed;
+	text-align:center;
+	top:50%;
+	width:600px;
+	z-index:24;
+}
+.ememsub_waiting_msg_box_cont i{
+	background-image:url(../../images/loading.gif);
+	background-position:center center;
+	background-repeat:no-repeat;
+	display:block;
+	height:30px;
+	margin-top:20px;
+	width:100%;
+}
+/*Help & Support Page*/
+.ememsub_support_links{
+	display:flex;
+	flex-wrap:wrap;
+}
+.ememsub_support_links a{
+	padding:20px 10px 15px;
+	width:30%;
+	margin:5px;
+	text-decoration:none !important;
+	transition:all .5s ease;
+}
+.ememsub_support_links a h4{
+	font-size:17px;
+	font-weight:bold;
+	color:#706e6e;
+	margin-top:5px;
+}
+.ememsub_support_links a p{
+	clear:both;
+	font-size:13px;
+	margin-top:10px;
+	color:#818181;
+	text-align:justify;
+}
+.ememsub_support_links a p span._btn{
+	background-color:#0DC7F1;
+	color:#fff;
+	float:right;
+	padding:3px 10px;
+	margin-top:10px;
+	text-transform:uppercase;
+	font-size:90%;
+}
+.ememsub_support_links a:nth-child(1){
+	background:#e1f9ed;
+}
+.ememsub_support_links a:nth-child(2){
+	background:#daf5ce;
+}
+.ememsub_support_links a:nth-child(3){
+	background:#fbf9d6;
+}
+.ememsub_support_links a:nth-child(4){
+	background:#ffe4ed;
+}
+.ememsub_support_links a:nth-child(5){
+	background:#ebe0ff;
+}
+.ememsub_support_links a:nth-child(6){
+	background:#eeffd8;
+}
+.ememsub_support_links a:nth-child(7){
+	background:#e3fffa;
+}
+.ememsub_support_links a:nth-child(8){
+	background:#e3e7ff;
+}
+.ememsub_support_links a:nth-child(9){
+	background:#ffecee;
+}
+.ememsub_support_links a img{
+	float:left;
+	margin:0 10px 10px 0;
+	width:30px;
+}
+.ememsub_support_links b{
+	font-weight:bold;
+}
+.ememsub_support_social_buttons{
+	margin-top:30px;
+}
+.ememsub_support_social_buttons ul{
+	display:flex;
+	justify-content:center;
+}
+.ememsub_support_social_buttons ul li{
+	padding:0 5px;
+	width:25%;
+}
+.ememsub_support_social_buttons ul li._facebook a{
+	background-color:#3a589b;
+}
+.ememsub_support_social_buttons ul li._twitter a{
+	background-color:#1da1f2;
+}
+.ememsub_support_social_buttons ul li._youtube a{
+	background-color:#cf3427;
+}
+.ememsub_support_social_buttons ul li._se a{
+	background-color:#000000;
+}
+.ememsub_support_social_buttons ul a{
+	justify-content:center;
+	align-items:center;
+	display:flex;
+	text-align:center;
+	color:#fff;
+	height:50px;
+	box-shadow:0 5px 5px rgba(0, 0, 0, .2);
+	position:relative;
+	-webkit-transition:all 200ms ease 0s;
+	-moz-transition:all 200ms ease 0s;
+	-o-transition:all 200ms ease 0s;
+	transition:all 200ms ease 0s;
+	top:0;
+}
+.ememsub_support_social_buttons ul a:hover{
+	text-decoration:none;
+	top:-5px;
+}
+.ememsub_support_social_buttons ul a i{
+	margin-right:8px;
+	font-size:17px;
+	vertical-align:middle;
+}
+.ememsub_support_social_buttons ul li._se img{
+	width:17px;
+	vertical-align:middle;
+}
+.ememsub_support_social_buttons ul a span{
+	font-weight:bold;
+}
+.ememsub_support_contact_links{
+	margin-top:30px;
+}
+.ememsub_support_contact_links ul{
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	background-color:#f8f8f8;
+	padding:20px;
+}
+.ememsub_support_contact_links ul li{
+	margin:0 10px;
+	font-size:15px;
+}
+.ememsub_support_contact_links ul li i{
+	font-size:20px;
+	margin-right:5px;
+	vertical-align:middle;
+}
+.ememsub_support_contact_links ul li i img{
+	max-height:30px;
+}
+.ememsub_support_contact_links ul li span,
+.ememsub_support_contact_links ul li span a{
+	font-weight:bold;
+}
+.ememsub_support_contact_links ul li i.fa-skype{
+	color:#00aaf2;
+}
+.ememsub_support_contact_links ul li i.fa-whatsapp{
+	color:#4caf50;
+}
+.ememsub_support_contact_links ul li i.fa-phone{
+	color:#fc7a51;
+}

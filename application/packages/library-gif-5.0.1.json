@@ -1,0 +1,70 @@
+{
+  "type": "library",
+  "name": "gif",
+  "version": "5.0.1",
+  "revision": "10171",
+  "path": "application\/libraries\/GIF",
+  "repository": null,
+  "sku": null,
+  "date": "Tue, 03 Mar 2020 10:38:56 +0000",
+  "title": "GIF",
+  "description": null,
+  "thumb": null,
+  "developer": null,
+  "authors": [
+    "Webligo Developments"
+  ],
+  "meta": {
+    "date": "Tue, 03 Mar 2020 10:38:56 +0000",
+    "title": "GIF",
+    "description": null,
+    "developer": null,
+    "authors": [
+      "Webligo Developments"
+    ],
+    "changeLog": null
+  },
+  "actions": [
+    
+  ],
+  "callback": null,
+  "dependencies": null,
+  "tests": [
+    
+  ],
+  "permissions": [
+    
+  ],
+  "structure": {
+    "application\/libraries\/GIF": {
+      "type": "directory",
+      "path": "application\/libraries\/GIF",
+      "structure": [
+        {
+          "path": "Encoder.php",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 7744,
+          "sha1": "0115d8bb2575e63da5b210b5615977cab9de4cb5"
+        },
+        {
+          "path": "Decoder.php",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 8976,
+          "sha1": "3fc98cd29bd7ce1d74f13b07119061bba9bab759"
+        },
+        {
+          "path": "manifest.php",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 379,
+          "sha1": "5beb696a2e2af43d5ec663712cd9e812bd488892"
+        }
+      ]
+    }
+  }
+}

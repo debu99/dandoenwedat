@@ -1,0 +1,364 @@
+
+
+/*Buttons Design 1 Start Here*/
+.layout_sessociallogin_social_login_buttons{
+	display:none;
+}
+.sessl_buttons_label{
+	font-weight:bold;
+	margin-bottom:10px;
+	font-size:15px;
+}
+.sessl_buttons ul li{
+	display:inline-block;
+	padding:4px;
+	vertical-align:top;
+}
+.sessl_buttons ul li a{
+	color:#fff;
+	display:block;
+	overflow:hidden;
+	text-decoration:none !important;
+	text-align:center;
+	-webkit-transition:all 500ms ease 0s;
+	-moz-transition:all 500ms ease 0s;
+	-o-transition:all 500ms ease 0s;
+	transition:all 500ms ease 0s;
+}
+.sessl_buttons ul li a:hover{
+	opacity:.8;
+}
+.sessl_buttons ul li a i{
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:20px;
+	float:left;
+	height:40px;
+	width:40px;
+	line-height:40px;
+	font-size:15px;
+}
+.sessl_buttons ul li a span{
+	overflow:hidden;
+	display:none;
+	line-height:40px;
+	border-left:1px solid rgba(255, 255, 255, .1);
+	padding:0 20px;
+}
+.sessl_buttons._islabel ul li{
+	min-width:240px;
+}
+.sessl_buttons._islabel ul li a span{
+	display:block;
+}
+.sociallogin_form_buttons_wrapper{
+	margin-top:15px;
+}
+/*Placed on Right Side*/
+.sessl_buttons_right_wrapper{
+	overflow:hidden;
+}
+.sessl_buttons_right_wrapper > h2{
+	display:none;
+}
+.sessl_buttons_right{
+	float:right;
+	width:50%;
+	text-align:center;
+	background-color:rgba(0, 0, 0, .05);
+	padding:20px;
+}
+.sessl_buttons_right_wrapper .global_form{
+	overflow:hidden;
+	display:block;
+	clear:none;
+	width:50%;
+}
+.sessl_buttons_right_wrapper .global_form > div > div{
+	border-width:0;
+}
+.sessl_buttons_right .sessl_buttons_label{
+	text-align:center;
+	font-size:17px;
+	margin-bottom:15px;
+}
+.sessl_buttons_right._islabel ul li{
+	min-width: inherit;
+	width: 50%;
+	margin: 2px auto 0;
+	margin-left: -3px;
+}
+@media only screen and (min-width:768px){
+	.sessl_buttons_right.sessl_buttons ul li a i {
+		background-size:40px;
+		float:left;
+		height:110px;
+		width:110px;
+		line-height:110px;
+		font-size:30px;
+	}
+	.sessl_buttons_right._islabel ul li a i{
+		background-size:20px;
+		float:left;
+		height:40px;
+		width:40px;
+		line-height:40px;
+		font-size:15px;
+	}
+}
+.sessl_buttons_right_wrapper.fromleft .sessl_buttons_right{
+	float:left;
+}
+/*With Plain Label*/
+.sessl_buttons._plainlabel ul li a span{
+	background-color:#fff;
+	line-height:36px;
+	margin:2px;
+}
+.sessl_buttons._plainlabel .sessl_facebook a span{color:#4867AA;}
+.sessl_buttons._plainlabel .sessl_twitter a span{color:#1DA1F2;}
+.sessl_buttons._plainlabel .sessl_instagram a span{color:#2E5E86;}
+.sessl_buttons._plainlabel .sessl_linkedin a span{color:#0077B5;}
+.sessl_buttons._plainlabel .sessl_google a span{color:#DC4A38;}
+.sessl_buttons._plainlabel .sessl_pinterest a span{color:#DC4A38;}
+.sessl_buttons._plainlabel .sessl_pinterest a span{color:#BD081B;}
+.sessl_buttons._plainlabel .sessl_yahoo a span{color:#A107D7;}
+.sessl_buttons._plainlabel .sessl_hotmail a span{color:#F89839;}
+.sessl_buttons._plainlabel .sessl_flickr a span{color:#0063dc;}
+.sessl_buttons._plainlabel .sessl_vk a span{color:#4C75A3;}
+
+/*Placed on Left Side*/
+@media only screen and (max-width:900px){
+	.sessl_buttons._islabel ul li{width:100% !important;}
+}
+@media only screen and (max-width:767px){
+	.sessl_buttons_right_wrapper .sessl_buttons_right,
+	.sessl_buttons_right_wrapper .global_form{
+		margin-left:0;
+		margin-right:0;
+		width:100%;
+	}
+	.sessl_buttons_right_wrapper .sessl_buttons_right{margin-bottom:20px;}
+	.sessl_buttons_right_wrapper .global_form > div > div{padding:20px;}
+	.sessl_buttons ul li,
+	.sessl_buttons._islabel ul li{width:48px !important;min-width: inherit;}
+	.sessl_buttons._islabel ul li a span{display:none;}
+}
+/*Buttons Design 1 End Here*/
+/*Buttons Design 2 Start Here*/
+.sessl_buttons_box_wrapper{
+	background-color:transparent !important;
+	border-width:0 !important;
+	box-shadow:none !important;
+	padding:0 10px 10px !important;
+	overflow:hidden;
+}
+.sessl_buttons_box_wrapper > h2{display:none;}
+.sessl_buttons_box{
+	box-shadow:0 0 5px rgba(0, 0, 0, .1);
+	border-width:1px;
+	float:left;
+	width:40%;
+}
+.sessl_buttons_box_head,
+.sessl_buttons_box_wrapper .global_form > div > div > h3{
+	background-color:transparent;
+	box-shadow:none;
+	background-image:url(../images/transprant-bg.png);
+	padding:10px;
+	font-weight:normal;
+	text-align:center;
+	font-size:20px;
+	border-bottom-width:1px;
+	letter-spacing:normal;
+	box-shadow:0 0 3px rgba(0, 0, 0, .1);
+}
+.sessl_buttons_box_cont{
+	padding:20px 10px 10px;
+}
+.sessl_buttons_box ul{
+	text-align:center;
+	max-width:330px;
+	margin:0 auto;
+}
+.sessl_buttons_box ul li{
+	display:inline-block;
+	margin:0 1px 15px 5px;
+	vertical-align:top;
+}
+.sessl_buttons_box ul li a{
+	color:#fff;
+	display:block;
+	overflow:hidden;
+	text-decoration:none !important;
+	text-align:center;
+	-webkit-transition:all 500ms ease 0s;
+	-moz-transition:all 500ms ease 0s;
+	-o-transition:all 500ms ease 0s;
+	transition:all 500ms ease 0s;
+}
+.sessl_buttons_box ul li a:hover{
+	opacity:.8;
+}
+.sessl_buttons_box ul li a i{
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:40px;
+	float:left;
+	height:70px;
+	width:70px;
+	line-height:70px;
+	font-size:35px;
+}
+.sessl_buttons_box ul li span{
+	display:none;
+	font-size:11px;
+	margin-top:3px;
+}
+.sessl_buttons_box._islabel ul li span{
+	display:block;
+}
+.sessl_buttons_box_sep{
+	float:left;
+	width:15%;
+	text-align:center;
+	position:relative;
+}
+.sessl_buttons_box_wrapper .global_form{
+	box-shadow:0 0 5px rgba(0, 0, 0, .1);
+	border-width:1px;
+	float:right;
+	clear:none;
+	width:45%;
+	box-sizing:border-box;	
+}
+.sessl_buttons_box_wrapper .global_form > div,
+.sessl_buttons_box_wrapper .global_form > div > div{
+	background:none;
+	border-width:0;
+	padding:0;
+	width:100%;
+}
+.sessl_buttons_box_wrapper .global_form > div > div > h3 + p{
+	margin:20px 20px 0;
+}
+.sessl_buttons_box_wrapper .global_form .form-elements{
+	margin:20px;
+}
+.sessl_buttons_box_wrapper .global_form div.form-label,
+.sessl_buttons_box_wrapper .global_form div.form-element{
+	max-width:inherit;
+	min-width:inherit;
+	text-align:left;
+	width:100%;
+}
+.sessl_buttons_box_wrapper .global_form div.form-label{
+	padding:0 0 5px;
+	margin-bottom:0;
+}
+.sessl_buttons_box_wrapper .global_form div.form-element input[type="text"],
+.sessl_buttons_box_wrapper .global_form div.form-element input[type="email"],
+.sessl_buttons_box_wrapper .global_form div.form-element input[type="password"],
+.sessl_buttons_box_wrapper .global_form div.form-element select{
+	box-sizing:border-box;
+	width:100%;
+	padding:8px 10px;
+	max-width:inherit;
+}
+.sessl_buttons_box_wrapper .global_form div > input + p{
+	padding-bottom:0;
+}
+.sessl_buttons_box_wrapper .global_form #terms-label,
+.sessl_buttons_box_wrapper .global_form #submit-label,
+.sessl_buttons_box_wrapper .global_form #forgot-label{
+	display:none;
+}
+.sessl_buttons_box_wrapper .global_form button[type=submit] {
+	padding:9px 20px;
+}
+.sessl_buttons_box_wrapper .global_form #remember-wrapper{
+	clear: both !important;
+	padding-left: 0 !important;
+	margin-top: 10px;
+}
+.sessl_buttons_box_wrapper .global_form #forgot-wrapper{
+	float: right;
+	margin-top: -35px;
+}
+.sessl_buttons_box_wrapper.fromright .sessl_buttons_box{
+	float:right;
+}
+.sessl_buttons_box_wrapper.fromright .sessl_buttons_box,
+.sessl_buttons_box_wrapper.fromright .sessl_buttons_box_sep{
+	float:right;
+}
+.sessl_buttons_box_wrapper.frombottom{
+	margin:0 auto !important;
+	max-width:600px;
+}
+.sessl_buttons_box_wrapper.frombottom .sessl_buttons_box,
+.sessl_buttons_box_wrapper.frombottom .sessl_buttons_box_sep,
+.sessl_buttons_box_wrapper.frombottom  .global_form{
+	width:100%;
+}
+.sessl_buttons_box_wrapper.frombottom .sessl_buttons_box ul{
+	max-width:inherit;
+}
+.sessl_buttons_box_wrapper.frombottom .sessl_buttons_box_sep span{
+	margin:10px 0;
+}
+@media only screen and (max-width:767px){
+	.sessl_buttons_box_wrapper.frombottom,
+	.sessl_buttons_box,
+	.sessl_buttons_box_sep,
+	.sessl_buttons_box_wrapper .global_form{
+		width:100%;
+	}
+	.sessl_buttons_box ul{max-width:inherit;}
+	.sessl_buttons_box_sep:before{display:none;}
+	.sessl_buttons_box_sep span {
+    margin: 10px 0;
+    font-size: 17px;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+	}
+}
+@media only screen and (max-width:480px){
+	.sessl_buttons_box ul li a i {
+    background-size: 22px;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    font-size: 22px;
+	}
+	.sessl_buttons_box._islabel ul li span {
+    display: none !important;
+	}
+}
+/*Buttons Design 2 End Here*/
+.layout_sessociallogin_socialbuttons{
+	margin-bottom:15px;
+}
+.sessl_w_container{
+	overflow:hidden;
+}
+.sessl_w_container .sessl_buttons_label{
+	text-align:center;
+}
+.sessl_w_container .sessl_buttons ul{
+	text-align:center;
+}
+.layout_left .sessl_buttons._islabel ul li,
+.layout_right .sessl_buttons._islabel ul li{
+	margin:5px auto;
+	min-width:inherit;
+	display:block;
+	width:100%;
+}
+.sessl_w_container .sessl_buttons_box{
+	width:100%;
+}
+.sessl_w_container .sessl_buttons_box ul{
+	max-width:100%;
+}

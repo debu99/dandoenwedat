@@ -1,0 +1,178 @@
+"Credit Value:";"Credit Value:"
+"Date:";"Date:"
+"Credit Type:";"Credit Type:"
+"Received this point at the time of signup.";"Received this point at the time of signup."
+"Transfer the point to your friend.";"Transfer the point to your friend."
+"Received this point from your friend.";"Received this point from your friend."
+"Upgrade Member Level";"Upgrade Member Level"
+"You don't have enough point for upgradng next member level.";"You don't have enough point for upgradng next member level."
+"Payment Pending";"Payment Pending"
+"Go to Credit Manage Page";"Go to Credit Manage Page"
+"Activity Type";"Activity Type"
+"Credit Values";"Credit Values"
+"First Time";"First Time"
+"Next Time";"Next Time"
+"Max Points/Day";"Max Points/Day"
+"Deduction Points";"Deduction Points"
+"No credit points found regarding this module.";"No credit points found regarding this module."
+"My Badge";"My Badge"
+"Current Badge";"Current Badge"
+"All Badge";"All Badge"
+"Credits";"Credits"
+"Credit Points";"Credit Points"
+"Debit Points";"Debit Points"
+"Remaining Points";"Remaining Points"
+"Validity Date";"Validity Date"
+"Credit Type";"Credit Type"
+"By Performing Activities";"By Performing Activities"
+"On Activity Deletion";"On Activity Deletion"
+"By Signup Affiliation";"By Signup Affiliation"
+"Transfer to Friends";"Transfer to Friends"
+"Receive from Friends";"Receive from Friends"
+"Buy From Site";"Buy From Site"
+"On Upgrade Member Level";"On Upgrade Member Level"
+"You are eligible for above badge by achieveing below point.";"You are eligible for above badge by achieveing below point."
+"Points Type";"Points Type"
+"Points Values";"Points Values"
+"Options";"Options"
+"On Signup Affiliation";"On Signup Affiliation"
+"View Details";"View Details"
+"There are no credits found.";"There are no credits found."
+"Return to Point Page";"Return to Point Page"
+"Please Enter Point Value.";"Please Enter Point Value."
+"You have receiced point on signup affiliation.";"You have receiced point on signup affiliation."
+"You have transfer point to your friend.";"You have transfer point to your friend."
+"Please Enter Friend Name.";"Please Enter Friend Name."
+"You don't have sufficient point for transfer.";"You don't have sufficient point for transfer."
+"You don't have point for transfer.";"You don't have point for transfer."
+"You have send successfully point.";"You have send successfully point."
+"Point value enter by you should be greather than one numeric.";"Point value enter by you should be greather than one numeric."
+"You already have sent upgrade request.";"You already have sent upgrade request."
+"Show Member levels";"Show Member levels"
+"%s Member";"%s Member";"%s Members"
+
+"SesSun";"Sun"
+"SesMon";"Mon"
+"SesTue";"Tue"
+"SesWed";"Wed"
+"SesThu";"Thu"
+"SesFri";"Fri"
+"SesSat";"Sat"
+"SesJan";"Jan"
+"SesFeb";"Feb" 
+"SesMar";"Mar" 
+"SesApr";"Apr"
+"SesMay";"May"
+"SesJun";"Jun"
+"SesJul";"Jul"
+"SesAug";"Aug"
+"SesSep";"Sep"
+"SesOct";"Oct"
+"SesNov";"Nov"
+"SesDec";"Dec"
+
+"Earn Credit Points <br/><span class=""_diffcolor"">& Have Fun !!";"Earn Credit Points <br/><span class=""_diffcolor"">& Have Fun !!"
+"Earn maximum credit points by doing certain activities on content & feeds. Utilize these earned points for getting new Badges and upgrade your membership too.";"Earn maximum credit points by doing certain activities on content & feeds. Utilize these earned points for getting new Badges and upgrade your membership too."
+" How to Earn Credits";" How to Earn Credits"
+"Earn Badges, Upgrade your Membership and do much more…";"Earn Badges, Upgrade your Membership and do much more…"
+"With the earned credit points your users can :";"With the earned credit points your users can :"
+"Get attractive Badges based on number of earned credit points.";"Get attractive Badges based on number of earned credit points."
+"Get their Membership upgrade to the next upper level.";"Get their Membership upgrade to the next upper level."
+"Can send Credit points to their friends & relatives.";"Can send Credit points to their friends & relatives."
+"Credit Points earned till Date!" => "Credit Points earned till Date!"
+"Get Started Now";"Get Started Now"
+"How to Earn Credit Points";"How to Earn Credit Points"
+"You’ll<span><i class='fa fa-heart'></i></span>to Earn !" => "You’ll<span><i class='fa fa-heart'></i></span>to Earn !"
+"Allow your users to<span class=""alter"">earn</span>";"Allow your users to<span class=""alter"">earn</span>"
+"as much<span class=""alter"">credit points</span> as they can.";"as much<span class=""alter"">credit points</span> as they can."
+
+"{item:$subject} has send you {var:$point} point.";"{item:$subject} has send you {var:$point} point."
+"ACTIVITY_TYPE_NOTIFY_SESCREDIT_SEND_POINT";"When I receive credit points from a friend."
+"Your member level upgrade request {item:$object} has been approved.";"Your member level upgrade request {item:$object} has been approved."
+"ACTIVITY_TYPE_NOTIFY_SESCREDIT_APPROVE_UPGRADE_REQUEST";"When my membership upgrade request is approved."
+
+"_EMAIL_SESCREDIT_APPROVE_UPGRADE_REQUEST_TITLE";"SES - Credits - Membership Upgrade Approval"
+"_EMAIL_SESCREDIT_APPROVE_UPGRADE_REQUEST_DESCRIPTION";"This email is sent to members when their request for Membership Upgrade is approved by admin."
+"_EMAIL_SESCREDIT_APPROVE_UPGRADE_REQUEST_SUBJECT";"Your membership upgrade request is approved"
+"_EMAIL_SESCREDIT_APPROVE_UPGRADE_REQUEST_BODY";"[header]
+
+Congratulations!! Your request for Membership Upgrade has been approved. Now you can enjoy the benefits of this new member level. 
+
+[footer]"
+
+"Your member level upgrade request {item:$object} has been rejected.";"Your member level upgrade request {item:$object} has been rejected."
+
+"ACTIVITY_TYPE_NOTIFY_SESCREDIT_REJECT_UPGRADE_REQUEST";"When my membership upgrade request is rejected."
+
+"_EMAIL_SESCREDIT_REJECT_UPGRADE_REQUEST_TITLE";"SES - Credits - Membership Upgrade Rejection"
+"_EMAIL_SESCREDIT_REJECT_UPGRADE_REQUEST_DESCRIPTION";"This email is sent to members their request for Membership Upgrade is Rejected by admin."
+"_EMAIL_SESCREDIT_REJECT_UPGRADE_REQUEST_SUBJECT";"Your membership upgrade request is rejected."
+"_EMAIL_SESCREDIT_REJECT_UPGRADE_REQUEST_BODY";"[header]
+
+Sorry, Your request for Membership Upgrade has been rejected. Please try again. 
+
+[footer]"
+
+"_EMAIL_SESCREDIT_SEND_UPGRADE_REQUEST_TITLE";"SES - Credits - New Membership Upgrade Request"
+"_EMAIL_SESCREDIT_SEND_UPGRADE_REQUEST_DESCRIPTION";"This email is sent to admin when a member on site requests upgrade membership in exchange of credit points."
+"_EMAIL_SESCREDIT_SEND_UPGRADE_REQUEST_SUBJECT";"New membership upgrade request."
+"_EMAIL_SESCREDIT_SEND_UPGRADE_REQUEST_BODY";"[header]
+
+ [owner_title] has requested to upgrade the Membership Level in exchange of credit plugins.
+
+Go to the admin panel to take appropriate action on this request.
+
+[footer]"
+
+"_EMAIL_SESCREDIT_SEND_POINT_TITLE";"SES - Credits - User received Credit points"
+"_EMAIL_SESCREDIT_SEND_POINT_DESCRIPTION";"This email is sent to members when they receive credit points from other members on your site."
+"_EMAIL_SESCREDIT_SEND_POINT_SUBJECT";"You have received Credit Points."
+"_EMAIL_SESCREDIT_SEND_POINT_BODY";"[header]
+
+ Congratulations!! You have been received [point] Credit points from [sender_title].
+
+[footer]"
+
+"_EMAIL_SESCREDIT_PURCHASE_POINT_TITLE";"SES - Credits - Credits Points Purchased"
+"_EMAIL_SESCREDIT_PURCHASE_POINT_DESCRIPTION";"This email is sent to admin when a member purchases credit points."
+"_EMAIL_SESCREDIT_PURCHASE_POINT_SUBJECT";"A member has purchased credit points."
+"_EMAIL_SESCREDIT_PURCHASE_POINT_BODY";"[header]
+
+ [owner_title] has purchased credit points from your website. Please check the details in admin panel.
+
+[footer]"
+
+"Site Admin has been sent you {item:$object} point.";"Site Admin has been sent you {item:$object} point."
+"ACTIVITY_TYPE_NOTIFY_SESCREDIT_SEND_BY_SITE";"When I receive reward points from site administrators."
+
+#Email Work
+"_EMAIL_SESCREDIT_SEND_BY_SITE_TITLE";"SES - Credits - Admin sent credit points to member"
+"_EMAIL_SESCREDIT_SEND_BY_SITE_DESCRIPTION";"This message is sent to members when you send credit points to them from admin panel."
+"_EMAIL_SESCREDIT_SEND_BY_SITE_SUBJECT";"Admin has sent Reward Points to you."
+"_EMAIL_SESCREDIT_SEND_BY_SITE_BODY";"[header]
+
+Congratulations!! You have been received <b>[point]</b> Reward Points from: 
+
+http://[host][object_link].
+
+[message]
+
+[footer]"
+
+"_EMAIL_SESCREDIT_RECEIVED_REFERRAL_POINT_TITLE";"SES - Credits - New Referral Points"
+"_EMAIL_SESCREDIT_RECEIVED_REFERRAL_POINT_DESCRIPTION";"This email is sent to members when their invited referrals join this website through their referral links."
+"_EMAIL_SESCREDIT_RECEIVED_REFERRAL_POINT_SUBJECT";"You have received new Referral points."
+"_EMAIL_SESCREDIT_RECEIVED_REFERRAL_POINT_BODY";"[header]
+
+Congratulation!! You have received [point] referral points as someone has joined through your referral link. Please check your referral points received in your Credit balance. 
+
+[footer]"
+
+"_EMAIL_SESCREDIT_PURCHASED_POINT_SUCCESS_TITLE";"SES - Credits - Purchasing Credits Points Successful"
+"_EMAIL_SESCREDIT_PURCHASED_POINT_SUCCESS_DESCRIPTION";"This email is sent to member(s) when a member purchased credit points and transaction is successful."
+"_EMAIL_SESCREDIT_PURCHASED_POINT_SUCCESS_SUBJECT";"You have purchased credit points."
+"_EMAIL_SESCREDIT_PURCHASED_POINT_SUCCESS_BODY";"[header]
+
+You have successfully purchased [point] credit points. Please check your transactions.
+
+[footer]"

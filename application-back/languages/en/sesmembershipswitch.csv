@@ -1,0 +1,36 @@
+"SES - Auto Switching of Membership Plans & Plans Expiry Notifica";"Auto Switching of Membership"
+"ACTIVITY_TYPE_SESMEMBERSHIPSWITCH_CHANGENOTIFI";"When my subscription level is modified."
+"ACTIVITY_TYPE_SESMEMBERSHIPSWITCH_NOTIFICATION";"For my subscription plan expiry."
+
+# sesmembershipswitch_level_change
+"_EMAIL_SESMEMBERSHIPSWITCH_LEVEL_CHANGE_TITLE";"Subscription Plan Changed"
+"_EMAIL_SESMEMBERSHIPSWITCH_LEVEL_CHANGE_DESCRIPTION";"This is the email that gets sent to a member when their subscription plan changed."
+"_EMAIL_SESMEMBERSHIPSWITCH_LEVEL_CHANGE_SUBJECT";"Your subscription plan changed."
+"_EMAIL_SESMEMBERSHIPSWITCH_LEVEL_CHANGE_BODY";"[header]
+
+Your subscription plan changed from [current_plan] to [changed_plan].
+
+[subscription_title]
+[subscription_description]
+[subscription_terms]
+
+You may follow the link below to sign in.
+
+[object_link]
+
+[footer]"
+
+
+# sesmembershipswitch_level_notify
+"_EMAIL_SESMEMBERSHIPSWITCH_LEVEL_NOTIFY_TITLE";"Subscription Plan Expire Notification"
+"_EMAIL_SESMEMBERSHIPSWITCH_LEVEL_NOTIFY_DESCRIPTION";"This is the email that gets sent to a member when their subscription plan going to expire."
+"_EMAIL_SESMEMBERSHIPSWITCH_LEVEL_NOTIFY_SUBJECT";"Your subscription plan soon going to expire."
+"_EMAIL_SESMEMBERSHIPSWITCH_LEVEL_NOTIFY_BODY";"[header]
+
+Your subscription plan [plan_name] going to expire soon in [period].
+
+You may follow the link below to sign in.
+
+[object_link]
+
+[footer]"

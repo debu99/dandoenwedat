@@ -1,0 +1,44 @@
+/* $Id:main.css 2017-01-19 00:00:00 SocialEngineSolutions $*/
+
+.sesadvcmt_comments{
+	background-color:$theme_list_background_color_hover;
+}
+.sesadvcmt_comments form,
+.sesadvcmt_comments > ul,
+.sesadvcmt_comments > ul > li{
+	background-color:transparent !important;
+}
+.sesadvcmt_comments > ul > li{
+	border-top:1px solid $theme_border_medium_color !important;
+}
+.sesadvcmt_options li a{
+	color:$theme_font_color_light;
+}
+.sesadvcmt_options li a:hover{
+	color:$theme_link_color_hover;
+}
+div._form_container div.comment_form ._sesadvcmt_post_icons > span > a:before{
+	color:$theme_font_color_light;
+}
+div._form_container div.comment_form ._sesadvcmt_post_icons > span:hover > a:before{
+	color:$theme_font_color;
+}
+.sesadvcmt_comments_options > a i{
+	color:$theme_font_color_light;
+}
+.sesadvcmt_comments_stats a{
+	color:$theme_font_color_light !important;
+}
+
+/*Add Video Popup*/
+.sescmt_link_item,
+.sescmt_add_video_popup_wrapper{
+	background-color:$theme_list_background_color;
+}
+.sescmt_add_video_popup_header{
+	background-color:$theme_list_background_color_hover;
+}
+
+.ses_emoji_store_header{
+	background-image:url(~/application/modules/Sesadvancedcomment/externals/images/store-header-bg.png);
+}

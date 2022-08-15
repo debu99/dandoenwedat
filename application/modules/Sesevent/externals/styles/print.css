@@ -1,0 +1,256 @@
+/* $Id:print.css 2016-07-26 00:00:00 SocialEngineSolutions $*/
+
+body{
+	font-family:Arial, Helvetica, sans-serif;
+	color:#111;
+}
+a{
+	text-decoration:none;
+	color:#000;
+}
+.sesbasic_bxs{
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+}
+#global_content_simple{
+	display:block;
+}
+/*Print Ticket*/
+.sesevent_ticket_container{
+	overflow:hidden;
+	margin:0 auto 300px;
+	width:800px;
+}
+.sesevent_ticket_container *{
+	box-sizing:border-box;
+}
+.sesevent_ticket_content{
+	border:5px solid #ddd;
+	overflow:hidden;
+}
+.sesevent_ticket_content_left{
+	border-right:5px solid #ddd;
+	float:left;
+	width:590px;
+}
+.sesevent_ticket_content_right{
+	float:right;
+	width:200px;
+}
+.sesevent_ticket_content_block{
+	position:relative;
+	display:block;
+	float:left;
+	width:100%;
+}
+.sesevent_ticket_content_block_head{
+	color:#999;
+	font-size:14px;
+	position:absolute;
+	top:5px;
+	left:5px;
+}
+.sesevent_ticket_content_block_content{
+	bottom:5px;
+	font-size:13px;
+	position:absolute;
+	right:5px;
+}
+.sesevent_ticket_event_name{
+	border-bottom:5px solid #ddd;
+	height:110px;
+}
+.sesevent_ticket_event_name .sesevent_ticket_content_block_content{
+	font-size:25px;
+	position:inherit;
+	text-align:center;
+	margin-top:40px;
+}
+.sesevent_ticket_event_time,
+.sesevent_ticket_event_vanue{
+	border-bottom:5px solid #ddd;
+	float:left;
+	height:120px;
+	width:50%;
+}
+.sesevent_ticket_event_time{border-right:5px solid #ddd;}
+.sesevent_ticket_orderinfo,
+.sesevent_ticket_type{
+	clear:both;
+	float:left;
+	width:100%;
+}
+.sesevent_ticket_orderinfo{
+	border-bottom:5px solid #ddd;
+}
+.sesevent_ticket_event_time .sesevent_ticket_content_block_content,
+.sesevent_ticket_event_vanue .sesevent_ticket_content_block_content{
+ max-width:90%;
+ text-align:right;	
+}
+.sesevent_ticket_orderinfo .sesevent_ticket_content_block_content,
+.sesevent_ticket_type .sesevent_ticket_content_block_content{
+	position:inherit;
+	text-align:right;
+	margin:30px 5px 20px;
+}
+.sesevent_ticket_type .sesevent_ticket_content_block_content{font-size:17px;}
+.sesevent_ticket_event_photo{
+	height:110px;
+	width:100%;
+}
+.sesevent_ticket_event_photo img{
+	padding:10px;
+	height:100%;
+	object-fit:contain;
+	width:100%;
+}
+.sesevent_ticket_paymentstatus {
+	border-bottom:5px solid #ddd;
+	float:left;
+	margin-top:60px;
+	height:60px;
+}
+.sesevent_ticket_paymentstatus .sesevent_ticket_content_block_content{
+	font-size:17px;
+	position:inherit;
+	text-align:center;
+	margin:30px 0 20px;
+}
+.sesevent_ticket_qrcode{
+	text-align:center;
+}
+.sesevent_ticket_qrcode img{
+	max-width:100px;
+	margin-top:20px;
+}
+.sesevent_ticket_logo{
+	clear:both;
+	position:absolute;
+	right:0;
+	float:left;
+	text-align:center;
+	font-size:14px;
+	width:200px;
+	bottom:20px;
+}
+.sesevent_ticket_logo img{
+	max-width:90%;
+}
+.sesevent_logo_title{
+  font-size:14px;
+  font-weight:bold;
+  text-align:center;
+  margin-bottom:10px;
+}
+.sesevent_event_ticket_description{
+	min-height:112px;
+	border:2px solid #ddd;
+	padding:10px;
+	width:590px;
+	margin-top:20px;
+}
+.sesevent_ticket_btm{
+	position:relative;
+}
+
+/*Print Invoice*/
+.sesevent_invoice_container{
+	overflow:hidden;
+	margin:0 auto;
+	width:800px;
+}
+.sesevent_invoice_header{
+	margin-bottom:10px;
+	overflow:hidden;
+}
+.sesevent_invoice_header div{
+	font-size:20px;
+}
+.sesevent_invoice_header .floatL{
+	float:left;
+}
+[dir="rtl"] .sesevent_invoice_header .floatL{
+	float:right;
+}
+.sesevent_invoice_header .floatR{
+	float:right;
+}
+[dir="rtl"] .sesevent_invoice_header .floatR{
+	float:left;
+}
+.sesevent_invoice_content_wrap{
+	border:1px solid #eaeaea;
+	display:table;
+	margin-bottom:15px;
+	width:798px;
+	overflow:hidden;
+}
+.sesevent_invoice_content_left,
+.sesevent_invoice_content_right{
+	display:table-cell;
+	width:398px;
+}
+.sesevent_invoice_content_left{
+	border-right:1px solid #eaeaea;
+}
+.sesevent_invoice_content_box{
+	padding:10px;
+}
+.sesevent_invoice_content_box + .sesevent_invoice_content_box{
+	border-top:1px solid #eaeaea;
+}
+.sesevent_invoice_content_box b.bold{
+	display:block;
+	margin-bottom:5px;
+}
+.sesevent_invoice_content_detail > span{
+	display:block;
+}
+.sesevent_invoice_content_qr{
+	margin:5px;
+	text-align:center;
+}
+/*Order Table*/
+.sesevent_table table{
+	margin-bottom:15px;
+	width:798px;
+}
+.sesevent_table table th,
+.sesevent_table table td{
+	border-style:solid;
+	border:1px solid #eaeaea;
+	padding:10px;
+	vertical-align:top;
+}
+.sesevent_table table th{
+	background-image:url(../images/t-img-light.png);
+}
+.sesevent_invoice_total_price_box{
+	border-style:solid;
+	border:1px solid #eaeaea;
+	max-width:inherit;
+	padding:5px;
+	width:100%;
+}
+.sesevent_invoice_total_price_box > div{
+	clear:both;
+	overflow:hidden;
+}
+.sesevent_invoice_total_price_box > div span{
+	float:left;
+	padding:5px;
+	text-align:left;
+	width:auto;
+}
+.sesevent_invoice_total_price_box > div span + span{
+	float:right;
+	width:auto;
+}
+[dir="rtl"] .sesevent_invoice_total_price_box > div span + span{
+	text-align:left;
+}
+.sesevent_invoice_total_price_box_total span{
+	font-weight:bold;
+}

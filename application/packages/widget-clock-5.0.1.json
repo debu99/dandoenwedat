@@ -1,0 +1,70 @@
+{
+  "type": "widget",
+  "name": "clock",
+  "version": "5.0.1",
+  "revision": "9747",
+  "path": "application\/widgets\/clock",
+  "repository": null,
+  "sku": null,
+  "date": "Tue, 03 Mar 2020 10:38:58 +0000",
+  "title": "Clock",
+  "description": "Displays a clock.",
+  "thumb": null,
+  "developer": null,
+  "authors": [
+    "Webligo Developments"
+  ],
+  "meta": {
+    "date": "Tue, 03 Mar 2020 10:38:58 +0000",
+    "title": "Clock",
+    "description": "Displays a clock.",
+    "developer": null,
+    "authors": [
+      "Webligo Developments"
+    ],
+    "changeLog": null
+  },
+  "actions": [
+    
+  ],
+  "callback": null,
+  "dependencies": null,
+  "tests": [
+    
+  ],
+  "permissions": [
+    
+  ],
+  "structure": {
+    "application\/widgets\/clock": {
+      "type": "directory",
+      "path": "application\/widgets\/clock",
+      "structure": [
+        {
+          "path": "index.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 1897,
+          "sha1": "b9c3a04b16aece1cc2fd5e12594aa71f27e1957b"
+        },
+        {
+          "path": "Controller.php",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 572,
+          "sha1": "2c28ad4133b4e5c94730aa249aae6992ac3d3e28"
+        },
+        {
+          "path": "manifest.php",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 894,
+          "sha1": "2a90dda1944bb883f0418dcd27af5113c274c92f"
+        }
+      ]
+    }
+  }
+}

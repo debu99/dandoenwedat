@@ -1,0 +1,1 @@
+INSERT IGNORE INTO `engine4_core_menuitems` (`name`, `module`, `label`, `plugin`, `params`, `menu`, `submenu`, `order`) VALUES ("sesevent_admin_main_importevent", "sesevent", "Import SE Event", "", '{"route":"admin_default","module":"sesevent","controller":"import","action":"index"}', "sesevent_admin_main", "", 999)

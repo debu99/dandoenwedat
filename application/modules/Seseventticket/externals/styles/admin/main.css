@@ -1,0 +1,12 @@
+/* $Id:main.css 2016-07-26 00:00:00 SocialEngineSolutions $*/
+
+.sesventticket_add_link{
+	font-weight:bold;
+	text-decoration:none !important;
+}
+.sesventticket_add_link i{
+	margin-right:3px;
+}
+.seseventticket_value_option{
+	margin-left:10px;
+}

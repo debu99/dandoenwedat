@@ -1,0 +1,1708 @@
+
+/**/
+.sescredit_icon16{
+	display:inline-block;
+	height:16px;
+	width:16px;
+	background-position:center center;
+	background-repeat:no-repeat;
+	vertical-align:middle;
+}
+.sescredit_icon_points{
+	background-image:url(../images/points.png);
+}
+.sescredit_icon_badge{
+	background-image:url(../images/badge.svg);
+	background-size:100%;
+}
+.sescredit_icon_add{color:#090;}
+.sescredit_icon_minus{color:#f00;}
+
+/*My Points CSS Start Here*/
+.sescredit_my_points_total{
+	margin-bottom:15px;
+}
+.sescredit_my_points_cont{
+	display:flex;
+	flex-wrap:wrap;
+	margin:0 -5px;
+}
+.sescredit_my_points_cont > div{
+	padding:5px;
+	width:25%;
+}
+.sescredit_my_points_cont > div article{
+	height:100%;
+	padding:10px;
+	border-radius:10px;
+}
+.sescredit_my_points_cont > div span{
+	display:block;
+	text-align:center;
+}
+.sescredit_my_points_cont > div span:nth-child(1){
+	font-weight:bold;
+	font-size:12px;
+}
+.sescredit_my_points_cont > div span:nth-last-child(1){
+	margin-top:5px;
+	font-size:110%;
+}
+.sescredit_my_points_table{
+	border-radius:10px;
+	border-width:1px;
+	padding:5px;
+}
+.sescredit_my_points_table ._mypointstable_header{
+	border-radius:10px;
+	display:flex;
+	flex-wrap:wrap;
+	align-items:center;
+}
+.sescredit_my_points_table ._mypointstable_header ._label{
+	font-weight:bold;
+}
+.sescredit_my_points_table ._mypointstable_header ._left{
+	font-weight:bold;
+	padding:10px;
+	width:50%;
+}
+.sescredit_my_points_table ._mypointstable_header ._right{
+	border-left-width:1px;
+	border-left-style:dashed;
+	display:flex;
+	flex-wrap:wrap;
+	width:50%;
+}
+[dir="rtl"] .sescredit_my_points_table ._mypointstable_header ._right{
+	border-left-width:0;
+	border-right-width:1px;
+	border-right-style:dashed;
+}
+.sescredit_my_points_table ._mypointstable_header ._right > div{
+	border-right-width:1px;
+	border-right-style:dashed;
+	width:50%;
+	text-align:center;
+	padding:10px 5px;
+}
+[dir="rtl"] .sescredit_my_points_table ._mypointstable_header ._right > div{
+	border-left-width:1px;
+	border-left-style:dashed;
+	border-right-width:0;
+}
+.sescredit_my_points_table ._mypointstable_header ._right > div:nth-last-child(1){
+	border-width:0;
+}
+.sescredit_my_points_table ._mypointstable_header ._right > div:nth-child(1){
+	border-right-width:0;
+	border-bottom-width:1px;
+	border-bottom-style:dashed;
+	width:100%;
+}
+[dir="rtl"] .sescredit_my_points_table ._mypointstable_header ._right > div:nth-child(1){
+	border-left-width:0;
+}
+.sescredit_my_points_table ._mypointstable_content_item{
+	display:flex;
+	flex-wrap:wrap;
+	border-bottom-width:1px;
+	padding:5px 0;
+}
+.sescredit_my_points_table ._mypointstable_content_item:nth-last-child(1){
+	border-width:0;
+}
+.sescredit_my_points_table ._mypointstable_content_item > div{
+	width:25%;
+	text-align:center;
+	padding:5px 10px;
+	font-size:90%;
+}
+.sescredit_my_points_table ._mypointstable_content_item > div + div{
+	border-left-width:1px;
+	border-left-style:dashed;
+}
+[dir="rtl"] .sescredit_my_points_table ._mypointstable_content_item > div + div{
+	border-left-width:0;
+	border-right-width:1px;
+	border-right-style:dashed;
+}
+.sescredit_my_points_table ._mypointstable_content_item > div:nth-child(1){
+	width:50%;
+	text-align:left;
+}
+[dir="rtl"] .sescredit_my_points_table ._mypointstable_content_item > div:nth-child(1){
+	text-align:right;
+}
+/*My Points CSS End Here*/
+/*Recent Activity CSS Start Here*/
+.sescredit_recent_activity li{
+	padding:10px 0;
+	border-bottom-width:1px;
+}
+.sescredit_recent_activity > ._date{
+	margin-top:5px;
+	font-size:90%;
+}
+.sescredit_recent_activity ._date span i{
+	margin-right:5px;
+}
+/*Recent Activity CSS End Here*/
+/*My Transactions CSS Start Here*/
+.sescredit_mytransactions_table{
+	border-radius:10px;
+	border-width:1px;
+	padding:5px;
+}
+.sescredit_mytransactions_table ._mytransactionstable_header{
+	border-radius:10px;
+	display:flex;
+	flex-wrap:wrap;
+}
+.sescredit_mytransactions_table ._mytransactionstable_header ._label{
+	font-weight:bold;
+}
+.sescredit_mytransactions_table ._mytransactionstable_header > div{
+	font-weight:bold;
+	padding:18px 10px;
+	width:20%;
+	text-align:center;
+}
+.sescredit_mytransactions_table ._mytransactionstable_header ._points{
+	padding:0;
+	display:flex;
+	flex-wrap:wrap;
+}
+.sescredit_mytransactions_table ._mytransactionstable_header ._points > div{
+	border-right-width:1px;
+	border-right-style:dashed;
+	width:50%;
+	text-align:center;
+	padding:5px;
+}
+[dir="rtl"] .sescredit_mytransactions_table ._mytransactionstable_header ._points > div{
+	border-right-width:0;
+	border-left-width:1px;
+	border-left-style:dashed;
+}
+.sescredit_mytransactions_table ._mytransactionstable_header ._points > div:nth-last-child(1){
+	border-width:0;
+}
+.sescredit_mytransactions_table ._mytransactionstable_header ._points > div:nth-child(1){
+	border-right-width:0;
+	border-bottom-width:1px;
+	border-bottom-style:dashed;
+	width:100%;
+}
+[dir="rtl"] .sescredit_mytransactions_table ._mytransactionstable_header ._points > div:nth-child(1){
+	border-left-width:0;
+}
+.sescredit_mytransactions_table ._mytransactionstable_item{
+	display:flex;
+	flex-wrap:wrap;
+	border-bottom-width:1px;
+	padding:5px 0;
+}
+.sescredit_mytransactions_table ._mytransactionstable_item:nth-last-child(1){
+	border-width:0;
+}
+.sescredit_mytransactions_table ._mytransactionstable_item > div{
+	width:20%;
+	text-align:center;
+	padding:5px 10px;
+	font-size:90%
+}
+.sescredit_mytransactions_table ._mytransactionstable_item > div._activitypoint{
+	width:10%;
+}
+.sescredit_mytransactions_table ._mytransactionstable_header > div + div,
+.sescredit_mytransactions_table ._mytransactionstable_item > div + div{
+	border-left-width:1px;
+	border-left-style:dashed;
+}
+[dir="rtl"] .sescredit_mytransactions_table ._mytransactionstable_header > div + div,
+[dir="rtl"] .sescredit_mytransactions_table ._mytransactionstable_item > div + div{
+	border-left-width:0;
+	border-right-width:1px;
+	border-right-style:dashed;
+}
+.sescredit_mytransactions_table div._activitytype{
+	width:35%;
+	text-align:left;
+}
+[dir="rtl"] .sescredit_mytransactions_table div._activitytype{
+	text-align:right;
+}
+.sescredit_mytransactions_table div._date{
+	width:25%;
+}
+.sescredit_mytransactions ._pointstable_wrapper .sesbasic_load_btn{
+	padding:15px 0 0;
+}
+/*My Transactions CSS End Here*/
+/*Transactions Details Popup Start*/
+.sescredit_transactions_details_popup{
+	width:400px;
+}
+.sescredit_transactions_details_popup ul{
+	border-radius:10px;
+	border-width:1px;
+	padding:10px;
+	margin:10px;
+}
+.sescredit_transactions_details_popup ul li{
+	padding:10px 0;
+	display:flex;
+}
+.sescredit_transactions_details_popup ul li + li{
+	border-top-width:1px;
+	border-top-style:dashed;
+}
+.sescredit_transactions_details_popup ul li span:nth-child(1){
+	width:150px;
+	font-weight:bold;
+}
+.sescredit_transactions_details_popup ul li span:nth-child(2){
+	flex:1;
+}
+/*Transactions Details Popup End*/
+/*Top Members CSS Start Here*/
+.sescredit_topmembers li + li{
+	border-top-width:1px;
+	margin-top:10px;
+	padding-top:10px;
+}
+.sescredit_topmembers_item ._thumb{
+	float:left;
+	margin-right:8px;
+}
+[dir="rtl"] .sescredit_topmembers_item ._thumb{
+	float:right;
+	margin-left:8px;
+	margin-right:0;
+}
+.sescredit_topmembers_item ._cont{
+	overflow:hidden;
+	display:block;
+}
+.sescredit_topmembers_item ._title{
+	font-weight:bold;
+	margin-bottom:5px;
+}
+.sescredit_topmembers_item ._points{
+	font-size:80%;
+	font-weight:bold;
+}
+.sescredit_topmembers_item ._points i{
+	margin-right:5px;
+}
+[dir="rtl"] .sescredit_topmembers_item ._points i{
+	margin-left:5px;
+	margin-right:0;
+}
+/*Top Members CSS End Here*/
+/*My Badge CSS Start Here*/
+.sescredit_mybadge{
+	padding:15px;
+	position:relative;
+	overflow:hidden;
+}
+.sescredit_mybadge:before{
+	content:"";
+	position:absolute;
+	height:100%;
+	width:100%;
+	left:0;
+	top:0;
+	opacity:.2;
+}
+.sescredit_mybadge_cont{
+	position:relative;
+}
+.sescredit_mybadge ._badgeimg img{
+	max-width:80%;
+}
+.sescredit_mybadge ._badgename{
+	margin-top:10px;
+}
+.sescredit_mybadge ._badgename span{
+	position:relative;
+	padding:10px;
+	font-weight:bold;
+	display:block;
+}
+.sescredit_mybadge ._badgedes{
+	padding:20px;
+	position:absolute;
+	left:0;
+	top:100%;
+	overflow:auto;
+	height:100%;
+	width:100%;
+}
+.sescredit_mybadge:hover ._badgedes{
+	top:0;
+}
+/*My Badge CSS End Here*/
+/*My Points Information CSS Start Here*/
+.sescredit_mypointsinfo ._currentp{
+	font-size:120%;
+	padding:10px 0;
+	text-align:center;
+	border-bottom-width:1px;
+	border-bottom-style:dashed;
+	margin-bottom:15px;
+}
+[dir="rtl"] .sescredit_mypointsinfo ._currentp{
+	text-align:center;
+}
+.sescredit_mypointsinfo ._badges > span{
+	display:inline-block;
+	vertical-align:middle;
+}
+.sescredit_mypointsinfo ._badge img{
+	width:60px;
+	vertical-align:middle;
+	height:60px;
+	object-fit:contain;
+}
+.sescredit_mypointsinfo ._badge ._badgename{
+	display:block;
+	margin-top:5px;
+	font-weight:bold;
+}
+.sescredit_mypointsinfo ._nxtarrow{
+	font-size:25px;
+	padding:0 10px;
+}
+[dir="rtl"] .sescredit_mypointsinfo ._nxtarrow i:before{
+	content:"\f060";
+}
+.sescredit_mypointsinfo ._single_badge{
+	text-align:center;
+}
+.sescredit_mypointsinfo ._single_badge img{
+	max-width:80%;
+	vertical-align:middle;	
+}
+.sescredit_mypointsinfo ._single_badge > span{
+	display:block;
+	margin-top:10px;
+}
+.sescredit_mypointsinfo ._single_badge span._badgename{
+	font-size:120%;
+}
+.sescredit_mypointsinfo ._single_badge span._msg{
+	font-size:12px;
+	font-style:italic;
+}
+.sescredit_mypointsinfo ._single_badge ._topoints span{
+	padding:3px 20px;
+	line-height:normal;
+	display:inline-block;
+	letter-spacing:2px;
+	box-shadow:0 0 10px rgba(0,0,0, .1);
+}
+.sescredit_mypointsinfo ._pointsbar{
+	margin-top:20px;
+}
+.sescredit_mypointsinfo ._stats{
+	font-size:12px;
+}
+.sescredit_mypointsinfo ._pointsbar ._bar{
+	border-radius:10px;
+	border-width:1px;
+	margin:5px 0;
+	height:15px;
+	position:relative;
+	overflow:hidden;
+}
+.sescredit_mypointsinfo ._pointsbar ._bar span{
+	position:absolute;
+	height:100%;
+	left:0;
+}
+[dir="rtl"] .sescredit_mypointsinfo ._pointsbar ._bar span{
+	right:0;
+	left:auto;
+}
+/*My Points Information CSS End Here*/
+/*Activity Points Information CSS Start Here*/
+.sescredit_activitypoints_info_search{
+	border-width:1px;
+	border-radius:10px;
+	padding:5px;
+}
+.sescredit_activitypoints_info_search > div{
+	border-radius:10px;
+	padding:10px 20px;	
+}
+.sescredit_activitypoints_info_search .form-wrapper{
+	display:flex;
+	flex-wrap:wrap;
+	align-items:center;	
+}
+.sescredit_activitypoints_info_search .form-label{
+	font-weight:bold;
+	width:150px;
+}
+.sescredit_activitypoints_info_search .form-element{
+	font-weight:bold;
+	flex:1;
+}
+.sescredit_activitypoints_info_search .form-element select{
+	width:50%;
+}
+.sescredit_activitypoints_info ._pointstable_wrapper{
+	margin:15px 0 5px;
+}
+.sescredit_activitypoints_info ._pointstable{
+	border-radius:10px;
+	border-width:1px;
+	padding:5px;
+}
+.sescredit_activitypoints_info ._pointstable_header{
+	border-radius:10px;
+	display:flex;
+	flex-wrap:wrap;
+	align-items:center;
+}
+.sescredit_activitypoints_info ._pointstable_header ._label{
+	font-weight:bold;
+}
+.sescredit_activitypoints_info ._pointstable_header ._left{
+	font-weight:bold;
+	padding:10px;
+	width:40%;
+}
+.sescredit_activitypoints_info ._pointstable_header ._right{
+	border-left-width:1px;
+	border-left-style:dashed;
+	display:flex;
+	flex-wrap:wrap;
+	width:60%;
+}
+[dir="rtl"] .sescredit_activitypoints_info ._pointstable_header ._right{
+	border-left-width:0;
+	border-right-width:1px;
+	border-right-style:dashed;
+}
+.sescredit_activitypoints_info ._pointstable_header ._right > div{
+	border-right-width:1px;
+	border-right-style:dashed;
+	width:25%;
+	text-align:center;
+	padding:10px 5px;
+}
+[dir="rtl"] .sescredit_activitypoints_info ._pointstable_header ._right > div{
+	border-right-width:0;
+	border-left-width:1px;
+	border-left-style:dashed;
+	text-align:center;
+}
+.sescredit_activitypoints_info ._pointstable_header ._right > div:nth-last-child(1){
+	border-width:0;
+}
+.sescredit_activitypoints_info ._pointstable_header ._right > div:nth-child(1){
+	border-width:0;
+	border-bottom-width:1px;
+	border-bottom-style:dashed;
+	width:100%;
+}
+.sescredit_activitypoints_info ._pointstable_header ._right > div:not(._label){
+	font-size:13px;
+}
+.sescredit_activitypoints_info ._pointstable_content_heading{
+	font-weight:bold;
+	margin-top:10px;
+	padding:10px;
+}
+.sescredit_activitypoints_info ._pointstable_content_item{
+	display:flex;
+	flex-wrap:wrap;
+	border-top-width:1px;
+	padding:5px 0;
+}
+.sescredit_activitypoints_info ._pointstable_content_item > div{
+	width:15%;
+	text-align:center;
+	padding:5px 10px;
+	font-size:90%;
+}
+.sescredit_activitypoints_info ._pointstable_content_item > div{
+	text-align:center;
+}
+.sescredit_activitypoints_info ._pointstable_content_item > div + div{
+	border-left-width:1px;
+	border-left-style:dashed;
+}
+[dir="rtl"] .sescredit_activitypoints_info ._pointstable_content_item > div + div{
+	border-left-width:0;
+	border-right-width:1px;
+	border-right-style:dashed;
+}
+.sescredit_activitypoints_info ._pointstable_content_item > div._action{
+	width:40%;
+	text-align:left;
+}
+[dir="rtl"] .sescredit_activitypoints_info ._pointstable_content_item > div._action{
+	text-align:right;
+}
+.sescredit_activitypoints_info ._pointstable_wrapper .sesbasic_load_btn{
+	padding:15px 0 0;
+}
+/*Activity Points Information CSS End Here*/
+
+/*Payment Pages Start Here*/
+.sescredit_lds_ring{
+	display:block;
+	position:relative;
+	width:64px;
+	height:64px;
+	margin:0 auto;
+}
+.sescredit_lds_ring div {
+  box-sizing:border-box;
+  display:block;
+  position:absolute;
+  width:51px;
+  height:51px;
+  margin:6px;
+  border:6px solid #fff;
+  border-radius:50%;
+  animation:lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+}
+.sescredit_lds_ring div:nth-child(1) {
+  animation-delay:-0.45s;
+}
+.sescredit_lds_ring div:nth-child(2) {
+  animation-delay:-0.3s;
+}
+.sescredit_lds_ring div:nth-child(3) {
+  animation-delay:-0.15s;
+}
+@keyframes lds-ring {
+  0% {
+    transform:rotate(0deg);
+  }
+  100% {
+    transform:rotate(360deg);
+  }
+}
+.sescredit_lds_msg{
+	margin-top:20px;
+	font-size:20px;
+	text-align:center;
+}
+.sescredit_payment_process_complete_page{
+	padding:40px 0;
+}
+.sescredit_payment_process_complete{
+	text-align:center;
+}
+.sescredit_payment_process_complete i{
+	margin:0 auto;
+}
+.sescredit_payment_process_complete ._text{
+	font-size:25px;
+	display:block;
+	color:#44a72d;
+	margin:10px 0;
+}
+.sescredit_payment_process_complete ._error{
+	color:#f00;
+}
+.sescredit_payment_process_complete ._wait{
+	color:#F90;
+}
+.sescredit_payment_process_complete_btn{
+	text-align:center;
+	padding-top:20px;
+}
+.sescredit_payment_process_complete_btn > button{
+	display:inline-block;
+	float:none;
+	padding:10px 20px;
+	margin:0 5px;
+}
+[dir="rtl"] .sescredit_payment_process_complete,
+[dir="rtl"] .sescredit_payment_process_complete_btn{
+	text-align:center;
+}
+/*Payment Pages End Here*/
+/*Send Points Start Here*/
+.layout_left .sescredit_send_points_form .global_form,
+.layout_left .sescredit_send_points_form .global_form > div,
+.layout_left .sescredit_send_points_form .global_form > div > div,
+.layout_right .sescredit_send_points_form .global_form,
+.layout_right .sescredit_send_points_form .global_form > div,
+.layout_right .sescredit_send_points_form .global_form > div > div{
+	background:none;
+	border-width:0;
+	padding:0;
+	box-shadow:none;
+	max-width:100%;
+}
+.layout_left .sescredit_send_points_form .form-wrapper,
+.layout_right .sescredit_send_points_form .form-wrapper{
+	margin-top:10px;
+}
+.layout_left .sescredit_send_points_form .form-wrapper:nth-child(1),
+.layout_right .sescredit_send_points_form .form-wrapper:nth-child(1){
+	margin-top:0;
+}
+.layout_left .sescredit_send_points_form .form-wrapper > div,
+.layout_right .sescredit_send_points_form .form-wrapper > div{
+	clear:both;
+	min-width:inherit;
+	margin:0;
+	text-align:left;
+	width:100%;
+}
+[dir="rtl"] .layout_left .sescredit_send_points_form .form-wrapper > div,
+[dir="rtl"] .layout_right .sescredit_send_points_form .form-wrapper > div{
+	margin:0;
+	text-align:right;
+}
+.layout_left .sescredit_send_points_form .form-wrapper > div.form-label,
+.layout_right .sescredit_send_points_form .form-wrapper > div.form-label{
+	margin-bottom:5px;
+	font-weight:bold;
+}
+.layout_left .sescredit_send_points_form .form-element input[type="text"],
+.layout_right .sescredit_send_points_form .form-wrapper input[type="text"],
+.layout_left .sescredit_send_points_form .form-element textarea,
+.layout_right .sescredit_send_points_form .form-wrapper textarea{
+	width:100%;
+}
+.layout_left .sescredit_send_points_form #submit-label,
+.layout_right .sescredit_send_points_form #submit-label{
+	display:none;
+}
+.layout_left .sescredit_send_points_form #submit-element button,
+.layout_right .sescredit_send_points_form #submit-element button{
+	width:100%;
+	text-align:center;
+}
+.sescredit_success_message{
+	width:100%;
+	background-color:#3c763d;
+	font-size:14px;
+	color:#fff;
+	padding:10px;
+	border-radius:5px;
+	margin:10px 0;
+}
+.sescredit_success_message:before{
+	content:'\f058';
+	font-size:14px;
+	font-family:"Font Awesome 5 Free";
+	font-weight:900;
+	float:left;
+	margin:2px 10px 0 0;
+}
+[dir="rtl"] .sescredit_success_message:before{
+	float:right;
+	margin:2px 0 0 10px;
+}
+.sescredit_success_message span{
+	overflow:hidden;
+	display:block;
+}
+.sescredit_error_message{
+	border-radius:5px;
+	margin:10px 0 0;
+	display:block;
+	color:#721c24;
+	background-color:#f8d7da;
+	border:1px solid #f5c6cb;
+	padding:6px;
+}
+.sescredit_error_message:before{
+	content:'\f071';
+	font-size:14px;
+	font-family:"Font Awesome 5 Free";
+	font-weight:900;
+	float:left;
+	margin:2px 10px 0 0;
+}
+[dir="rtl"] .sescredit_error_message:before{
+	float:right;
+	margin:2px 0 0 10px;
+}
+.sescredit_error_message span{
+	overflow:hidden;
+	display:block;
+	font-size:12px;
+}
+/*Send Points End Here*/
+/*Browse Search Start Here*/
+.sescredit_browse_search form{
+  padding:0 !important;
+}
+.sescredit_browse_search form .form-elements{
+  padding:10px;
+}
+.sescredit_browse_search .form-wrapper{
+  margin:0 0 10px !important;
+}
+.sescredit_browse_search #showPhoto-label{
+  display:none;
+}
+.sescredit_browse_search input[type="text"],
+.sescredit_browse_search select{
+  max-width:200px;
+  width:100%;
+}
+.sescredit_browse_search .form-wrapper button{
+	width:100%;
+	text-align:center;
+}
+.sescredit_browse_search_horizontal form .form-elements{
+	display:flex;
+	flex-wrap:wrap;
+	align-items:end;
+}
+.sescredit_browse_search_horizontal .form-wrapper{
+  margin-right:10px !important;
+	width:inherit !important;
+}
+.sescredit_browse_search_horizontal .form-label,
+.sescredit_browse_search_horizontal .form-element{
+	display:block;
+}
+.sescredit_browse_search_horizontal .sescredit_browse_search input,
+.sescredit_browse_search_horizontal .sescredit_browse_search select{
+  width:inherit;
+}
+.sescredit_browse_search_horizontal button{
+	font-size:14px;
+	padding:8px 18px !important;
+}
+.sescredit_browse_search_horizontal #submit-wrapper button{
+	width:auto;
+}
+@media only screen and (max-width:480px){
+	.sescredit_browse_search input,
+	.sescredit_browse_search select{
+		width:95% !important;
+	}
+}
+/*Browse Search End Here*/
+/*Invite Widget Start Here*/
+.sescredit_invite_friend ._head{
+	font-size:120%;
+	margin-bottom:5px;
+}
+.sescredit_invite_friend ._des{
+	font-size:90%;
+}
+.sescredit_referral_field{
+	display:flex;
+	padding:5px;
+	align-items:center;
+	margin-top:15px
+}
+.sescredit_referral_field > div{
+	flex:1;
+}
+.sescredit_referral_field > div input{
+	background:none !important;
+	border-width:0 !important;
+	outline:none !important;
+	box-shadow:none !important;
+	padding:0 !important;
+	height:20px;
+	width:100%;
+	min-width:inherit; 
+	padding-right: 5px !important;
+  text-overflow: ellipsis;
+}
+.sescredit_referral_field button{
+	font-size:12px;
+	padding:5px 10px;
+}
+.sescredit_invite_btn{
+	margin-top:15px;
+}
+.sescredit_invite_btn a{
+	display:block;
+	text-align:center;
+	border-radius:5px;
+	text-align:center;
+	line-height:40px;
+}
+[dir="rtl"] .sescredit_referral_field,
+[dir="rtl"] .sescredit_invite_btn a{
+	text-align:center;
+}
+.sescredit_invite_form {
+	padding:10px;
+}
+.sescredit_invite_form .global_form div.form-label,
+.sescredit_invite_form .global_form div.form-element{
+	width:100%;
+	text-align:left;
+}
+[dir="rtl"] .sescredit_invite_form .global_form div.form-label,
+[dir="rtl"] .sescredit_invite_form .global_form div.form-element{
+	text-align:right;
+}
+.sescredit_invite_form .global_form div.form-element textarea{
+	width:100%;
+	max-width:100%;
+}
+.sescredit_invite_form #friendship-label{
+	display:none;
+}
+/*Invite Widget End Here*/
+/*Purchase Points Start Here*/
+.sescredit_purchase_points_form .global_form,
+.sescredit_purchase_points_form .global_form > div,
+.sescredit_purchase_points_form .global_form > div > div{
+	padding:0;
+	border-width:0;
+}
+.sescredit_purchase_points_form .global_form div.form-label,
+.sescredit_purchase_points_form .global_form div.form-element{
+	text-align:left;
+	min-width:inherit;
+	width:100%;
+	max-width:100%;
+}
+[dir="rtl"] .sescredit_purchase_points_form .global_form div.form-label,
+[dir="rtl"] .sescredit_purchase_points_form .global_form div.form-element{
+	text-align:right;
+}
+.sescredit_purchase_points_form .global_form div.form-label{
+	font-weight:bold;
+	margin:0 0 5px;
+}
+.sescredit_purchase_points_form .form-element input[type=text]{
+	width:100%;
+	max-width:100%;
+}
+.sescredit_purchase_points_form .global_form div.form-element .description{
+	padding:0 0 5px;
+	margin:0;
+}
+.sescredit_purchase_points_form #sescredit_purchase_type-element .form-options-wrapper li{
+	display:flex;
+	align-items:center;
+}
+.sescredit_purchase_points_form #sescredit_purchase_type-element .form-options-wrapper li input[type=radio]{
+	width:18px;
+}
+.sescredit_purchase_points_form #sescredit_purchase_type-element .form-options-wrapper li label{
+	flex:1;
+}
+.sescredit_purchase_points_form #sescredit_number_point_value-element{
+	text-align:center;
+	font-weight:bold;
+}
+.sescredit_purchase_points_form #sescredit_site_offers-element li{
+	position:relative;
+}
+.sescredit_purchase_points_form #sescredit_site_offers-element li input[type="radio"]{
+	position:absolute;
+	opacity:0;
+	visibility:hidden;
+	height:100%;
+	width:100%;
+	left:0;
+	top:0;
+}
+.sescredit_purchase_points_form #sescredit_site_offers-element li input + label{
+	text-align:center;
+	border-width:1px;
+	width:100%;
+	margin:2px 0;
+	padding:5px;
+	font-weight:bold;
+	font-size:90%;
+}
+.sescredit_purchase_points_form .global_form #sescredit_number_point_value-label,
+.sescredit_purchase_points_form .global_form #submit-label{
+	display:none;
+}
+.sescredit_purchase_points_form .global_form #submit-wrapper button{
+	border-radius:5px;
+	width:100%;
+	text-align:center;
+}
+[dir="rtl"] .sescredit_purchase_points_form #sescredit_number_point_value-element,
+[dir="rtl"] .sescredit_purchase_points_form #sescredit_site_offers-element li input + label,
+[dir="rtl"] .sescredit_purchase_points_form .global_form #submit-wrapper button{
+	text-align:center;
+}
+.sescredit_purchase_points_form #sescredit_site_offers-element > p.description{
+	border-radius:5px;
+	margin:2px 0 0;
+	display:block;
+	color:#856404;
+	background-color:#fff3cd;
+	border:1px solid #ffeeba;
+	padding:6px 10px;
+}
+.sescredit_purchase_points_form #sescredit_site_offers-element > p.description:before{
+	content:'\f071';
+	font-size:14px;
+	font-family:"Font Awesome 5 Free";
+	font-weight:900;
+	float:left;
+	margin:2px 10px 0 0;
+}
+[dir="rtl"] .sescredit_purchase_points_form #sescredit_site_offers-element > p.description:before{
+	float:right;
+	margin:2px 0 0 10px;
+}
+.sescrdit_purchase_payment_options ._back{
+	font-size:12px;
+	display:block;
+	text-align:right;
+}
+.sescredit_purchase_total{
+	border-width:1px;
+	padding:10px;
+	margin:5px 0 10px;
+	border-radius:5px;
+}
+.sescredit_purchase_total > div{
+	padding:5px 0;
+}
+.sescredit_purchase_total > div + div{
+	border-top-width:1px;
+	border-top-style:dashed;
+}
+.sescredit_purchase_total > div span{
+	float:left;
+}
+[dir="rtl"] .sescredit_purchase_total > div span{
+	float:right;
+}
+.sescredit_purchase_total > div span + span{
+	float:right;
+}
+[dir="rtl"] .sescredit_purchase_total > div span + span{
+	float:left;
+}
+.sescrdit_purchase_payment_options button{
+	width:100%;
+	text-align:center;
+}
+[dir="rtl"] .sescrdit_purchase_payment_options button{
+	text-align:center;
+}
+.sescrdit_purchase_payment_options button i{
+	margin-right:5px;
+}
+[dir="rtl"] .sescrdit_purchase_payment_options button i{
+	margin-left:5px;
+	margin-right:0;
+}
+/*Purchase Points Start Here*/
+/*Upgrade Member Level Start*/
+.sescredit_member_level ._currentlavel{
+	text-align:center;
+	text-transform:uppercase;
+	line-height:35px;
+	border-radius:3px;
+	font-weight:bold;
+}
+.sescredit_member_level_options{
+	font-weight: bold;
+	text-align:center;
+	margin-top:10px;
+	font-size:90%;
+}
+.sescredit_level_popup{
+	width:520px;
+}
+.sescredit_level_popup > article{
+	padding:15px;
+}
+.sescredit_level_popup ._tip{
+	text-align:center;
+	margin:10px;
+}
+.sescredit_level_popup ._tip img{
+	max-width:100px;
+}
+.sescredit_level_popup ._tip span{
+	font-size:110%;
+	display:block;
+	margin-top: 10px;
+}
+.sescredit_level_popup_content{
+	border-width:1px;
+}
+.sescredit_level_popup_content li{
+	padding:10px 15px;
+	display:flex;
+	align-items:center;
+}
+.sescredit_level_popup_content li + li{
+	border-top-width:1px;
+}
+.sescredit_level_popup ._btn{
+	margin-top:10px;
+}
+[dir="rtl"] .sescredit_member_level ._currentlavel,
+[dir="rtl"] .sescredit_member_level_options,
+[dir="rtl"] .sescredit_level_popup_content li,
+[dir="rtl"] .sescredit_level_popup ._tip{
+	text-align:center;
+}
+/*Upgrade Member Level End*/
+/*Browse Top Members Start Here*/
+.sescredit_browse_members li + li{
+	border-top-width:1px;
+}
+.sescredit_browse_members_item{
+	display:flex;
+	padding:10px 0;
+	flex-wrap:wrap;
+	align-items:center;
+}
+.sescredit_browse_members_item ._position{
+	width:50px;
+	margin-right:15px;
+	text-align:center;
+	font-size:17px;
+	font-weight:bold;
+	width:45px;
+	height:45px;
+	line-height:45px;
+}
+[dir="rtl"] .sescredit_browse_members_item ._position{
+	margin-right:0;
+	margin-left:15px;
+}
+.sescredit_browse_members_item:nth-child(1) ._position,
+.sescredit_browse_members_item:nth-child(2) ._position,
+.sescredit_browse_members_item:nth-child(3) ._position,
+.sescredit_browse_members_item:nth-child(4) ._position,
+.sescredit_browse_members_item:nth-child(5) ._position{
+	color:#fff !important;
+}
+.sescredit_browse_members_item:nth-child(1) ._position{
+	background-image:url(../images/level1.png);
+}
+.sescredit_browse_members_item:nth-child(2) ._position{
+	background-image:url(../images/level2.png);
+}
+.sescredit_browse_members_item:nth-child(3) ._position{
+	background-image:url(../images/level3.png);
+}
+.sescredit_browse_members_item:nth-child(4) ._position{
+	background-image:url(../images/level4.png);
+}
+.sescredit_browse_members_item:nth-child(5) ._position{
+	background-image:url(../images/level5.png);
+}
+.sescredit_browse_members_item ._thumb img{
+	vertical-align:middle;
+}
+.sescredit_browse_members_item ._cont{
+	flex:1;
+	padding:0 10px;
+}
+.sescredit_browse_members_item ._title{
+	font-weight:bold;
+	margin-bottom:5px;
+}
+.sescredit_browse_members_item ._points{
+	font-size:90%;
+}
+.sescredit_browse_members_item ._points span{
+	display:inline-block;
+}
+.sescredit_browse_members_item ._points span + span{
+	margin-left:5px;
+}
+[dir="rtl"] .sescredit_browse_members_item ._points span + span{
+	margin-left:0;
+	margin-right:5px;
+}
+.sescredit_browse_members_item ._points span i{
+	margin-right:5px;
+	float:left;
+}
+[dir="rtl"] .sescredit_browse_members_item ._points span i{
+	float:right;
+	margin-left:5px;
+	margin-right:0;
+}
+.sescredit_browse_members_item ._points span span{
+	display:block;
+	overflow:hidden;
+	line-height:16px;
+}
+.sescredit_browse_members_item ._buttons{
+	white-space:nowrap;
+}
+.sescredit_browse_members_item ._buttons > span{
+	display:inline-block;
+	text-align:center;
+	margin:3px;
+}
+.sescredit_browse_members_item ._buttons a{
+  background:#f6f7f8;
+  background:-moz-linear-gradient(top, #ffffff 0%, #f6f7f8 100%);
+  background:-webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffffff), color-stop(100%, #f6f7f8));
+  background:-webkit-linear-gradient(top, #ffffff 0%, #f6f7f8 100%);
+  background:-webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#f6f7f8));
+  background:linear-gradient(to bottom, #ffffff 0%,#f6f7f8 100%);
+  border-radius:3px;
+  border-width:1px;
+  color:#4e5665 !important;
+  font-size:13px;
+	display:block;
+  padding:5px 10px;
+	overflow:hidden;
+	line-height:normal;
+}
+.sescredit_browse_members_item ._buttons a:hover{
+  background:#efefef;
+  background:-moz-linear-gradient(top, #ffffff 0%, #efefef 100%);
+  background:-webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffffff), color-stop(100%, #efefef));
+  background:-webkit-linear-gradient(top, #ffffff 0%, #efefef 100%);
+  background:-webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#efefef));
+  background:linear-gradient(to bottom, #ffffff 0%,#efefef 100%);
+  text-decoration:none;
+}
+.sescredit_browse_members_item ._buttons a:before,
+.sescredit_browse_members_item ._buttons a i{
+	margin-right:5px;
+}
+[dir="rtl"] .sescredit_browse_members_item ._buttons a:before,
+[dir="rtl"] .sescredit_browse_members_item ._buttons a i{
+	margin-left:5px;
+	margin-right:0;
+}
+/*Browse Top Members End Here*/
+/*Browse Badges Start Here*/
+.sescredit_badges section + section{
+	margin-top:30px;
+}
+.sescredit_badges_heading{
+	font-size:20px;
+	margin-bottom:10px;
+	padding:10px;
+}
+.sescredit_badges_listing{
+	display:flex;
+	flex-wrap:wrap;
+	margin:0 5px;
+}
+.sescredit_badges_item{
+	padding:5px;
+	width:180px;
+}
+.sescredit_badges_item article{
+	height:100%;
+	padding:10px;
+	border-width:1px;
+	border-radius:5px;
+	position:relative;
+}
+.sescredit_badges_item article ._currentlabel{
+	position:absolute;
+	top:10px;
+	left:10px;
+}
+[dir="rtl"] .sescredit_badges_item article ._currentlabel{
+	left:auto;
+	right:10px;
+}
+.sescredit_badges_item article ._currentlabel i{
+	font-size:20px;
+	cursor:pointer;
+}
+.sescredit_badges_item article ._currentlabel span{
+	position:absolute;
+	white-space:nowrap;
+	background-color:#000;
+	padding:5px 10px;
+	font-size:11px;
+	left:30px;
+	top:50%;
+	transform:translateY(-50%);
+	border-radius:3px;
+	display:none;
+}
+[dir="rtl"] .sescredit_badges_item article ._currentlabel span{
+	left:auto;
+	right:30px;
+}
+.sescredit_badges_item article ._currentlabel:hover span{
+	display:block;
+}
+.sescredit_badges_item article ._currentlabel span:before{
+	content:"";
+	position:absolute;
+	width:0;
+	height:0;
+	border-top:5px solid transparent;
+	border-bottom:5px solid transparent;
+	border-right:5px solid #000;
+	left:-5px;
+	top:50%;
+	transform:translateY(-50%);
+}
+[dir="rtl"] .sescredit_badges_item article ._currentlabel span:before{
+	border-left:5px solid #000;
+	border-right:none;
+	right:-5px;
+	left:auto;
+}
+.sescredit_badges_item_img{
+	height:130px;
+	display:table;
+}
+.sescredit_badges_item_img ._img{
+	display:table-cell;
+	vertical-align:middle;
+	height:100%;
+	width:100%;
+}
+.sescredit_badges_item_img img{
+	max-width:90%;
+	max-height:90%;
+}
+.sescredit_badges_item_info{
+	border-top-width:1px;
+	border-top-style:dashed;
+	padding-top:10px;
+	margin-top:10px;
+}
+.sescredit_badges_item_info ._title{
+	font-weight:bold;
+}
+.sescredit_badges_item_info ._membercount{
+	font-size:90%;
+	margin-top:5px;
+}
+.sescredit_badge_tip{
+	padding:10px;
+	max-width:300px;
+}
+.sescredit_badges_item .sescredit_badge_tip{
+	display:none;
+}
+.sescredit_badge_tip ._title{
+	font-weight:bold;
+	border-bottom-width:1px;
+	border-bottom-style:dashed;
+	padding-bottom:10px;
+}
+.sescredit_badge_tip ._des{
+	margin-top:10px;
+	font-size:90%;
+}
+/*Browse Badges End Here*/
+@media (max-width:767px){
+
+}
+@media (max-width:540px){
+	.sescredit_mytransactions_table,
+	.sescredit_activitypoints_info ._pointstable{
+		overflow:auto;
+	}
+	.sescredit_mytransactions_table ._mytransactionstable_header,
+	.sescredit_mytransactions_table ._mytransactionstable_item,
+	.sescredit_activitypoints_info ._pointstable_header,
+	.sescredit_activitypoints_info ._pointstable_content {
+		min-width:500px;
+	}
+	.sescredit_my_points_cont > div{
+		width:50%;
+	}
+}
+/*HELP CENTER PAGE CSS START*/
+/*BROWSE MENU OF HELP PAGE*/
+.sescredit_help_center .head_banner{
+	position:relative;
+  width:100%;
+  height:100%;
+  background-repeat:no-repeat;
+  background-position:center top; 
+  background-size:cover; 
+  background-attachment:fixed;
+}
+.sescredit_help_center .head_banner *{
+	position:relative;
+	z-index:1;
+}
+.sescredit_help_center .head_banner:before{
+	position:absolute;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	content:"";
+	background:linear-gradient(-45deg, #eb663c, #E73C7E, #23A6D5, #7449c8);
+	opacity:0.85;
+	background-size:400% 400%;
+	-webkit-animation:Gradient 15s ease infinite;
+	-moz-animation:Gradient 15s ease infinite;
+	animation:Gradient 15s ease infinite;
+}
+.sescredit_help_center ._container{
+  margin:0 auto;
+  padding:0 15px;
+}
+.sescredit_help_center .banner_left{
+	width:60%;
+	display:inline-block;
+	float:left;
+	position:relative;
+  padding:125px 20px;
+}
+.sescredit_help_center .banner_right{
+	width:40%;
+	display:inline-block;
+	float:left;
+	position:relative;
+  padding:125px 20px 0 20px;
+}
+.sescredit_help_center .banner_left p{
+	line-height:170%;
+	font-size:120%;
+}
+.sescredit_help_center .banner_left a.how_it_works{
+  background-color:#fae212;
+  padding:15px 35px;
+  font-weight:bold;
+  border-radius:5px;
+  display:inline-block;
+  margin:20px 0;
+}
+.sescredit_help_center .banner_left h2{
+  font-size:60px;
+  font-weight:bolder;
+  line-height:70px;
+}
+.sescredit_help_center .banner_left h2 span._diffcolor{
+	color:#fae213;
+	font-weight:bolder;
+}
+.sescredit_help_center .banner_right img{
+	width:100%;
+	height:auto;
+	position:relative;
+	bottom:-3px;
+}
+@-webkit-keyframes Gradient {
+	0% {
+		background-position:0% 50%
+	}
+	50% {
+		background-position:100% 50%
+	}
+	100% {
+		background-position:0% 50%
+	}
+}
+
+@-moz-keyframes Gradient {
+	0% {
+		background-position:0% 50%
+	}
+	50% {
+		background-position:100% 50%
+	}
+	100% {
+		background-position:0% 50%
+	}
+}
+
+@keyframes Gradient {
+	0% {
+		background-position:0% 50%
+	}
+	50% {
+		background-position:100% 50%
+	}
+	100% {
+		background-position:0% 50%
+	}
+}
+/*Earn Free*/
+.sescredit_help_center .earn_free{
+	padding:80px 0;
+	float:left;
+	width:100%;
+}
+.sescredit_help_center .earn_free .earn_left,
+.sescredit_help_center .earn_free .earn_right{
+	float:left;
+	width:50%;
+	display:inline-block;
+	padding:0 15px;
+}
+.sescredit_help_center .earn_left img{
+	width:100%;
+  height:auto;
+  max-width:400px;
+  margin:0 auto;
+  display:block;
+}
+.sescredit_help_center .earn_free h2,
+.sescredit_help_center .waysto_earn h2{
+	font-weight:bolder;
+	font-size:32px;
+	line-height:45px;
+	text-transform:uppercase;
+	margin-bottom:20px;
+}
+.sescredit_help_center .earn_free p,
+.sescredit_help_center .earn_free ul li {
+  line-height:225%;
+  font-size:115%;
+}
+.sescredit_help_center .earn_free ul li{
+	list-style:none;
+	padding-left:25px;
+	position:relative;
+}
+.sescredit_help_center .earn_free ul li:before{
+	font-family:"Font Awesome 5 Free";
+	font-weight:900;
+	position:absolute;
+	content:"\f192";
+	top:0;
+	left:0;
+}
+/*JOIN US*/
+.sescredit_help_center .join_us{
+	position:relative;
+	width:100%;
+	height:100%;
+	float:left;
+	padding:40px 0;
+	background-repeat:no-repeat;
+  background-position:center top; 
+  background-size:cover; 
+  background-attachment:fixed;
+}
+.sescredit_help_center .join_us:before{
+	position:absolute;
+	content:"";	
+	top:0;
+	right:0;
+	left:0;
+	bottom:0;
+	opacity:0.90;
+	background:linear-gradient(-45deg,  #23A6D5, #7449c8, #eb663c, #E73C7E);
+	background-size:400% 400%;
+	-webkit-animation:Gradient 15s ease infinite;
+	-moz-animation:Gradient 15s ease infinite;
+	animation:Gradient 15s ease infinite;
+}
+.sescredit_help_center .join_us *{
+	position:relative;
+	z-index:1;
+}
+.sescredit_help_center .join_us h2{
+	color:#fae212;
+	font-size:65px;
+	font-weight:bold;
+	text-align:center;
+	margin-top:10px;
+}
+.sescredit_help_center .join_us h4{
+	font-size:40px;
+	font-weight:bold;
+	text-align:center;
+	margin:0;
+	padding:0;
+	border:0;
+}
+.sescredit_help_center .join_us a.how_it_works {
+  border-radius:5px;
+  background-color:#fae212;
+  box-sizing:border-box;
+  cursor:pointer;
+  display:block;
+  font-weight:600;
+  line-height:3em;
+  text-align:center;
+  width:250px;
+  margin:20px auto;
+  padding:8px 40px;
+  text-decoration:none;
+  outline:none;
+  border:0;
+}
+/*Ways to Earn*/
+.sescredit_help_center .waysto_earn{
+	padding:80px 0;
+	float:left;
+	width:100%;
+}
+.sescredit_help_center .waysto_earn h2{
+	text-align:center;
+}
+.sescredit_help_center .waysto_earn img{
+	width:100%;
+	height:auto;
+	object-fit:cover;
+}
+.sescredit_help_center .waysto_earn_head > div{
+	width:calc(25% - 20px);
+	float:left;
+	display:inline-block;
+	margin:10px;
+  box-shadow:0 5px 11px 0 rgba(0,0,0,.05);
+}
+.sescredit_help_center .waysto_earn_bottom > div{
+	width:calc(33.33% - 20px);
+	float:left;
+	display:inline-block;
+	margin:10px;
+  box-shadow:0 5px 11px 0 rgba(0,0,0,.05);
+}
+.sescredit_help_center .waysto_earn ._title{
+	padding:10px 15px;
+	font-size:130%;
+	font-weight:bold;
+}
+/*Million Heart*/
+.sescredit_help_center .happy_hearts{
+	float:left;
+	padding:80px 0;
+	width:100%;
+	height:100%;
+	position:relative;
+	background-repeat:no-repeat;
+  background-position:center top; 
+  background-size:cover; 
+  background-attachment:fixed;
+}
+.sescredit_help_center .happy_hearts *{
+	position:relative;
+	z-index:10;
+}
+.sescredit_help_center .happy_hearts:before{
+	position:absolute;
+	top:0;
+	right:0;
+	left:0;
+	bottom:0;
+	content:"";
+	background-color:rgba(255,255,255,0.89);
+}
+.sescredit_help_center .happy_hearts h2{
+	font-size:60px;
+	font-weight:bold;
+	text-align:center;
+}
+.sescredit_help_center .happy_hearts h2 span{
+	margin:0 8px;
+}
+.sescredit_help_center .happy_hearts h2 span i{
+	background:linear-gradient(to right, #23A6D5 0%, #7449c8 100%);
+	background-clip:text;
+	-webkit-background-clip:text;
+	color:transparent;
+	width:70px;
+}
+.sescredit_help_center .happy_hearts p {
+  text-align:center;
+  font-size:170%;
+  color:#000;
+  line-height:200%;
+}
+.sescredit_help_center .happy_hearts p span.alter{
+	background-color:#fae213;
+	text-transform:uppercase;
+	padding:2px 5px;
+	font-size:110%;
+	font-weight:bold;
+	letter-spacing:2px;
+}
+@media screen and (min-width:768px) and (max-width:1024px){
+	.sescredit_help_center .banner_left{
+		width:100%;
+	}
+	.sescredit_help_center .banner_right{
+		display:none;
+	}
+}
+@media screen and (max-width:767px){
+	.sescredit_help_center .banner_left,
+	.sescredit_help_center .earn_free .earn_left,
+	.sescredit_help_center .earn_free .earn_right{
+		width:100%;
+		padding:20px;
+	}
+	.sescredit_help_center .banner_right{
+		display:none;
+	}
+	.sescredit_help_center .earn_free,
+	.sescredit_help_center .waysto_earn{
+		padding:50px 0;
+	}
+	.sescredit_help_center .earn_left img{
+		max-width:100%;
+	}
+	.sescredit_help_center .earn_free h2, .sescredit_help_center .waysto_earn h2{
+		margin-top:15px;
+	}
+	.sescredit_help_center .join_us h2{
+		margin-top:0;
+		font-size:60px;
+	}
+	.sescredit_help_center .join_us h4{
+		font-size:34px;
+	}
+	.sescredit_help_center .waysto_earn_head > div,
+	.sescredit_help_center .waysto_earn_bottom > div{
+		width:100%;
+		margin:10px 0;
+	}
+	.sescredit_help_center .happy_hearts h2{
+		font-size:38px;
+	}
+	.sescredit_help_center .happy_hearts h2 span i{
+		width:40px;
+	}
+	.sescredit_help_center .happy_hearts h2 span {
+    margin:0 5px;
+	}
+	.sescredit_help_center .happy_hearts p{
+		font-size:120%;
+		line-height:190%;
+	}
+	.sescredit_help_center .join_us a.how_it_works{
+		width:auto;
+    padding:5px 40px;
+	}
+	
+}	
+@media only screen and (max-width:400px){
+	.sescredit_help_center .banner_left h2{
+		font-size:30px;
+    line-height:40px;
+	}
+	.sescredit_help_center .banner_left p,
+	.sescredit_help_center .earn_free p,
+	.sescredit_help_center .earn_free ul li{
+		font-size:110%;
+		line-height:180%;
+	}
+	.sescredit_help_center .earn_free h2, .sescredit_help_center .waysto_earn h2{
+		font-size:22px;
+    line-height:32px;
+	}
+	.sescredit_help_center .join_us h4{
+		font-size:26px;
+	}
+	.sescredit_help_center .join_us h2{
+		font-size:40px;
+	}
+	.sescredit_help_center .happy_hearts h2{
+		font-size:30px;
+	}
+}

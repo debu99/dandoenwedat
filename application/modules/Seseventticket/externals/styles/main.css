@@ -1,0 +1,11 @@
+/* $Id:main.css 2016-07-26 00:00:00 SocialEngineSolutions $*/
+
+.notification_type_sesevent_event_ticketpurchased:before,
+.activity_icon_sesevent_event_ticketpurchased:before,
+.activity_icon_sesevent_event_createticket:before,
+.activity_icon_sesevent_event_editticketdate:before,
+.sesevent_icon_ticket:before{
+	font-family:'Font Awesome 5 Free';
+  content:"\\f3ff";
+	font-weight:600;
+}

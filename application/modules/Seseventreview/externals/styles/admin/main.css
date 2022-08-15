@@ -1,0 +1,39 @@
+/* $Id:main.css 2016-07-26 00:00:00 SocialEngineSolutions $*/
+
+/*Add Item of the day Popup*/
+.seseventreview_add_itemoftheday_popup .form-label{
+	float:none !important;
+}
+.seseventreview_add_itemoftheday_popup .event_calendar_container{
+	float:none;
+}
+.seseventreview_parameters_list li{
+  list-style:disc;
+  margin-left:10px;
+}
+/*Review Add Parameter Popup*/
+.seseventreview_parameter_popup{
+  width:450px;
+}
+.seseventreview_parameter_popup .settings .form-wrapper{
+  padding: 0;
+}
+.seseventreview_parameter_popup .form-label{
+  display:none;
+}
+.seseventreview_parameter_popup .reviewparameter{
+  margin:0 10px 10px 0;
+}
+.seseventreview_parameter_popup .seseventreview_added_parameter{
+  margin-right: 10px;
+}
+.seseventreview_parameter_popup .fa:before{
+  margin-right:5px;
+}
+.seseventreview_parameter_popup a.fa:hover{
+  text-decoration:none;
+}
+/*Details Popup*/
+.seseventreview_view_details_rating .sesbasic_clearfix{
+  margin-top: 10px;
+}

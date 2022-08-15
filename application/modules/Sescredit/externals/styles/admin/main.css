@@ -1,0 +1,290 @@
+.sescredit_icon_add{color:#090;}
+.sescredit_icon_minus{color:#f00;}
+/*Search*/
+.sescredit_search{
+	margin:15px 0;
+	border-bottom-width:1px;
+	padding:10px 15px;
+	background-color:#f2f2f2;
+	border-radius:5px;
+}
+.sescredit_search .form-wrapper{
+	display:inline-block;
+	margin-right:15px;
+}
+.sescredit_search .form-label,
+.sescredit_search .form-element{
+	display:inline-block;
+}
+.sescredit_search .form-label label{
+	font-weight:bold;
+	margin-right:10px;
+}
+.sescredit_memberspoints_search .sescredit_rang_slider .form-element> input[type="text"]{
+	float:left;
+	outline:none;
+	border-radius:0;
+}
+.sescredit_memberspoints_search .sescredit_rang_slider .form-element> input[type="text"] + input[type="text"]{
+	margin-left: 10px;
+}
+.sescredit_memberspoints_search .sescredit_rang_slider > div:not(.ui-slider){
+	height:auto !important;
+	margin:0 !important;
+	overflow:visible !important;
+}
+.sescredit_memberspoints_search .sescredit_rang_slider .ui-slider{
+	width:auto;
+	margin:18px 10px 0px!important;
+	overflow:visible !important;
+}
+.sescredit_memberspoints_search .sescredit_rang_slider .ui-widget-header{
+	background-color:#619dbe;
+}
+/*Manage Creadit Points Start*/
+.sescredit_points_info{
+	border-width:1px;
+	border-radius:10px;
+	padding:5px;
+}
+.sescredit_points_info_table{
+	overflow:auto;
+	margin-bottom:10px;
+}
+.sescredit_points_info_table_header{
+	white-space:nowrap;
+	width:auto;
+}
+.sescredit_points_info_table_header > div{
+	background-color:#f4f6f7;
+	height:60px;
+	line-height:60px;
+	padding:0 10px !important;
+}
+.sescredit_points_info_table_header div._label{
+	font-weight:bold;
+}
+.sescredit_points_info_table_header > ._points{
+	width:40%;
+	padding:0 !important;
+	line-height:18px;
+}
+.sescredit_points_info_table_header > ._points > div{
+	width:25%;
+	text-align:center;
+	float:left;
+	padding:5px;
+}
+.sescredit_points_info_table_header > ._points > div + div{
+	border-right-width:1px;
+	border-right-style:dashed;
+	font-size:12px;
+	white-space:nowrap;
+}
+.sescredit_points_info_table_header > ._points > div + div:nth-last-child(1){
+	border-right-width:0;
+}
+.sescredit_points_info_table_header > ._points > div:nth-child(1){
+	border-width:0 0 1px;
+	border-bottom-style:dashed;
+	width:100%;
+}
+.sescredit_points_info_table_item{
+	border-top-width:1px;
+	white-space:nowrap;
+}
+.sescredit_points_info_table_header > div,
+.sescredit_points_info_table_item > div{
+	display:inline-block;
+	padding:10px;
+	vertical-align:middle;
+	margin-left:-4px;
+}
+.sescredit_points_info_table_header > div + div,
+.sescredit_points_info_table_item > div + div{
+	border-left-width:1px;
+	border-left-style:dashed;
+}
+.sescredit_points_info_table ._activitytype{
+	width:279px;
+	white-space:normal;
+}
+.sescredit_points_info_table ._status{
+	width:80px;
+	text-align:center;
+}
+.sescredit_points_info_table ._lang{
+	width:205px;
+	text-align:center;
+	white-space:normal;
+}
+.sescredit_points_info_table ._lang textarea{
+	width:100%;
+	height:40px;
+}
+.sescredit_points_info_table_item ._points{
+	width:95px;
+	text-align:center;
+}
+.sescredit_points_info_table_item ._points input{
+	width:60px;
+	text-align:center;
+}
+.sescredit_points_info_table_content_head{
+	padding:10px;
+	background-color:#f4f6f7;
+	font-weight:bold;
+	margin-top:10px;
+	width:100%;
+}
+/*Manage Creadit Points End*/
+/*Manage Module Popup*/
+.sescredit_manage_module_popup{
+	width:450px;
+	margin:15px 0 0 15px;
+}
+.sescredit_manage_module_popup .global_form div.form-label{
+	width:100px;
+}
+.sescredit_manage_module_popup .global_form div.form-element input[type=text],
+.sescredit_manage_module_popup .global_form div.form-element select{
+	width:100%;
+	box-sizing:border-box;
+}
+/*Members Transactions CSS Start Here*/
+.sescredit_mytransactions *{
+	box-sizing:border-box;
+} 
+.sescredit_transactions_table{
+	border-radius:10px;
+	border-width:1px;
+	padding:5px;
+}
+.sescredit_transactions_table ._transactionstable_header{
+	border-radius:10px;
+	display:flex;
+	flex-wrap:wrap;
+	background-color:#f2f2f2;
+}
+.sescredit_transactions_table ._transactionstable_header ._label,
+.sescredit_transactions_table ._transactionstable_header ._label a{
+	font-weight:bold;
+}
+.sescredit_transactions_table ._transactionstable_header > div{
+	font-weight:bold;
+	padding:18px 10px;
+	text-align:center;
+}
+.sescredit_transactions_table ._transactionstable_header ._points{
+	padding:0;
+	display:flex;
+	flex-wrap:wrap;
+	width:20%;
+}
+.sescredit_transactions_table ._transactionstable_header ._points > div{
+	border-right-width:1px;
+	border-right-style:dashed;
+	width:50%;
+	text-align:center;
+	padding:5px;
+}
+.sescredit_transactions_table ._transactionstable_header ._points > div:nth-last-child(1){
+	border-width:0;
+}
+.sescredit_transactions_table ._transactionstable_header ._points > div:nth-child(1){
+	border-right-width:0;
+	border-bottom-width:1px;
+	border-bottom-style:dashed;
+	width:100%;
+}
+.sescredit_transactions_table ._transactionstable_item{
+	display:flex;
+	flex-wrap:wrap;
+	border-bottom-width:1px;
+	padding:5px 0;
+}
+.sescredit_transactions_table ._transactionstable_item:nth-last-child(1){
+	border-width:0;
+}
+.sescredit_transactions_table ._transactionstable_item > div{
+	text-align:center;
+	padding:5px 10px;
+	font-size:90%
+}
+.sescredit_transactions_table ._transactionstable_item > div._activitypoint{
+	width:10%;
+}
+.sescredit_transactions_table ._transactionstable_header > div + div,
+.sescredit_transactions_table ._transactionstable_item > div + div{
+	border-left-width:1px;
+	border-left-style:dashed;
+}
+.sescredit_transactions_table div._id{
+	width:4%;
+	font-weight:bold;
+}
+.sescredit_transactions_table div._owner{
+	width:20%;
+	text-align:left;
+}
+.sescredit_transactions_table div._owner a{
+	font-weight:bold;
+}
+.sescredit_transactions_table div._activitytype{
+	width:25%;
+	text-align:left;
+}
+.sescredit_transactions_table div._date{
+	width:20%;
+}
+.sescredit_transactions_table ._transactionstable_item ._activitypoint{
+	width:10%;
+}
+/*Members Transactions CSS End Here*/
+/*Transactions Details Popup Start*/
+.sescredit_transactions_details_popup{
+	width:400px;
+	margin:10px 0 0 10px;
+}
+.sescredit_transactions_details_popup ul{
+	border-radius:10px;
+	border-width:1px;
+	padding:10px;
+	margin-bottom:10px;
+}
+.sescredit_transactions_details_popup ul li{
+	padding:10px 0;
+	display:flex;
+}
+.sescredit_transactions_details_popup ul li + li{
+	border-top-width:1px;
+	border-top-style:dashed;
+}
+.sescredit_transactions_details_popup ul li span:nth-child(1){
+	width:150px;
+	font-weight:bold;
+	margin-right:10px;
+}
+.sescredit_transactions_details_popup ul li span:nth-child(2){
+	flex:1;
+}
+/*Transactions Details Popup End*/
+/*Member Level Upgrade Start*/
+.sescredit_level_upgrade_points_form li + li{
+	margin-top:15px;
+}
+.sescredit_level_upgrade_points_form li ._label{
+	float:left;
+	width:180px;
+	font-weight:bold;
+}
+.sescredit_level_upgrade_points_form li ._element{
+	overflow:hidden;
+}
+.sescredit_level_upgrade_points_form li ._element input{
+	width:300px;
+}
+.sescredit_level_upgrade_points_form ._btn{
+	margin-top:20px;
+}
+/*Member Level Upgrade End*/

@@ -1,0 +1,17 @@
+
+
+/*Pricing Table*/
+.ememsub_pricing_table_item article{
+	background-color:$theme_body_background_color;
+}
+.ememsub_pricing_table_features li i:before{
+	font-size:14px;
+}
+.ememsub_pricing_table_features li i:hover:before{
+	color:$theme_font_color;
+	font-size:14px;
+}
+.ememsub_pricing_table_footer a{
+	background-color:$theme_button_background_color;
+	color:$theme_button_font_color;
+}

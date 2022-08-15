@@ -1,0 +1,77 @@
+"By checking this checkbox you are providing explicit consent as detailed in the privacy policy below. You have not provided consent yet.";"By checking this checkbox you are providing explicit consent as detailed in the privacy policy below. You have not provided consent yet."
+"Accept";"Accept"
+"You provide consent on";"You provide consent on"
+"Withdraw Consent";"Withdraw Consent"
+"Consent withdrawn";"Consent withdrawn"
+"You have successfully withdrawn your consent to our privacy policy";"You have successfully withdrawn your consent to our privacy policy"
+"Privacy Center";"Privacy Center"
+"Welcome to our privacy center! This page provides you all the tools to control how we use your personal data. If you have any questions or specific requests please contact our Data Protection Officer directly using the form below.";"Welcome to our privacy center! This page provides you all the tools to control how we use your personal data. If you have any questions or specific requests please contact our Data Protection Officer directly using the form below."
+"Cookies & Privacy Policy Consent";"Cookies & Privacy Policy Consent"
+"In our privacy policy we outline how we use your personal data, who we expose your data to, how long we keep it and other details.";"In our privacy policy we outline how we use your personal data, who we expose your data to, how long we keep it and other details."
+"Contact DPO";"Contact DPO"
+"You have a special request concerning your personal data, then use this to contact directly to our Data Protection officer.";"You have a special request concerning your personal data, then use this to contact directly to our Data Protection officer."
+"Privacy Settings";"Privacy Settings"
+"This tool will be used to control the services and third-parties we share your data with.";"This tool will be used to control the services and third-parties we share your data with."
+"Request Archive";"Request Archive"
+"If you want to perform Subject Access Request, then use this. We will send you a copy of all the data we currently possess on you.";"If you want to perform Subject Access Request, then use this. We will send you a copy of all the data we currently possess on you."
+"Unsubscribe";"Unsubscribe"
+"Fill up the form to unsubscribe and stop receiving all marketing emails from us.";"Fill up the form to unsubscribe and stop receiving all marketing emails from us."
+"Forget Me";"Forget Me"
+"Fill up the form to submit the Erasure request to forget and delete all your data on this site.";"Fill up the form to submit the Erasure request to forget and delete all your data on this site."
+"Something went wrong, please try again later";"Something went wrong, please try again later"
+"Change Settings";"Change Settings"
+"Read More";"Read More"
+"Strictly Necessary Cookie Settings";"Strictly Necessary Cookie Settings"
+"When you visit any website, it may store or retrieve information on your browser, mostly in the form of cookies. This information might be about you, your preferences or your device and is mostly used to make the site work as you expect it to. The information does not usually directly identify you, but it can give you a more personalized web experience.<br>There are some Cookies that are necessary for the site to function properly which you can not disallow.";"When you visit any website, it may store or retrieve information on your browser, mostly in the form of cookies. This information might be about you, your preferences or your device and is mostly used to make the site work as you expect it to. The information does not usually directly identify you, but it can give you a more personalized web experience.<br>There are some Cookies that are necessary for the site to function properly which you can not disallow."
+"Fill up the form below to directly contact our DPO (Data Protection Officer).";"Fill up the form below to directly contact our DPO (Data Protection Officer)."
+"Submit this form to request all your data we currently possess. We will send you a report outlining all of the data via email.";"Submit this form to request all your data we currently possess. We will send you a report outlining all of the data via email."
+"Submit a forget-me (erasure) request, to request the deletion of all the data we currently possess on you. Once request is made an we have deleted all the data, the action cannot be undone.";"Submit a forget-me (erasure) request, to request the deletion of all the data we currently possess on you. Once request is made an we have deleted all the data, the action cannot be undone."
+"Always Active";"Always Active"
+"Our Privacy Policy has been Updated";"Our Privacy Policy has been Updated"
+"To continue using the site you need to read the revised version and agree to the terms";"To continue using the site you need to read the revised version and agree to the terms"
+"Disagree";"Disagree"
+"Agree";"Agree"
+"To continue using the site you need to read the revised version and agree to the policies";"To continue using the site you need to read the revised version and agree to the policies"
+
+"Privacy Preferences";"Privacy Preferences"
+"We currently use Facebook to login on our website.";"We currently use Facebook to login on our website."
+"We currently allow you to create videos from Youtube and view them on our site.";"We currently allow you to create videos from Youtube and view them on our site."
+"We currently use Twitter to login on our website.";"We currently use Twitter to login on our website."
+"Please use the form below to be unsubscribed from all of our email marketing and advertising lists.";"Please use the form below to be unsubscribed from all of our email marketing and advertising lists."
+"Service";"Service"
+"Reason for use";"Reason for use"
+"Optout";"Optout"
+"We use cookies to personalise site content, social media features and to analyse our traffic. We also share information about your use of this site with our advertising and social media partners.";"We use cookies to personalise site content, social media features and to analyse our traffic. We also share information about your use of this site with our advertising and social media partners."
+"Cookie Settings";"Cookie Settings"
+
+
+# reply for users:
+"_EMAIL_SESGDPR_ADMIN_REPLY_TITLE";"SES - Professional GDPR Plugin - Reply to Members Who Contacted Admin through GDPR related form"
+"_EMAIL_SESGDPR_ADMIN_REPLY_DESCRIPTION";"This is the email that is sent to a member when admin reply to his / her request made through GDPR related form."
+"_EMAIL_SESGDPR_ADMIN_REPLY_SUBJECT";"[subject]."
+"_EMAIL_SESGDPR_ADMIN_REPLY_BODY";"[header]
+
+[body]
+
+[footer]"
+
+
+# content users:
+"_EMAIL_SESGDPR_CONSENT_USER_TITLE";"SES - Professional GDPR Plugin - New Form Submission for GDPR related request"
+"_EMAIL_SESGDPR_CONSENT_USER_DESCRIPTION";"This is the email that gets sent to the admin when a member contact through GDPR form in the Privacy Center."
+"_EMAIL_SESGDPR_CONSENT_USER_SUBJECT";"[subject]."
+"_EMAIL_SESGDPR_CONSENT_USER_BODY";"[header]
+
+[body]
+
+[footer]"
+
+# content users:
+"_EMAIL_JOIN_LEAVE_TITLE";"JOIN LEAVE"
+"_EMAIL_JOIN_LEAVE_DESCRIPTION";"This is the email that gets sent to the admin when a member contact through GDPR form in the Privacy Center."
+"_EMAIL_JOIN_LEAVE_SUBJECT";"[subject]."
+"_EMAIL_JOIN_LEAVE_BODY";"[header]
+
+[body]
+
+[footer]"

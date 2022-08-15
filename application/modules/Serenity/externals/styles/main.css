@@ -1,0 +1,16 @@
+.serenity_menu_top_settings .color_modes > li.active > a{
+	background:$theme_button_background_color;
+	border:1px solid $theme_button_background_color;
+}
+.serenity_menu_top_settings .color_modes > li.active > a,
+.serenity_menu_top_settings ul.resizer > li.active > a{
+	color:$theme_button_font_color;
+}
+.serenity_menu_top{
+	background:$theme_list_background_color;
+}
+.serenity_menu_top_settings ul.resizer > li.active > a{
+	background:$theme_button_background_color;
+	color:$theme_button_font_color !important;
+	border:1px solid $theme_button_background_color;
+}

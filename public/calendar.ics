@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+X-WR-CALNAME:Bockbierenmiddag
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:9a4dc9577ada19254674bd0b5e5d38c6
+DTSTAMP:20220723T101603Z
+DTSTART:20201226T130000Z
+DTEND:20201226T170000
+SUMMARY:Bockbierenmiddag
+X-ALT-DESC;FMTTYPE=text/html: <p>Bockbier is een seizoensbiertje dat zowel in de lente als in de herfst massaal wordt gedronken. In de lente draait het meestal om een blond biertje dat ongeveer van aswoensdag tot en met mei wordt verkocht, terwijl het in de herfst gaat om een donkerdere variant die ook wel, hoe toepasselijk, de herfstbock wordt genoemd. Deze is vanaf oktober tot ongeveer februari in vrijwel elke kroeg te verkrijgen.&nbsp;</p>
+<p>Inmiddels zijn er ruim 100 (!)&nbsp;verschillende bockbiertjes te proeven en zit er dus ook zeker eentje (en waarschijnlijk wel meer) tussen die bij jou in de smaak zal&nbsp;vallen.&nbsp;<br><br>Om te voorkomen dat je na de eerste biertjes al meteen onder de tafel ligt, wordt er ook voor lekker eten gezorgd.&nbsp;<br><br>Iedereen neemt 4 verschillende bockbiertjes mee, en voor bij de biertjes <em>bijpassende</em>&nbsp;hapjes &amp;&nbsp;<em>snacks.</em>&nbsp;Zo krijg je een proeverij van 16 verschillende bockbiertjes, die stuk voor stuk gepresenteerd&nbsp;worden met&nbsp;een klein gerechtje.<br><br><br></p>
+<p>&nbsp;</p>
+LOCATION:Czaar Peterstraat, Amsterdam, Nederland
+END:VEVENT
+END:VCALENDAR

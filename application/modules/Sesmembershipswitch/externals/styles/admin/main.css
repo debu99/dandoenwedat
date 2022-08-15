@@ -1,0 +1,95 @@
+
+
+.sesmembershipswitch_tip{
+	background-color:#ef2a2a21;
+	color:#ef2a2a;
+	padding:12px;
+	display:block;
+	border:1px solid #ef2a2a;
+	font-weight:bold;
+	text-align:center;
+	border-radius:3px;
+}
+
+/* Help setting tab in admin panel */
+.sesmembershipswitch_support_links
+{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.sesmembershipswitch_support_links a
+{
+	padding: 40px 10px;
+	width: 30%;
+	margin: 5px;
+	text-align: center;
+	text-decoration: none !important;
+	font-family: monospace;
+	transition: all .5s ease;
+}
+
+.sesmembershipswitch_support_links a h4
+{
+	font-size: 20px;
+	font-weight: bold;
+	color: #706e6e;
+}
+
+.sesmembershipswitch_support_links a p
+{
+	font-size: 15px;
+	padding: 0 20px;
+	margin-top: 10px;
+	color: #818181;
+}
+
+.sesmembershipswitch_support_links a:nth-child(4n+1)
+{
+	background: #e1f9ed;
+}
+
+.sesmembershipswitch_support_links a:nth-child(4n+2)
+{
+	background: #daf5ce;
+}
+
+.sesmembershipswitch_support_links a:nth-child(4n+3)
+{
+	background: #fbf9d6;
+}
+
+.sesmembershipswitch_support_links a:nth-child(4n+4)
+{
+	background: #ffe4ed;
+}
+
+.sesmembershipswitch_support_links a:nth-child(4n+5)
+{
+	background: #ebe0ff;
+}
+
+.sesmembershipswitch_support_links a:nth-child(4n+6)
+{
+	background: #e3e7ff;
+}
+
+.sesmembershipswitch_support_links a:hover
+{
+	box-shadow: 0 20px 20px -15px #cacaca;
+	transform: scale(1.01);
+	transition: all .5s ease;
+}
+
+.sesmembershipswitch_support_links a img
+{
+	margin: 0 auto;
+	display: block;
+	margin-bottom: 10px;
+	filter: invert(60%);
+}
+
+.sesmembershipswitch_support_links b
+{
+	font-weight: bold;
+}

@@ -1,0 +1,25 @@
+
+.sespwa_themes_list *{
+	box-sizing:border-box;
+}
+.sespwa_themes_list ul.admin_themes .theme_wrapper{
+	width:auto;
+	height:auto;
+}
+.sespwa_themes_list ul.admin_themes > li img{
+	width:200px;
+}
+.sespwa_notice_tip{
+	background-color: #e62d2d;
+	border: 1px solid #b92525;
+	color: #fff;
+	padding: 9px;
+	border-radius: 5px;
+}
+.sespwa_notice_tip a{
+	color:#fff;
+	font-weight:bold;
+}
+.sespwa_manangemenu_table img{
+	max-width:32px;
+}
